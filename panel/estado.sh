@@ -1,0 +1,208 @@
+#!/usr/bin/env bash
+# Snapshot del sistema de inglés. SOLO LEE — no escribe en ningún sitio.
+# Uso: bash panel/estado.sh   (desde la raíz del proyecto o desde donde sea)
+cd "$(dirname "$0")/.." || exit 1
+HOY=$(date +%F)
+HOY_S=$(date -d "$HOY" +%s)
+TMPDIAS=$(mktemp)
+TAB=$(printf '\t')
+
+dias_desde() { [ -z "$1" ] && { echo "-"; return; }; echo $(( (HOY_S - $(date -d "$1" +%s)) / 86400 )); }
+plural()     { [ "$1" = "1" ] && echo "$1 sesión" || echo "$1 sesiones"; }
+etiqueta()   { case "$1" in -) echo "nunca";; 0) echo "hoy";; 1) echo "hace 1 día";; *) echo "hace $1 días";; esac; }
+
+# ── fechas de última sesión y nº de sesiones ────────────────────────────────
+ING_N=$(grep -cE '^## [0-9]{4}-[0-9]{2}-[0-9]{2} — sesión' estructuras/log-estructuras.md)
+ING_D=$(grep -oE '^## [0-9]{4}-[0-9]{2}-[0-9]{2} — sesión' estructuras/log-estructuras.md | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | sort | tail -1)
+
+# sesiones de HOY en los dos ejercicios con SRS (examen vs refuerzo)
+sesiones_hoy() { # nº de sesiones de HOY en un log (grep -c ya imprime 0; su exit 1 se ignora)
+  [ -f "$1" ] || { echo 0; return; }
+  grep -cE "^## $HOY — sesión" "$1" 2>/dev/null
+  return 0
+}
+ING_HOY=$(sesiones_hoy estructuras/log-estructuras.md)
+VER_HOY=$(sesiones_hoy verbos/log-verbos.md)
+tipo_sesion() { [ "$1" -eq 0 ] && echo "EXAMEN (aún sin sesión hoy)" || echo "REFUERZO ($(($1+1))º pase — no puntúa, solo puede empeorar)"; }
+
+fila_metrica() { # $1=fichero  → fecha de la última fila de datos de su tabla de métricas
+  awk -F'|' '$2 ~ /[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/ {gsub(/ /,"",$2); d=$2} END{print d}' "$1"
+}
+conta_metrica() { awk -F'|' '$2 ~ /[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/ {n++} END{print n+0}' "$1"; }
+
+DRI_N=$(grep -cE '^## [0-9]{4}-[0-9]{2}-[0-9]{2} — drill' drill/log-drill.md 2>/dev/null || echo 0)
+DRI_D=$(grep -oE '^## [0-9]{4}-[0-9]{2}-[0-9]{2} — drill' drill/log-drill.md 2>/dev/null | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' | sort | tail -1)
+
+TAL_D=$(fila_metrica talk/progreso-talk.md);    TAL_N=$(conta_metrica talk/progreso-talk.md)
+CHA_D=$(fila_metrica chain/progreso-chain.md);  CHA_N=$(conta_metrica chain/progreso-chain.md)
+VER_D=$(fila_metrica verbos/progreso-verbos.md);VER_N=$(conta_metrica verbos/progreso-verbos.md)
+
+echo "════════════════════════════════════════════════════════════════"
+case $(date -d "$HOY" +%u) in 1) DIA=lunes;; 2) DIA=martes;; 3) DIA=miércoles;; 4) DIA=jueves;; 5) DIA=viernes;; 6) DIA=sábado;; 7) DIA=domingo;; esac
+echo " PANEL — $HOY ($DIA)"
+echo "════════════════════════════════════════════════════════════════"
+echo
+echo "ÚLTIMA SESIÓN DE CADA EJERCICIO"
+printf "  %-9s %-12s %-14s %s\n" "/ingles" "${ING_D:--}" "$(etiqueta "$(dias_desde "$ING_D")")" "($(plural $ING_N))"
+printf "  %-9s %-12s %-14s %s\n" "/verbs"  "${VER_D:--}" "$(etiqueta "$(dias_desde "$VER_D")")" "($(plural $VER_N))"
+printf "  %-9s %-12s %-14s %s\n" "/chain"  "${CHA_D:--}" "$(etiqueta "$(dias_desde "$CHA_D")")" "($(plural $CHA_N))"
+printf "  %-9s %-12s %-14s %s\n" "/talk"   "${TAL_D:--}" "$(etiqueta "$(dias_desde "$TAL_D")")" "($(plural $TAL_N))"
+printf "  %-9s %-12s %-14s %s\n" "/drill"  "${DRI_D:--}" "$(etiqueta "$(dias_desde "$DRI_D")")" "($(plural $DRI_N))"
+echo "  /drill no compite en las prioridades ni cuenta para la racha: no puntúa"
+echo "  y se lanza cuando hay cinco minutos (logica-drill.md §1)."
+echo
+echo "LA PRÓXIMA SESIÓN DE HOY SERÍA (logica-estructuras §9 · logica-verbos §11)"
+printf "  %-9s %s\n" "/ingles" "$(tipo_sesion "$ING_HOY")"
+printf "  %-9s %s\n" "/verbs"  "$(tipo_sesion "$VER_HOY")"
+echo "  chain y talk no puntúan ítems: no distinguen examen de refuerzo."
+echo
+
+# ── vencidos ────────────────────────────────────────────────────────────────
+echo "VENCIDO HOY (repetición espaciada)"
+awk -F'|' -v hoy="$HOY" '
+  $9 ~ /[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/ {
+    n=$2; f=$9; e=$7; gsub(/^ +| +$/,"",n); gsub(/^ +| +$/,"",f); gsub(/^ +| +$/,"",e)
+    if (f <= hoy) { c++; s = s (c>1 ? " · " : "") e " " n }
+  }
+  END { printf "  %-13s %-3d %s\n", "estructuras", c+0, (c ? s : "—") }
+' estructuras/progreso-estructuras.md
+
+awk -F'|' -v hoy="$HOY" '
+  $3 ~ /^ *(CONF|PER|PHR|OPI) *$/ && $11 ~ /^ *[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] *$/ {
+    n=$2; f=$11; e=$9; gsub(/^ +| +$/,"",n); gsub(/^ +| +$/,"",f); gsub(/^ +| +$/,"",e)
+    if (f <= hoy) { c++; s = s (c>1 ? " · " : "") e " " n }
+  }
+  END { printf "  %-13s %-3d %s\n", "verbos", c+0, (c ? s : "—") }
+' verbos/progreso-verbos.md
+echo "  chain y talk no vencen: van por uso y por tema, no por fecha."
+echo
+
+# ── atascos ─────────────────────────────────────────────────────────────────
+echo "ATASCOS (lo que el sistema no está arreglando solo)"
+awk -F'|' '
+  ($9 ~ /^ *[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] *$/ || $9 ~ /^ *— *$/) && $6 ~ /^ *[0-9]+ *$/ {
+    n=$2; bien=$4+0; reg=$5+0; mal=$6+0; esq=$10; gsub(/^ +| +$/,"",n); gsub(/^ +| +$/,"",esq)
+    if (esq != "" && esq !~ /^—$/)
+      printf "  estructura esquivada: %-20s la sustituye por «%s»\n", n, esq
+    if (mal >= 2 && bien <= mal)
+      printf "  %-34s %d fallos / %d aciertos  ← drill (error fosilizado)\n", n, mal, bien
+    else if (reg >= 3 && bien == 0)
+      printf "  %-34s %d regulares / 0 aciertos  ← drill (estancada, nunca cuaja)\n", n, reg
+    else if (reg == 2 && bien == 0)
+      printf "  %-34s 2 regulares / 0 aciertos  ← vigilar: otra ⚠️ y es drill\n", n
+  }
+' estructuras/progreso-estructuras.md
+awk -F'|' -v hoy="$HOY" '
+  $2 ~ /^ *GAP-/ {
+    id=$2; est=$8; ult=$7; es=$4
+    gsub(/^ +| +$/,"",id); gsub(/^ +| +$/,"",est); gsub(/^ +| +$/,"",ult); gsub(/^ +| +$/,"",es)
+    if (est ~ /🔴/) { r++; if (old=="" || ult < old) old=ult }
+    if (est ~ /🟡/) a++
+  }
+  END { if (r+a) printf "  GAPs de /talk sin recuperar: %d 🔴 · %d 🟡  (el más antiguo, del %s)\n", r+0, a+0, old }
+' talk/progreso-talk.md
+awk -F'|' '
+  $3 ~ /^ *(CONF|PER|PHR|OPI) *$/ {
+    v=$2; sus=$12; bien=$5+0; reg=$6+0; mal=$7+0
+    gsub(/^ +| +$/,"",v); gsub(/^ +| +$/,"",sus)
+    if (sus !~ /^ *— *$/ && sus != "")
+      printf "  verbo esquivado: %-20s lo sustituye por «%s»\n", v, sus
+    if (mal >= 2 && bien <= mal)
+      printf "  %-34s %d fallos / %d aciertos  ← drill (rodeo fosilizado)\n", v, mal, bien
+    else if (reg >= 3 && bien == 0)
+      printf "  %-34s %d regulares / 0 aciertos  ← drill (sabe el verbo, no lo monta)\n", v, reg
+  }
+' verbos/progreso-verbos.md
+N_ESL=$(awk -F'|' '$2 ~ /^ *[A-Z][A-Z][A-Z]-[0-9]/ {n++} END{print n+0}' chain/progreso-chain.md)
+N_VRB=$(awk -F'|' '$3 ~ /^ *(CONF|PER|PHR|OPI) *$/ {n++} END{print n+0}' verbos/progreso-verbos.md)
+[ "$CHA_N" = "0" ] && echo "  /chain sigue sin estrenar ($N_ESL eslabones en el banco, 0 usados)."
+[ "$VER_N" = "0" ] && echo "  /verbs sigue sin estrenar ($N_VRB verbos en el banco, 0 vistos)."
+# integridad: Bien + Regular + Mal debe ser igual a Veces vista (logica-estructuras §5)
+awk -F'|' '
+  /^\|/ && NF>=10 && $3 ~ /^ *[0-9]+ *$/ {
+    n=$2; gsub(/^ +| +$/,"",n)
+    if ($4+$5+$6 != $3)
+      printf "  ⚠ DESCUADRE: %-30s vistas=%d pero b=%d r=%d m=%d — un cierre se escribió mal\n", n, $3, $4, $5, $6
+  }
+' estructuras/progreso-estructuras.md
+awk -F'|' '
+  /^\|/ && NF>=13 && $4 ~ /^ *[0-9]+ *$/ {
+    n=$2; gsub(/^ +| +$/,"",n)
+    if ($5+$6+$7 != $4)
+      printf "  ⚠ DESCUADRE: %-30s vistas=%d pero b=%d r=%d m=%d — un cierre se escribió mal\n", n, $4, $5, $6, $7
+  }
+' verbos/progreso-verbos.md
+echo
+
+# ── cola de drill ───────────────────────────────────────────────────────────
+# Mismas alarmas que los atascos, ordenadas por prioridad (logica-drill.md §3).
+# 1 fallos+salida fácil · 2 fallos · 3 estancado · 4 salida fácil joven.
+echo "COLA DE DRILL (logica-drill.md §3)"
+COLA=$( {
+awk -F'|' '
+  ($9 ~ /^ *[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] *$/ || $9 ~ /^ *— *$/) && $6 ~ /^ *[0-9]+ *$/ {
+    n=$2; bien=$4+0; reg=$5+0; mal=$6+0; esq=$10
+    gsub(/^ +| +$/,"",n); gsub(/^ +| +$/,"",esq)
+    e = (esq != "" && esq !~ /^—$/)
+    if (mal >= 2 && bien <= mal)
+      printf "%d\t%d\t%d\tbloqueo\test\t%s\t%s\n", (e?1:2), mal, bien, n, \
+             (e ? mal " ❌ · esquiva «" esq "»" : mal " ❌ / " bien " ✅")
+    else if (reg >= 3 && bien == 0)
+      printf "3\t%d\t0\tpatrón\test\t%s\t%d ⚠️ / 0 ✅\n", reg, n, reg
+    else if (e)
+      printf "4\t0\t0\tbloqueo\test\t%s\tesquiva «%s»\n", n, esq
+  }
+' estructuras/progreso-estructuras.md
+awk -F'|' '
+  $3 ~ /^ *(CONF|PER|PHR|OPI) *$/ {
+    v=$2; bien=$5+0; reg=$6+0; mal=$7+0; sus=$12
+    gsub(/^ +| +$/,"",v); gsub(/^ +| +$/,"",sus)
+    e = (sus != "" && sus !~ /^—$/)
+    if (mal >= 2 && bien <= mal)
+      printf "%d\t%d\t%d\tbloqueo\tverbo\t%s\t%s\n", (e?1:2), mal, bien, v, \
+             (e ? mal " ❌ · rodeo «" sus "»" : mal " ❌ / " bien " ✅")
+    else if (reg >= 3 && bien == 0)
+      printf "3\t%d\t0\tpatrón\tverbo\t%s\t%d ⚠️ / 0 ✅\n", reg, v, reg
+    else if (e)
+      printf "4\t0\t0\tbloqueo\tverbo\t%s\trodeo «%s»\n", v, sus
+  }
+' verbos/progreso-verbos.md
+} | sort -t"$TAB" -k1,1n -k2,2nr -k3,3n )
+if [ -z "$COLA" ]; then
+  echo "  — nada atascado: no hay cola que drillear."
+else
+  printf '%s\n' "$COLA" | awk -F'\t' '{ printf "  %2d. %-22s %-8s %-6s %s\n", NR, $6, $4, $5, $7 }'
+  echo "  Se vacía acertándolos encadenados en /ingles y /verbs — no drilleando (§2)."
+fi
+echo
+
+# ── cobertura ───────────────────────────────────────────────────────────────
+echo "COBERTURA DE LOS BANCOS"
+awk -F'|' '
+  ($9 ~ /^ *[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] *$/ || $9 ~ /^ *— *$/) && $3 ~ /^ *[0-9]+ *$/ { t++; if ($3+0 > 0) v++; if ($7 ~ /✅/) ok++; if ($11+0 > 0) { nat++; est += $11+0 } }
+  END { printf "  estructuras  %d/%d tocadas · %d interiorizadas ✅ · %d con 🌟 (%d en total)\n", v+0, t+0, ok+0, nat+0, est+0 }
+' estructuras/progreso-estructuras.md
+awk -F'|' '
+  $2 ~ /^ *[A-Z][A-Z][A-Z]-[0-9]/ { t++; if ($6+0 > 0) v++ }
+  END { printf "  eslabones    %d/%d usados\n", v+0, t+0 }
+' chain/progreso-chain.md
+awk -F'|' '
+  $3 ~ /^ *(CONF|PER|PHR|OPI) *$/ { t++; if ($4+0 > 0) v++; if ($9 ~ /✅/) ok++; if ($13+0 > 0) { nat++; est += $13+0 } }
+  END { printf "  verbos       %d/%d vistos · %d interiorizados ✅ · %d con 🌟 (%d en total)\n", v+0, t+0, ok+0, nat+0, est+0 }
+' verbos/progreso-verbos.md
+awk -F'|' '$2 ~ /^ *GAP-/ {t++} END { printf "  GAPs         %d capturados\n", t+0 }' talk/progreso-talk.md
+echo
+
+# ── ritmo ───────────────────────────────────────────────────────────────────
+{ grep -oE '^## [0-9]{4}-[0-9]{2}-[0-9]{2} — sesión' estructuras/log-estructuras.md | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}'
+  awk -F'|' '$2 ~ /[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9]/ {gsub(/ /,"",$2); print $2}' \
+      talk/progreso-talk.md chain/progreso-chain.md verbos/progreso-verbos.md
+} | sort -u > "$TMPDIAS"
+DIAS=$(cat "$TMPDIAS"); rm -f "$TMPDIAS"
+tiene() { printf '%s\n' "$DIAS" | grep -qx "$1"; }
+SEM=0; for i in $(seq 0 6); do tiene "$(date -d "$HOY -$i day" +%F)" && SEM=$((SEM+1)); done
+RACHA=0; i=0; while tiene "$(date -d "$HOY -$i day" +%F)"; do RACHA=$((RACHA+1)); i=$((i+1)); done
+echo "RITMO"
+echo "  días con sesión en los últimos 7: $SEM/7   ·   racha actual: $RACHA días"
+echo
+echo "════════════════════════════════════════════════════════════════"
