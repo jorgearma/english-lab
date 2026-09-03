@@ -706,3 +706,145 @@ solo y rápido; lo que no se automatiza es la partícula.
                      complain ABOUT sth · complain TO sb. Quinta vez que sale y
                      quinta vez que la partícula se cae
 ```
+
+---
+
+## 2026-09-03 — sesión 7 · EXAMEN
+
+**Ronda:** 21 verbos vencidos → **solo repaso, cero nuevos**. 4 🔴 (`mind`,
+`avoid`, `come up with`, `dismiss`) + 11 🟡 por fecha de vencimiento.
+Ocho días sin sesión (última: 2026-08-26).
+
+**Resultado:** 8 ✅ · 2 ⚠️ · 3 ❌ · **3 rodeos** · 62% sobre **13 ítems**
+(13% → 20% → 40% → 53% → 53% → **62%**). Mejor marca de la curva.
+
+### Dos ítems anulados, los dos por estímulo mal escrito
+
+**Ítem 11 — `argue`.** `SIT`: *"You hold the opposite position and you want to
+put it forward as a position, not as a shout."* Jorge no respondió y protestó:
+«hay demasiadas opciones, no hay nada concreto». Tiene razón: ese enunciado
+admite `disagree`, `doubt`, `push back`, `point out`… No mide acceso léxico,
+mide adivinar qué verbo quiere el coach. `logica-verbos.md` §3 ya lo prohíbe
+desde el 2026-08-20 — el `SIT` cierra en **una sola acción sensata**.
+
+**Ítem 14 — `complain`.** `ES`: *«Se lo dije a soporte y no sirvió de nada.»*
+Jorge escribió *«i told him and it didn't work out»* y se le marcó ❌ por rodeo.
+**Estaba mal marcado y la culpa es del estímulo.** «Se lo dije» *significa*
+`I told`. Su respuesta era la traducción fiel de lo que se le pidió; no esquivó
+nada. Reventó de mal humor y con razón: «¿por qué no escribes *me quejé a
+soporte*? ¿qué buscan con cambiar las palabras?».
+
+Aquí está la distinción que faltaba por decir en voz alta, y es de método:
+
+> La regla §3 prohíbe el **calco literal** («pedir prestado» → borrow), no
+> prohíbe el **significado**. El `ES` tiene que decir **lo mismo con otras
+> palabras**, no otra cosa con un verbo más flojo. «Le pedí pasta a mi hermano»
+> vale porque significa lo mismo que *borrow*. «Se lo dije a soporte» NO vale,
+> porque significa otra cosa.
+
+Escrito así habría estado bien: *«Fui a soporte a decirles que aquello era un
+abuso, y no sirvió de nada.»* — mismo significado, sin la palabra «queja».
+
+`complain` no recibe nota: se queda en 🟡 con sus fechas del 26-08, o sea
+vencido y en la ronda de la próxima sesión. `argue`, igual.
+
+**Dato que zanja el debate de fondo:** los tres `SIT` **bien cerrados** de la
+sesión (7 `dismiss`, 9 `avoid`, 13 `work out`) los resolvió **sin un solo fallo
+de verbo**. El formato no es el problema; el enunciado mal construido sí. Los
+dos ítems que reventaron la sesión son los dos que estaban mal escritos.
+
+### Los rodeos que sí fueron rodeos
+
+- `mind` → **«I can deal with no subtitle film»**. El rodeo es *otro verbo del
+  propio banco*: `deal with` = apañárselas con algo que molesta; aquí no le
+  molestaba nada. Segunda ❌ de dos, sigue sin producirse jamás.
+- `come up with` → **«I could say nothing»**. Segunda ❌ de dos. En la sesión 6
+  fue «it didn't hit me». Cambia el rodeo, no cambia el hueco.
+- `owe` → **«my brother borrowed me 200 euros and I still without paying him
+  back»**. No salió `owe`, y además `borrow` va en la dirección contraria.
+
+**El cruce `borrow` / `lend` es el hallazgo del día.** Ítem 2: *«I borrowed my
+workmate the bike»* (le falta el `from`, ⚠️). Ítem 15: *«my brother borrowed me
+200 euros»* (dirección invertida). En la sesión 6 los produjo bien **los dos,
+cada uno en su dirección**, y era la primera vez. Ocho días después el par se ha
+vuelto a fundir: lo que se ganó el 26 no aguantó la pausa.
+
+### Lo que sí aguantó
+
+- `afford` y `work out` llegan a **N4** con acierto sostenido en N3, subordinada
+  de contraste incluida (*although … I can't afford it*). Los dos arrastraban
+  2 ❌ cada uno desde la sesión 1. Próxima revisión a 8 días.
+- `avoid` y `dismiss` **salen de 🔴** y limpian su celda `Sustituto`. Los dos
+  eran rodeo fosilizado hace ocho días.
+- `remind`, `spend`, `bring`, `blame` limpios y con la preposición puesta.
+
+### Today's Weak Verbs
+
+```
+1  ❌  mind          I don't mind watching it in English at all.
+                     ~ ai DONT-maind UO-ching it in-IN-glish at-OOL
+                     rodeo: «i can deal with…» — deal with = apañárselas con
+                     algo MOLESTO. mind + -ing · Do you mind if…?
+
+2  ❌  come up with  I couldn't come up with anything on the spot.
+                     ~ ai KUD-nt kam-AP-uidh E-ni-zing on-dhe SPOT
+                     rodeo: «i could say nothing» = no dijiste nada; lo que
+                     pasó es que no se te OCURRIÓ nada
+
+3  ❌  owe           My brother lent me two hundred euros and I still owe him.
+                     ~ mai BRA-dher LENT mi tu-HAN-dred IU-rous and ai STIL ou-HIM
+                     no salió owe · y «borrowed me» → lent me. owe sb sth ·
+                     pay sb back
+
+4  ⚠️  borrow        On Saturday I borrowed a bike from a workmate.
+                     ~ on-SA-tur-dei ai BO-roud a-BAIK from-a UERK-meit
+                     borrow sth FROM sb. Sin el «from» suena a que la prestaste
+                     TÚ. Es la mitad del cruce borrow/lend
+
+5  ⚠️  run out of    I ran out of battery halfway through my shift.
+                     ~ ai ran-AUT-ov BA-te-ri HAF-uei zru-mai SHIFT
+                     el OF no es opcional nunca. Sexta exposición, 5 ⚠️
+```
+
+**Patrón de evasión:** esquiva los verbos que nombran un **estado interno o una
+relación** —lo que le importa (`mind`), lo que se le ocurre (`come up with`),
+lo que debe (`owe`)— y los sustituye por verbos de **acción genérica** que ya
+tiene automatizados (`deal with`, `say`, `tell`). Los de acción física o dinero
+concreto (`spend`, `afford`, `bring`, `run out of`) ya los produce. El hueco no
+es de vocabulario: para el estado interno tira del verbo más barato que tenga
+a mano.
+
+### Pendiente de decisión de Jorge — NO aplicado
+
+La sesión acabó con Jorge señalando que la regla de §3 («no metas una pista
+léxica») es la causa del problema, y que **poner el verbo en español no es dar
+una pista**: «me quejé» → `complain` te obliga igual a saber la palabra. Tiene
+razón. Una pista léxica real es meter inglés o un **cognado** («lo asumí» →
+`assume`, «eso implica» → `imply`). La perífrasis solo se sostiene cuando el
+español de verdad es perífrasis («le pedí pasta» → `borrow`); cuando el español
+tiene la palabra limpia (`quejarse`, `deber`, `importar`), quitarla no deja una
+forma natural equivalente — deja otra frase que significa otra cosa.
+
+Su veredicto, textual: entre poner el verbo español y buscar un sinónimo para
+que lo suponga, **tiene más sentido el verbo español**; el sinónimo no es una
+tercera forma de medir, es un `SIT` mal hecho pero en español.
+
+**Nada de esto se ha escrito en `logica-verbos.md`.** Jorge no lo autorizó y
+`logica-verbos.md` está intacto (se revirtió un cambio hecho sin permiso). Las
+dos decisiones quedan abiertas para cuando él las tome:
+
+1. **Que `log-verbos.md` guarde el estímulo** junto a la respuesta. Hoy no lo
+   hace: en 6 sesiones y 20 rodeos registrados no hay una sola línea con el
+   enunciado que los provocó. Sin eso, un estímulo roto se archiva como fallo de
+   Jorge y no queda rastro para auditarlo después. Es el agujero que permitió
+   que esto durara seis sesiones.
+2. **La línea 93 de `logica-verbos.md`**: si un verbo no se puede pedir en
+   español sin cambiar el significado, ese verbo va por `SIT` y no por `ES`.
+
+**Y el dato de fondo:** Jorge dijo que ahora entiende por qué su cabeza se
+resistía a hacer este ejercicio y por qué se sentía mal al empezarlo. El rechazo
+no era falta de nivel ni pereza: era detectar que se le pedía adivinar. Lleva
+5 de 5 en reclamaciones de estímulo (3 el 21-08, 2 ayer).
+
+**Nota de método:** próxima sesión toca **ingesta** (`sync`) — sería la 5ª desde
+la última. Y `complain` y `argue` entran vencidos, sin nota de hoy.

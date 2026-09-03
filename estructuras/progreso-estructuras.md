@@ -43,10 +43,10 @@ awk -F'|' 'function t(s){gsub(/^ +| +$/,"",s); return s}
 | Estructura | Veces vista | Bien | Regular | Mal | Estado | Últ. | Próxima revisión | Esquiva | Nativas |
 |---|---|---|---|---|---|---|---|---|---|
 | would have + past participle | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| can't be bothered | 6 | 2 | 1 | 3 | 🟡 | 2026-08-25 | 2026-08-29 | — | 0 |
-| it turns out (that) | 5 | 1 | 3 | 1 | 🔴 | 2026-08-25 | 2026-08-26 | that i realized | 0 |
+| can't be bothered | 7 | 3 | 1 | 3 | ✅ | 2026-09-03 | 2026-09-11 | — | 1 |
+| it turns out (that) | 6 | 2 | 3 | 1 | 🟡 | 2026-09-03 | 2026-09-05 | — | 0 |
 | let alone | 3 | 2 | 0 | 1 | 🟡 | 2026-08-25 | 2026-08-29 | — | 0 |
-| be supposed to | 4 | 0 | 2 | 2 | 🔴 | 2026-08-25 | 2026-08-26 | — | 0 |
+| be supposed to | 5 | 0 | 3 | 2 | 🟡 | 2026-09-03 | 2026-09-04 | — | 0 |
 | end up + -ing | 3 | 3 | 0 | 0 | ✅ | 2026-08-25 | 2026-09-02 | — | 1 |
 | as far as I'm concerned / as far as I know | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | I've been meaning to | 3 | 0 | 2 | 1 | 🟡 | 2026-08-25 | 2026-08-26 | — | 0 |
@@ -72,7 +72,7 @@ awk -F'|' 'function t(s){gsub(/^ +| +$/,"",s); return s}
 | come across as | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | unless | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | it's been ages since | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| to be fair | 2 | 1 | 0 | 1 | 🟡 | 2026-08-21 | 2026-08-23 | — | 0 |
+| to be fair | 3 | 2 | 0 | 1 | 🟡 | 2026-09-03 | 2026-09-07 | — | 0 |
 | be bound to | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | there's no point in + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | by the time | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
@@ -114,12 +114,12 @@ repasan desde su fila original, arriba.
 
 | Estructura | Veces vista | Bien | Regular | Mal | Estado | Últ. | Próxima revisión | Esquiva | Nativas |
 |---|---|---|---|---|---|---|---|---|---|
-| I didn't mean to… | 3 | 2 | 0 | 1 | 🟡 | 2026-08-21 | 2026-08-25 | — | 0 |
+| I didn't mean to… | 4 | 3 | 0 | 1 | ✅ | 2026-09-03 | 2026-09-11 | — | 0 |
 | One thing led to another | 3 | 3 | 0 | 0 | ✅ | 2026-08-25 | 2026-09-02 | — | 2 |
-| If I had known… | 2 | 2 | 0 | 0 | 🟡 | 2026-08-20 | 2026-08-24 | — | 0 |
-| I had no choice but to | 4 | 2 | 1 | 1 | 🟡 | 2026-08-21 | 2026-08-25 | — | 0 |
+| If I had known… | 3 | 2 | 0 | 1 | 🔴 | 2026-09-03 | 2026-09-04 | — | 0 |
+| I had no choice but to | 5 | 2 | 1 | 2 | 🔴 | 2026-09-03 | 2026-09-04 | no wonder | 0 |
 | I had no idea (that)… | 4 | 2 | 2 | 0 | 🟡 | 2026-08-21 | 2026-08-25 | — | 0 |
-| At first…, but then… | 3 | 1 | 2 | 0 | 🟡 | 2026-08-21 | 2026-08-23 | — | 0 |
+| At first…, but then… | 4 | 1 | 3 | 0 | 🟡 | 2026-09-03 | 2026-09-05 | — | 0 |
 | It makes sense (to)… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | Which meant that… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | It doesn't feel right | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
@@ -130,8 +130,8 @@ repasan desde su fila original, arriba.
 | I didn't expect to… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | I wasn't planning on | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | as much as | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| It wasn't until… that… | 6 | 2 | 1 | 3 | 🟡 | 2026-08-25 | 2026-08-29 | — | 0 |
+| It wasn't until… that… | 7 | 3 | 1 | 3 | ✅ | 2026-09-03 | 2026-09-11 | — | 0 |
 | All in all,… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | What surprised me the most was | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| I was trying to…, but… | 2 | 2 | 0 | 0 | 🟡 | 2026-08-18 | 2026-08-22 | — | 0 |
+| I was trying to…, but… | 3 | 3 | 0 | 0 | ✅ | 2026-09-03 | 2026-09-11 | — | 0 |
 | I think / I don't think… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |

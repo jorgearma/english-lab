@@ -640,3 +640,96 @@ Corolario del mismo día: Jorge dejó **dos palabras en español** (*informes*, 
 **Progreso B2→C1:** **primeras dos estructuras interiorizadas del banco** (`end up + -ing` y `One thing led to another`) — el progreso llevaba 0 ✅ desde que se montó. En contra: `be supposed to` y `it turns out (that)` bajan a 🔴, y la primera acumula 4 vistas con 0 aciertos.
 
 **Lo que hay que atacar en la siguiente:** (1) el patrón `be` sin conjugar, que hoy salió dos veces; (2) `be supposed to`, que es el único ítem del banco con 0 aciertos en 4 intentos; (3) `it turns out (that)`, con esquiva recién anotada — la próxima frase ES tiene que dejar `I realized` inservible.
+
+---
+
+## 2026-09-03 — sesión 10 · EXAMEN (primera del día)
+
+**Ronda:** 10 estructuras, **todas de repaso** — había 17 vencidas, así que no entró ninguna ⚪ nueva ni ✅ de control. Dos 🔴 (`it turns out (that)`, `be supposed to`) y ocho 🟡, el resto por antigüedad de cola (vencidas desde el 22-ago). Única `Esquiva` anotada en la tabla: `it turns out (that) ~ that i realized` — se bloqueó poniendo la revelación en boca de un tercero, y **funcionó**.
+
+**Contexto:** nueve días sin `/ingles` (última, el 25-ago).
+
+**Tema de la sesión, no planificado:** el **arrastre del pasado**. Salió en la frase 1, Jorge preguntó por él explícitamente después de la 3 y volvió a aparecer en la 5. Es el hilo que une casi todos los fallos de hoy.
+
+### Frase 1 — `be supposed to` · `it turns out (that)`
+- **ES (coach):** «Me mandaron a una dirección que no existía. Se supone que alguien revisa las rutas antes de repartirlas, y resulta que llevaban toda la semana metiendo mal el código postal.»
+- **Respuesta del alumno:** «they sent me a wrong addres it supposed to be  cheking bofore they sent them and  it turned out they have been the whole week wrating bad the post code»
+- **Corrección:**
+  - `be supposed to` → ⚠️ — la eligió sola, pero el molde se rompe por dos sitios: falta el `be` conjugado (`it's supposed to`) y detrás va infinitivo pelado, no -ing. **Su instinto era pasiva y era el correcto**: `it's supposed to be **checked**` — estaba a un participio de tenerla. **Cuarta sesión sin acierto** (0✅ en 5 vistas), pero sube a 🟡.
+  - `it turns out (that)` → ✅ — molde entero y en su sitio. **Rompe la esquiva `that i realized`**, que era justo el patrón que la tenía en 🔴. `Esquiva` limpiada a «—».
+- **⏱ Tiempos:** `it turned out they **have** been` → `they'd been`. Primera aparición del fallo del día.
+- **De pasada, sin puntuar:** `wrating bad the post code` → **getting the postcode wrong** (orden español: el adjetivo va al final en inglés); `the whole week` → **all week**, al final; `sent me **to** an address`; typos `addres`, `cheking`, `bofore`.
+- **Duda del alumno:** *«¿usé mal el supposed porque no traduje exacto?»* — no: la nota es por la forma del molde, no por la traducción. Se le dio el arreglo mínimo sobre su propia frase (`is` + `checked`) y la explicación de que `be supposed to` es **be conjugado + to + infinitivo pelado**, con el `'s`/`'m`/`were` pegado al sujeto en la pronunciación (`its-suPÓUSTu`).
+- **Versión nativa completa:** *"They sent me to an address that didn't exist. Someone**'s supposed to** check the routes before they hand them out, and **it turns out** they'd been getting the postcode wrong all week."*
+- **Nota de frase:** 50% · REGULAR 🟠
+
+### Frase 2 — `I was trying to…, but…` · `I didn't mean to…`
+- **ES (coach):** «Estaba intentando explicarle a mi novia lo del retraso del reparto, pero me lié con el inglés y le solté una cosa que sonó fatal. No era mi intención llamarla mentirosa.»
+- **Respuesta del alumno:** «I was trying to explain to my girl friend about the delay wint the order , but i get confuse with english and i said something that sound very bad i didn't mean to call her lair»
+- **Corrección:**
+  - `I was trying to…, but…` → ✅ — el molde entero, montado solo y sin dudar. Solo la segunda mitad en presente: `i get confuse` → `I got confused`. **Promociona a ✅ interiorizada** (3/3).
+  - `I didn't mean to…` → ✅ — clavada, nada que tocar en la estructura. Falla el complemento: `call her **a** liar`. **Promociona a ✅ interiorizada.**
+- **⏱ Tiempos:** el arrastre otra vez — abrió en pasado (`I was trying`) y se volvió al presente en `get` y en `sound`.
+- **De pasada, sin puntuar:** `girlfriend` una palabra; `very bad` → **really bad** (correcto pero de libro); `lair` = guarida vs `liar` = mentiroso (`LÉer` / `LÁIar`); typo `wint`.
+- **Reacción del alumno:** *«esta me salió sin pensar siquiera»* — es el dato importante: molde disponible, no reconstruido. Se le explicó que dos ✅ topan en 67% y que el `PERFECTA 🏆` solo llega con 🌟; los dos detalles que le separaban de él eran `got confused` y `a liar`.
+- **Versión nativa completa:** *"**I was trying to** explain the delay to my girlfriend, **but** I got confused with my English and said something that came out really badly. **I didn't mean to** call her a liar."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+### Frase 3 — `At first…, but then…` · `can't be bothered`
+- **ES (coach):** «Al principio me enganché al hilo ese sobre lo del ministro, pero luego vi que para leer los documentos había que registrarse y darles el correo, y me dio una pereza tremenda.»
+- **Respuesta del alumno:** «at first i got  really interesting about the minister thing, but after i saw i need to  sing up and give them my email  to read the reports and i couldn't be bothered»
+- **Corrección:**
+  - `At first…, but then…` → ⚠️ — primera mitad perfecta, segunda cambiada: `but after` → **but then**. `after` no cierra la secuencia, la abre (*after I saw…*), y deja la frase colgando. No se anota `Esquiva`: no es una salida fácil, es la pieza equivocada.
+  - `can't be bothered` → 🌟 — idiom completo, pasado correcto (`couldn't`) y colocado al final sin explicar nada más, como lo pondría un nativo. **Primer 🌟 de esta estructura**, que venía con 3❌ en 6 vistas. **Promociona a ✅ interiorizada.**
+- **⏱ Tiempos:** `i need to` → `I needed to`. Curioso y revelador: **sí aplicó el arrastre en `couldn't` y no en `need`** — le sale con los verbos ya automatizados, no con los demás.
+- **De pasada, sin puntuar:** `i got really interesting` → **I got really into it** (`interesting` es lo que *es* la cosa, `interested` cómo estás tú); `sing up` → **sign up**, la `g` no suena (`SÁIN-AP`).
+- **Lo que salió bien fuera de estructuras (se le señaló a petición suya):** `the minister thing` — la fórmula exacta del nativo para «lo del ministro», **sin rodeo**, que es su fallo de siempre; cláusula encadenada **sin `that`** (`i saw i need to`); orden de doble objeto correcto (`give them my email`, no *give my email to them*); dos infinitivos coordinados bajo un mismo `need to` sin que se cayera ninguno.
+- **Versión nativa completa:** *"**At first** I got really into the minister thing, **but then** I saw you had to sign up and give them your email to read the reports, and **I couldn't be bothered**."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+### Frase 4 — `It wasn't until… that…` · `I had no choice but to`
+- **ES (coach):** «Ya había llamado a dos compañeros y ninguno me cogía el teléfono. No fue hasta las once de la noche cuando caí en que la última entrega estaba a cuarenta kilómetros, así que no me quedó otra que ir con mi coche.»
+- **Respuesta del alumno:** «i had already called  two of my workmates and anyone piked up the phone , it wasn't until midle night that i realized the last  delivery was 40 kilometres far away no wonder i went with my car»
+- **Corrección:**
+  - `It wasn't until… that…` → ✅ — el molde entero, sin dudar, viniendo de 3❌ en 6 vistas. **Tercera vez seguida que rompe la esquiva del `when`. Promociona a ✅ interiorizada.**
+  - `I had no choice but to` → ❌ — **no aparece.** Puso `no wonder`, que significa otra cosa (*no me extraña*). **Esquiva anotada:** `no wonder`. Baja a 🔴.
+- **⚠️ Contaminación a vigilar:** `no wonder` es una estructura **suya y ya trabajada** (1🌟), y hoy la usó con un sentido que no tiene. Si vuelve a aparecer fuera de sitio, hay que meterla en la ronda a propósito.
+- **De pasada, sin puntuar:** `anyone piked up` → **neither of them picked up** / **nobody picked up** (`anyone` en afirmativa = *cualquiera*; la negación va en la palabra); `40 kilometres far away` → **40 kilometres away**, `far` sobra; `i went with my car` → **I took my own car** (en inglés el coche se coge, no se acompaña); `i had already called` **bien**, pluscuamperfecto correcto sin pedírselo.
+- **Discusión del alumno (auditó la nota):** *«¿pero no tan mal? transmití una idea parecida, como "y claro, tuve que ir con mi coche"»* — **media razón, concedida y explicada:** el «y claro» existe (`so obviously I took my own car`) y se habría dado por bueno; pero `no wonder` no vale para **decisiones propias**, solo para cosas que te pasan (`no wonder I was knackered` ✓ / `no wonder I went with my car` ✗), porque significa *ahora se explica* y una decisión tuya no necesita explicarse. **La nota no se movió, y el argumento fue explícito:** el ❌ no era por usar mal `no wonder` (que no se evaluaba), sino porque la estructura evaluada no apareció — y *«no me quedó otra»* (sin alternativa) no es *«y claro»* (era lo lógico). El ES ya traía «había llamado a dos y ninguno cogía» precisamente para cerrar esa salida.
+- **Versión nativa completa:** *"I'd already called two of my workmates and neither of them picked up. **It wasn't until** eleven at night **that** I realized the last delivery was 40 kilometres away, so **I had no choice but to** take my own car."*
+- **Nota de frase:** 33% · MAL 🔴
+
+### Frase 5 — `If I had known…` · `to be fair`
+- **ES (coach):** «Si lo hubiera sabido, no habría cogido ese turno. Aunque todo hay que decirlo, ellos tampoco me avisaron con mucha antelación.»
+- **Respuesta del alumno:** «if i have would known i had no taken that shift  althought to be fair they didn't call me with time  ethier»
+- **Corrección:**
+  - `If I had known…` → ❌ — tenía **todas las piezas** (have, would, known, taken) pero **cambiadas de lado**: `would` dentro del `if` y `had` en el resultado. Es un espejo exacto. Primer fallo de esta estructura (venía 2✅/0❌) → pasa a 🔴.
+  - `to be fair` → ✅ — colocada de manual, detrás del conector y delante de la concesión. Ni sobra ni falta nada.
+- **Regla que se le dio (y que le funcionó):** **`had` vive dentro del `if`. `would` vive fuera.** Si ves `would` detrás de `if`, está mal.
+- **Diagnóstico del porqué (a petición suya):** en español los dos verbos son **el mismo** y casi homófonos (*hubiera* / *habría*), así que su cabeza guarda «aquí va haber y aquí también», sin etiqueta de cuál va dónde — en español el orden lo fija la propia palabra. El inglés le pide **dos verbos distintos** (`had` / `would have`) y no tiene ninguna marca que los distinga. De ahí el intercambio. El truco le da la etiqueta que el español no le da; dijo que le resultaba práctico.
+- **De pasada, sin puntuar:** `they didn't call me with time` → **they didn't give me much notice** — *avisar con tiempo* no se traduce pieza a pieza, el sustantivo es `notice` (*give sb notice*, *at short notice*). **Es rodeo del suyo:** dijo la idea con palabras genéricas en vez de con la palabra exacta. Typos `althought` → `although`, `ethier` → `either`.
+- **Versión nativa completa:** *"**If I had known**, I wouldn't have taken that shift — although **to be fair**, they didn't give me much notice either."*
+- **Nota de frase:** 33% · MAL 🔴
+
+### Cierre — sesión 10
+
+**Total:** 15/30 · **50%**. Cinco frases, diez estructuras: 1🌟 · 5✅ · 2⚠️ · 2❌.
+
+**Promociones a ✅ interiorizada (cuatro, es el récord de una sesión):** `can't be bothered`, `I was trying to…, but…`, `I didn't mean to…`, `It wasn't until… that…`. Las dos primeras venían de 3❌ en 6 vistas cada una: los dos atascos históricos de la cola de drill **se han desbloqueado el mismo día**.
+
+**Bajan a 🔴:** `I had no choice but to` (esquivada) y `If I had known…` (piezas invertidas).
+
+**El hallazgo de la sesión — el arrastre del pasado.** Cuatro fallos de hoy son **el mismo fallo**: abre en pasado y se vuelve al presente a mitad de frase (`have been`, `get confuse`, `sound`, `need to`). Reglas dadas:
+1. **El primer verbo manda.** Si abres en pasado, todo detrás va en pasado; y `had` + participio si lo de dentro es anterior.
+2. **Por qué le pasa:** en español el tiempo se marca una vez y la acción va en **infinitivo** (*había que registrarse*), así que llega al verbo con el trabajo hecho. En inglés cada verbo conjugado tiene que **volver a llevar el pasado encima**. No es que reconozca mal el pasado: es que en español ese hueco **está vacío a propósito**.
+3. **Truco para `había que`:** traducirlo por **`had to`**, no por `needed to`. Dos motivos, y los dos atacan el fallo: `had` no tiene presente en esa expresión, así que el pasado no se puede olvidar; y `you` es el impersonal inglés, la misma pieza vacía que el español, ya montada (`you had to sign up` = *había que registrarse*). Matiz añadido: `had to` = obligación externa (*había que / tuve que*), `needed to` = necesidad propia (*necesitaba*). **Por defecto, `had to`.**
+
+**Naturalidad:** el salto de la sesión. `the minister thing`, `couldn't be bothered` al final sin adornar, cláusulas sin `that`, doble objeto en orden inglés. En las frases 2 y 3 **no hubo un solo rodeo**, que es su gap principal. Reapareció en la 5 (`call me with time`), pero como excepción, no como norma.
+
+**Precisión:** es donde se pierde. Ningún fallo de hoy fue por no saber la estructura — todos fueron de **montaje** (`be` sin conjugar, `would`/`had` invertidos, `after` por `then`) o de **acabado** (tiempos, artículos, ortografía). Distinción que él mismo empieza a ver: *«veo que cometí un error en el tiempo de get»*, cazado solo.
+
+**Velocidad:** la frase 2 salió *«sin pensar siquiera»*. Es la primera vez que lo dice.
+
+**Progreso B2→C1:** la frase 3 sin los tres arreglos de acabado es B2 alto tirando a C1. El techo ahora mismo no es el repertorio de estructuras —lo tiene— sino la **concordancia de tiempos**, que es lo que separa un B2 bueno de un C1. Es el trabajo del próximo mes.
+
+**Nota de método:** Jorge auditó la nota de la frase 4 y esta vez **no tenía razón del todo** — se le concedió la mitad buena (`so obviously`) y se le dio argumento explícito para la que no. Sigue siendo la señal más útil de la sesión: pregunta por el porqué, no por la nota.
