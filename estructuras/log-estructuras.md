@@ -733,3 +733,70 @@ Corolario del mismo día: Jorge dejó **dos palabras en español** (*informes*, 
 **Progreso B2→C1:** la frase 3 sin los tres arreglos de acabado es B2 alto tirando a C1. El techo ahora mismo no es el repertorio de estructuras —lo tiene— sino la **concordancia de tiempos**, que es lo que separa un B2 bueno de un C1. Es el trabajo del próximo mes.
 
 **Nota de método:** Jorge auditó la nota de la frase 4 y esta vez **no tenía razón del todo** — se le concedió la mitad buena (`so obviously`) y se le dio argumento explícito para la que no. Sigue siendo la señal más útil de la sesión: pregunta por el porqué, no por la nota.
+
+---
+
+## 2026-09-10 — sesión 11 · EXAMEN
+
+**Ronda armada:** 10 de repaso, sin nuevas (11 vencidas). Solo se llegó a **una frase**: la sesión se desvió a un atasco de gramática que ocupó el resto del tiempo. Las 7 estructuras no lanzadas no se anotan.
+
+### Frase 1 — `be supposed to` · `it turns out (that)` · `no wonder`
+- **ES (coach):** «Se supone que el turno de tarde lo cubre otro, pero resulta que llevan dos semanas sin cubrirlo — con razón me como yo siempre las últimas entregas.»
+- **Respuesta del alumno:** «it supposed to be  the evening shift  cover for another person , but it tunrs out i had been 2 weeks without cover , no wonder i always end up doing the last orders»
+- **Corrección:**
+  - `be supposed to` → ❌ — la elección era correcta y `supposed to be` está bien dicho, pero se cae el sujeto y el `is`. Va sobre **quién** cubre, no sobre `it`. Pasa a 🔴 (0 aciertos en 6 vistas: perfil fosilizado).
+  - `it turns out (that)` → ✅ — colocada y encadenada bien. Solo el typo.
+  - `no wonder` → 🌟 — nativo entero, con `end up doing` detrás sin pedirlo. **Segundo 🌟** de esta estructura.
+- **⏱ Tiempos:** `i had been 2 weeks without cover` → `they haven't covered it in two weeks`. **La corrección era una línea: `had` → `have`.**
+- **De pasada, sin puntuar:** sujeto `i` donde el ES decía «llevaN» (son ellos); `last orders` en inglés es el último aviso del pub — para reparto, `the late deliveries` / `the last drops`.
+- **Versión nativa completa:** *"Someone else **is supposed to be** covering the evening shift, but **it turns out** they **haven't covered it in two weeks** — **no wonder** I always end up doing the late deliveries."*
+- **Nota de frase:** 56% · REGULAR 🟠
+
+### El desvío — tres horas sobre «llevar + tiempo»
+
+Tras la corrección Jorge preguntó por el `⏱` y la sesión no volvió a avanzar. **Registrado aquí porque el fallo de método es más importante que la nota.**
+
+**Qué salió mal, y es del coach.** En el bloque `⏱` no se puso solo el error de tiempo: se le reescribió el molde entero a `they've gone two weeks without cover`, que **no era un fallo suyo** sino preferencia de tono del coach. Su frase admitía **tres** moldes válidos (`haven't covered it in…` · `gone … without -ing` · `been without cover for…`) y se le presentó uno como *el* correcto. De ahí salieron cinco reglas parcheándose unas a otras, una de ellas **directamente falsa** («`been` solo si el verbo español es *estar/ser/ir*»), retirada explícitamente. Jorge lo detectó y tenía razón: *«cualquiera de estas tres hubiera estado bien, tú me decías que solo valía una»* y *«la corrección sería: no es had, es have… no toda la mierda que me diste que solo me confunde»*. Acabó pidiendo dejarlo.
+
+**Lo que sí valió la pena — el diagnóstico real del `had`.** No es que no lea el disparador del español: es que **`had` es su forma por defecto**. Sale cuando NO razona; `have` sale cuando razona. Evidencia dentro de una sola frase suya: «LLEVO toda la mañana…» → `had been` ❌ / «no HE entregado…» → `have not` ✅. La mitad que el español le daba con *haber* la clavó; la que había que convertir desde *llevo* se le fue a `had`.
+
+**Su propia explicación del porqué** (preguntada por él): usaba `had` para marcar **orden de los hechos** («ir en la moto pasa antes que los repartos»), no marco temporal. Se le corrigió: `had` no es *más antiguo*, es *anterior a un pasado ya nombrado*; y cuando entra, entra en **todos** los verbos de la frase, no solo en el primero.
+
+**Lo que se le dio y funcionó (dos herramientas, no cinco):**
+1. **El puente del *haber*.** «Llevar + tiempo» no existe en inglés. Se reescribe con *haber* **sin cambiar el tiempo**, y a partir de ahí es literal: `llevan` → `han` → `have` · `llevaban` → `habían` → `had`. La regla operativa: **la terminación de *llevar* da el tiempo** (`-o/-an` → have · `-aba/-aban` → had). Eso arregla sus dos fallos históricos, que son de signo contrario (20-08: `has` por `had`; hoy: `had` por `have`).
+2. **El escaneo del ancla.** ¿Hay otro pasado en la frase? No → `had` es imposible.
+
+**Lo que descubrió él solo** (y por eso se queda): que las afirmativas van en continuo y las negativas en simple. No es estadística — el continuo describe una acción en marcha, y al negarla no queda acción que describir. `haven't been + -ing` existe pero niega la **calidad o el ritmo**, no la ausencia (`I haven't slept in two days` = cero · `I haven't been sleeping well` = duermo mal). Chivato mecánico: duración concreta → simple; `lately/much` → continuo.
+
+### Drills de producción (fuera de la sesión, no puntúan)
+
+Seis frases pedidas por él para probar lo anterior. **Es lo que arregló el atasco: producir, no explicar.**
+
+| ES | Suyo | Veredicto |
+|---|---|---|
+| Llevo toda la mañana dando vueltas con la moto y no he entregado ni la mitad | `i had been the whole morning going arounf… and i have not even delivered the half` | tiempo ❌ / ✅ — **el patrón entero en una frase** |
+| Llevamos desde el jueves sin hablarnos… | `we haven't spoken since thusday…` | ✅ conversión correcta, sola |
+| Cuando por fin me contestó, llevaba media hora mirando el móvil | `when she fanally tex me back i had been seeing the phone 30 minutos already` | ✅ `had been` clavado, con ancla |
+| Llevo desde las seis subido a la moto… | `i have been in the bike since at 6…` | ✅ tiempo |
+| Llevo dos meses sin pisar el gimnasio… | `i haven't gone to the gym…` | ✅ molde (se cayó la duración) |
+| Últimamente no estoy durmiendo bien… | `i haven't been sleping well…` | ✅ **la más fina del día**, sola |
+
+**Los seis tiempos bien salvo el primero** — el que hizo antes de que le cayera lo de mirar la terminación. Lo que falló en los otros fue **otra cosa**: preposiciones (`in the bike`, `since at 6`, `with the bike`, `without see/slept`), léxico (`shame` por `embarrassed`, `seeing` por `staring at`, `any` por `neither`), orden (`8 deliveries more`) y **presente habitual traducido en pasado** (`felt` dos veces).
+
+### Cierre — sesión 11
+
+**Total (solo lo puntuable):** 5/9 · **56%** en una frase: 1🌟 · 1✅ · 1❌.
+
+**Baja a 🔴:** `be supposed to` — **0 aciertos en 6 vistas, 3⚠️ + 3❌**. Es el perfil fosilizado exacto que describe `logica-estructuras.md` §5. No es que la falle: es que nunca la ha acertado. Hay que atacarla con una frase que la obligue sola, sin nada más encima.
+
+**Naturalidad:** `no wonder I always end up doing the last orders` es la línea del día — nativa entera, con una estructura extra encadenada gratis.
+
+**Precisión:** el fallo de `be supposed to` no fue de repertorio sino de montaje otra vez (falta el `is`, sujeto equivocado), que es el techo señalado en la sesión 10 y sigue igual.
+
+**Velocidad:** no medible, una sola frase.
+
+**Progreso B2→C1:** el hallazgo no es de estructuras, es de tiempos. **«Llevar + tiempo» es un cuello de botella diario** (llevo currando, llevamos sin vernos, llevan sin pagarme) y hasta hoy lo resolvía a cara o cruz. Salió de aquí con dos herramientas mecánicas y con 5 de 6 producciones correctas en frío.
+
+**Notas de método (dos, y las dos del coach):**
+1. **El bloque `⏱` lleva solo el error de tiempo, en una línea.** Ni moldes, ni reescrituras, ni la variante que le suene mejor al coach. Es la misma regla del arreglo mínimo del `✓` (drill 4, 03-09) aplicada a un sitio nuevo.
+2. **Si hay varias formas válidas, se dicen todas.** Elegir una y callar las otras es lo que convirtió una corrección de una palabra en tres horas.

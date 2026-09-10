@@ -35,6 +35,7 @@ tenía el ⚠️ antes de tener columna propia.
 | Present perfect por pasado simple (episodio cerrado) | 1 | 2026-08-21 | Episodio terminado y acotado → pasado simple. El present perfect solo si llega hasta AHORA. | «**Estuve** media hora…» — pretérito cerrado, ya no sigue pasando. |
 | Auxiliar + verbo conjugado | 1 | 2026-08-21 | Detrás de `do/does/did/doesn't` va el verbo DESNUDO: `didn't make`, nunca `doesn't made`. | No hay disparador ES: el español conjuga el verbo principal y arrastra. Regla mecánica. |
 | Preposición + infinitivo | 1 | 2026-08-21 | Toda preposición pide `-ing`: `without thinking`, `before leaving`, `instead of saying`. | «sin **pensar**», «antes de **salir**» — el infinitivo español es `-ing` en inglés. |
+| Past perfect por present perfect (sin ancla) | 1 | 2026-09-10 | `had` + participio necesita **otro pasado en la frase** del que colgarse. Si no hay ninguno, es `have/has`. | La terminación de *llevar*: «lleVAN / lleVO» → `have` · «lleVABA / lleVABAN» → `had`. Y el escaneo: ¿hay otro pasado en la frase? No → `had` imposible. |
 
 ## Lo que dice el patrón hoy (2026-08-20)
 

@@ -54,44 +54,65 @@ el léxico, no.
 
 ## 4. Formato
 
-Los **5 estímulos de la tanda de golpe**, numerados; Jorge escribe las cinco
-seguidas y se corrige la tanda entera. Lanzarlos de golpe evita que rumie cada
-frase por separado. 3 tandas, 15 ítems; puede cortar en 2 o pedir una 4ª.
+**Un estímulo cada vez**, numerado. Jorge lo contesta, se corrige entero (§5) y
+**sale el siguiente sin esperar a que lo pida**. De cinco en cinco se perdía en
+la corrección y las peculiaridades de cada frase pasaban de largo (2026-09-04).
+
+Lo que hacía el lote —**que no rumie**— lo hace ahora el ritmo: el estímulo
+siguiente va pegado a la corrección, sin pausa ni pregunta.
+
+**La tanda de 5 sigue existiendo** como unidad de cuenta: la barra (§5) y el
+interleaving (§9) van por tanda, no por ítem. 3 tandas, 15 ítems; puede cortar
+en 2 o pedir una 4ª.
 
 **La marca `?`** al final de una frase = le costó encontrar el verbo → **⚠️
 aunque sea correcto**. La pone él; no se deduce ni se estima.
 
 ## 5. Corrección
 
-La tanda entera en un bloque de código, **los 5 ítems desarrollados, aciertos
-incluidos**.
+**Un ítem por bloque de código**, desarrollado entero, **también los aciertos**.
 
 ```
 1  ✅  borrow  ·  REGULAR  (borrow / borrowed / borrowed)
-      ES  Cogí veinte euros de un compañero hasta mañana.
 
       ✗  i borrowed 20 euros from matework until tomorrow
       ✓  I borrowed twenty euros from a workmate until tomorrow.
       ~  ai BO-roud TUEN-ti IU-rous from-a UERK-meit an-TIL tuMO-rou
-      
-      + nativa:
+
+      ES  Cogí veinte euros de un compañero hasta mañana.
 
       ✔ bien:  borrow sth FROM sb — la preposición correcta
       ✘ mal:   "matework" → workmate (orden del compuesto invertido)
       + workmate = compañero de curro · coworker (US) · colleague (formal)
 
+      ⚙ pasado simple aunque el préstamo siga vivo: lo que se cerró es el
+        momento de cogerlo, y "until tomorrow" ya carga el hasta-cuándo.
+        "I have borrowed" ahí suena a aviso, no a lo que hiciste.
+```
+
+Y **solo al cerrar la tanda**, tras el 5º ítem:
+
+```
    ▰▰▰▱▱▱▱▱▱▱  33%  ·  MAL 🔴
 ```
 
-`✗` y `✘ mal` solo si falló; el resto siempre. `~`: MAYÚSCULAS = tónica,
-`guion` = enlazado. `+` da uso y matiz, **nunca teoría gramatical**. **`✔ bien`
-siempre**: sin él un ⚠️ y un ❌ se leen igual de mal, y no lo son.
+`✗` **siempre**, su frase literal, aunque el verbo esté bien: sin ella no ve de
+dónde sale el arreglo. `✘ mal` solo si falló; el resto siempre. `~`: MAYÚSCULAS
+= tónica, `guion` = enlazado. `+` da uso y matiz, **nunca una regla que no salga
+de su frase**. **`✔ bien` siempre**: sin él un ⚠️ y un ❌ se leen igual de mal, y
+no lo son.
+
+**`⚙` una sola cosa**, la de más rendimiento: la mecánica de la frase que **no
+es el verbo** —qué tiempo y por qué ese, o la pieza que la sostiene—, con sus
+palabras y la versión rota al lado para que se vea el contraste. `+` es léxico;
+`⚙` es por qué funciona. Si no aporta nada, **se omite**: no se rellena.
 
 ❌ no salió el verbo (otro, **rodeo**, o en blanco) · ⚠️ correcto mal montado, o
 con `?` · ✅ correcto y natural · 🌟 nativo.
 
-Barra por tanda: `🌟`3 · `✅`2 · `⚠️`1 · `❌`0 sobre `3 × 5`. Con algún ❌ el techo
-es `BIEN 🟢`; `PERFECTA 🏆` exige cero ❌ y cero ⚠️. **No entra en el progreso.**
+Barra **una vez por tanda**, tras el 5º ítem: `🌟`3 · `✅`2 · `⚠️`1 · `❌`0 sobre
+`3 × 5`. Con algún ❌ el techo es `BIEN 🟢`; `PERFECTA 🏆` exige cero ❌ y cero
+⚠️. **No entra en el progreso.**
 
 ## 6. Niveles
 

@@ -20,9 +20,9 @@ antes de lanzar nada — es corto. Esto es el arranque y el cierre.
 
 ## Sesión
 
-Los 5 estímulos de la tanda **de golpe, numerados**; corriges la tanda entera
-(§5, los 5 desarrollados) y lanzas la siguiente **sin esperar `siguiente`**.
-Jorge corta diciendo "cierra".
+**Un estímulo cada vez**, numerado. Lo corriges entero (§5) y **lanzas el
+siguiente pegado, sin esperar `siguiente`** — la pausa es lo que le hace rumiar.
+La barra va solo al cerrar cada tanda de 5. Jorge corta diciendo "cierra".
 
 Lo que se rompe al construir estímulos, en este orden:
 
