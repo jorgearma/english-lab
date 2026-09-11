@@ -848,3 +848,222 @@ no era falta de nivel ni pereza: era detectar que se le pedía adivinar. Lleva
 
 **Nota de método:** próxima sesión toca **ingesta** (`sync`) — sería la 5ª desde
 la última. Y `complain` y `argue` entran vencidos, sin nota de hoy.
+
+---
+
+## 2026-09-11 — sesión 8 · EXAMEN
+
+**Ronda:** 22 verbos vencidos → **solo repaso, cero nuevos**. 3 🔴 (`mind`,
+`owe`, `come up with`) + 12 🟡 por fecha de vencimiento. Fuera por cupo:
+`bring`, `remind`, `spend`, `blame`, `afford`, `work out`. Ocho días sin sesión.
+**Ingesta pendiente** (sería la 5ª desde la última; no se lanzó sin `sync`).
+
+**Resultado:** 8 ✅ · 5 ⚠️ · 2 ❌ · **1 rodeo** · 53% sobre 15 ítems
+(13% → 20% → 40% → 53% → 53% → 62% → **53%**). Baja el %, pero por ⚠️, no
+por ❌: 3 fallos y 3 rodeos la semana pasada, 2 y 1 hoy.
+
+**Lo que ha cambiado:** los tres 🔴 de estado interno de la sesión 7 (`mind`,
+`come up with`, y `complain` vencido) **han salido los tres** — `mind` y
+`complain` en ⚠️ por montaje, `come up with` ✅ limpio. Y `run out of` ha
+puesto el `of` a la séptima, tras cinco ⚠️ seguidos.
+
+**Lo que no:** el trío **dar / recibir / deber**. `borrow` está automatizado
+(✅ hoy, con `from`) y ocupa el sitio de los otros dos: `lend` cayó al cruce
+entero («I borrowed my workmate the power bank», sujeto que da) y `owe` al
+rodeo de siempre («me prestó y no he devuelto» en vez de «le debo»).
+
+### Auditoría de Jorge, tres preguntas seguidas en el ítem 5
+
+1. «¿Prestar también tiene sentido, no?» — **Sí como narración**: *My brother
+   lent me twenty euros for dinner* es correcto. La ❌ es porque `owe` no salió.
+2. «Antes dijiste lend = yo presto, borrow = me prestan» — la regla es **quién
+   es el sujeto del verbo**, no quién es Jorge en la historia: sujeto da →
+   lend; sujeto recibe → borrow. El mismo hecho se cuenta de las dos formas.
+3. «*I borrow my brother twenty euros* — ¿estás delirando?» — **Tenía razón**.
+   Le dije que esa frase decía «yo le presté» y no: `borrow` era el verbo
+   coherente con su intención («pedí prestado a mi hermano»); lo que falta es
+   el **`from`**. Sin él, «my brother» queda como objeto directo: «tomé
+   prestado A mi hermano». Retirado en el momento. En la barra de la tanda 1
+   dije «dos ❌ y los dos el mismo cruce»; era **un cruce (3) y un `from` que
+   falta (5)**.
+
+También preguntó si `mind` es «importar» (sí, como molestia; `matter` es
+importar como relevancia) y por qué `complain` fue ⚠️ solo por el `about` (la
+⚠️ es «verbo bien, preposición mal»; va a `Regular`, no a `Mal`).
+
+### Tanda 1 — 33% MAL 🔴
+
+```
+1  ⚠️  mind          ES  «No me importa trabajar el domingo.»
+                     ✗ i don't mind work the sunday
+                     ✓ I don't mind working on Sunday.
+                     ~ ai-dount-MAIND UER-king on-SAN-dei
+                     primera vez que sale el verbo (2 ❌ antes) · falta el
+                     -ing fijo y "the sunday" → on Sunday
+
+2  ✅  come up with   ES  «Se me ocurrió una excusa mejor.»
+                     ✗ i came up with a better excuse
+                     ✓ I came up with a better excuse.
+                     ~ ai keim-AP-uidh a-BE-ter eks-KIUS
+                     hace una semana: "I could say nothing". Sujeto dado la
+                     vuelta bien (tú "come up with", no la excusa)
+
+3  ❌  lend          ES  «Le presté la powerbank a un compañero aunque yo
+                         también la necesitaba.»
+                     ✗ I borrowed my workmate the power bank even though i
+                       olse needed it
+                     ✓ I lent my workmate the power bank even though I also
+                       needed it.
+                     ~ ai LENT mai UERK-meit dha-PAU-er-bank I-ven-dhou
+                     cruce entero: sujeto que DA → lend. La estructura
+                     (doble objeto, even though + frase) se salva
+
+4  ✅  argue         ES  «Yo argumentaría lo contrario: las cifras vienen de
+                         una sola fuente.»
+                     ✗ i would argue the opposite: the numbers come from a
+                       single source
+                     ✓ I'd argue the opposite: the numbers come from a
+                       single source.
+                     ~ aid AR-guiu dhi O-po-sit
+                     "argue the opposite" exacto, "a single source" preciso
+
+5  ❌  owe           SIT tu hermano pagó la cena (20 €), no se lo has
+                         devuelto → dónde estáis
+                     ✗ I borrow my brother twenty euros from the last night
+                       dinner , i have not paid back him yet but i will end
+                       up doing soon as posible
+                     ✓ I owe my brother twenty euros from last night's
+                       dinner — I haven't paid him back yet.
+                     ~ ai OU mai BRA-dher TUEN-ti IU-rous
+                     rodeo: la historia en vez del estado. "haven't paid
+                     him back" se salva como inglés · falta el from de
+                     borrow · "paid back him" → paid him back · "end up
+                     doing" mal usado
+```
+
+### Tanda 2 — 53% REGULAR 🟠
+
+```
+6  ⚠️  complain      SIT tu pareja: piso frío, comida tarde, wifi lento,
+                         cada día → descríbela
+                     ✗ she complains for everything since she came my home
+                     ✓ She complains about everything since she came to my
+                       place.
+                     ~ shi kom-PLEINS a-BAUT EV-ri-zing
+                     el verbo a la primera (sexta exposición) · "for" →
+                     about · "came my home" → came to my place
+
+7  ⚠️  pick up       ES  «Fui a recogerla al aeropuerto aunque había acabado
+                         el turno tardísimo.»
+                     ✗ i went to the airport to picked her up even though
+                       my shift had ended really late
+                     ✓ I went to the airport to pick her up even though my
+                       shift had ended really late.
+                     ~ tu-PIK-her-AP I-ven-dhou mai SHIFT had EN-did
+                     "pick HER up" con el pronombre dentro (lo que falló en
+                     "paid back him") · "to picked" → to pick
+
+8  ✅  claim         SIT ministro en la tele: los emails filtrados son
+                         falsos, sin prueba → cuéntalo sin tragártelo
+                     ✗ the minister claims that the leaked emails was fake
+                       but he doesn't show up any pruf about it
+                     ✓ The minister claims that the leaked emails were
+                       fake, but he hasn't shown any proof.
+                     ~ dha-MI-nis-ter KLEIMS dhat dha-LIKT I-meils uer FEIK
+                     claim + that limpio · "was" → were · "show up" es
+                     aparecer, enseñar una prueba es show
+
+9  ✅  borrow        SIT rueda pinchada, compañero con bici de sobra, turno
+                         esta noche → qué harás con su bici
+                     ✗ i will borrow the bike from my workmate for tonight
+                     ✓ I'll borrow the bike from my workmate for tonight.
+                     ~ ail BO-rou dha-BAIK from-mai-UERK-meit for-tu-NAIT
+                     el FROM, tras tres ⚠️ sin él. Nativa: I'll borrow my
+                     workmate's bike for tonight
+
+10 ✅  miss          ES  «Perdí el último metro porque el pedido de las once
+                         se retrasó.»
+                     ✗ i missed the last train because the eleven's order
+                       got late
+                     ✓ I missed the last train because the eleven o'clock
+                       order was late.
+                     ~ ai MIST dha-LAST-trein bi-KOS
+                     miss y no lose · "the eleven's order" → the eleven
+                     o'clock order · "got late" → was late
+```
+
+### Tanda 3 — 53% REGULAR 🟠
+
+```
+11 ✅  deal with     SIT cliente gritando por una pizza fría, no es culpa
+                         tuya pero te toca → qué harás con él
+                     ✗ i will deal with the angry costumer and i'll try to
+                       explain him it wasn't my fault
+                     ✓ I'll deal with the angry customer and I'll try to
+                       explain to him that it wasn't my fault.
+                     ~ ail DIL-uidh dhi AN-gri KAS-to-mer
+                     "costumer" → customer · "explain him" → explain TO him
+
+12 ⚠️  rely on       SIT sueldo base no cubre nada, las propinas te
+                         mantienen → cuál no puedes soltar, en contraste
+                     ✗ my salary rely on my tips
+                     ✓ I rely on my tips, not on my salary.
+                     ~ ai ri-LAI on-mai-TIPS · not on-mai-SA-la-ri
+                     verbo y "on" bien · sujeto cambiado: el que depende
+                     eres tú, no el sueldo · sin contraste
+
+13 ⚠️  avoid         ES  «Evito repartir por el centro los viernes por la
+                         noche.»
+                     ✗ i avoid make deliverys aroud the center city fridays
+                       at night
+                     ✓ I avoid making deliveries around the city centre on
+                       Friday nights.
+                     ~ ai a-VOID MEI-king di-LI-ve-ris
+                     sin el "I try not to" · "avoid make" → avoid MAKING
+                     (la trampa del verbo) · "on Friday nights" = hábito
+
+14 ✅  dismiss       ES  «Desestimaron la denuncia en dos minutos, sin
+                         leerla.»
+                     ✗ they dimissed the "denuncia" in two minutes , without
+                       reading it
+                     ✓ They dismissed the complaint in two minutes, without
+                       reading it.
+                     ~ dhei dis-MIST dha-kom-PLEINT
+                     dejó "denuncia" en español en vez de rodearla: bien ·
+                     "dimissed" → dismissed · without + -ing correcto
+
+15 ✅  run out of    SIT 3% a mitad de turno, sin cargador → qué le va a
+                         pasar a la batería, y cuándo
+                     ✗ i was in the middle of my shift when i ran out of
+                       battery on my phone
+                     ✓ I'm about to run out of battery halfway through my
+                       shift.
+                     ~ ran-AUT-ov BA-te-ri
+                     el OF, a la séptima · contado en pasado cuando el SIT
+                     pedía "a punto de": about to
+```
+
+### TOP 5 Weak Verbs
+
+```
+1  ❌  owe        I owe my brother twenty euros from last night's dinner.
+                  rodeo: la historia («me prestó y no he devuelto») en vez
+                  del estado. 3 ❌ en 5 exposiciones
+2  ❌  lend       I lent my workmate the power bank even though I needed it too.
+                  «I borrowed my workmate…» — sujeto que DA → lend
+3  ⚠️  mind       I don't mind working on Sunday.
+                  primera vez que sale; falta mind + -ing
+4  ⚠️  avoid      I avoid making deliveries around the city centre on Friday nights.
+                  avoid + -ing
+5  ⚠️  rely on    I rely on my tips, not on my salary.
+                  sujeto cambiado
+```
+
+**Patrón de evasión:** el trío **dar / recibir / deber** (`lend` / `borrow` /
+`owe`) lo cubre un solo verbo, `borrow`, ya automatizado: ocupa el sitio de
+los otros dos. Los rodeos de estado interno de la sesión 7 han salido; lo que
+queda en ⚠️ es el **`-ing` obligatorio** detrás de `mind` y `avoid` (dos de
+cinco ⚠️) y las preposiciones (`about`, `to him`).
+
+**Nota de método:** `lend`, `owe`, `mind` y `complain` vencen mañana
+(2026-09-12). La ingesta sigue pendiente: `sync` en la próxima.
