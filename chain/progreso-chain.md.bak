@@ -29,26 +29,26 @@ pendiente y se sube por frecuencia (`logica-chain.md` §8).
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | RAZ-01 | because | RAZ | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | RAZ-02 | since | RAZ | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| RAZ-06 | the thing is | RAZ | coloquial | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-11 | 2026-09-13 | — | 0 |
+| RAZ-06 | the thing is | RAZ | coloquial | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | CTR-01 | but | CTR | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| CTR-03 | even though | CTR | neutro | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-11 | 2026-09-13 | — | 0 |
-| CTR-10 | to be fair | CTR | coloquial | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-11 | 2026-09-13 | — | 1 |
+| CTR-03 | even though | CTR | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
+| CTR-10 | to be fair | CTR | coloquial | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | RES-01 | so | RES | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | RES-03 | that's why | RES | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| RES-05 | as a result | RES | formal | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-11 | 2026-09-13 | — | 0 |
+| RES-05 | as a result | RES | formal | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | REF-01 | actually | REF | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | REF-02 | to be honest | REF | coloquial | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | REF-04 | I mean | REF | coloquial | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | EJE-01 | for example | EJE | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| EJE-03 | like when | EJE | coloquial | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-11 | 2026-09-13 | — | 0 |
+| EJE-03 | like when | EJE | coloquial | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | ADI-01 | and | ADI | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | ADI-02 | also / as well | ADI | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| ADI-03 | plus | ADI | coloquial | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-11 | 2026-09-13 | — | 0 |
+| ADI-03 | plus | ADI | coloquial | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | ADI-08 | besides | ADI | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | CND-01 | if | CND | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| CND-02 | unless | CND | neutro | 1 | 0 | 0 | 1 | N1 | 🔴 | 2026-09-11 | 2026-09-12 | at least | 0 |
+| CND-02 | unless | CND | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | TMP-01 | and then | TMP | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| TMP-04 | until | TMP | neutro | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-11 | 2026-09-13 | — | 0 |
+| TMP-04 | until | TMP | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | CIE-01 | in the end | CIE | neutro | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | CIE-05 | so yeah | CIE | coloquial | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 
@@ -61,4 +61,3 @@ Solo recibe filas de **examen** (`logica-chain.md` §9).
 
 | Fecha | Sesión | Conectores | % natural | % B2+ | Nota media |
 |---|---|---|---|---|---|
-| 2026-09-11 | 1 · examen | 8 | 88% (7/8) | 100% (8/8 en B2) | 7.5 |

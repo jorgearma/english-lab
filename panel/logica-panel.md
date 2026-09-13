@@ -38,7 +38,7 @@ sistema en vez de hablar en inglés.
 | `estructuras/progreso-estructuras.md` | vencidas hoy · fallos acumulados · cobertura |
 | `verbos/progreso-verbos.md` | verbos vencidos · sustitutos (evasión) · cobertura |
 | `talk/progreso-talk.md` | GAPs sin recuperar · temas · métricas por sesión |
-| `chain/progreso-chain.md` | eslabones usados · métricas por sesión |
+| `chain/progreso-chain.md` | conectores vencidos · sustitutos (evasión) · métricas |
 | `estructuras/log-estructuras.md` | fecha y nº de sesiones de `/ingles` |
 
 **Escribe:** solo `panel/bitacora.md`. **Nunca** toca un `progreso-*.md`, un
@@ -83,7 +83,8 @@ El script imprime seis bloques:
 
 1. **Última sesión de cada ejercicio** — fecha, hace cuántos días, total.
 2. **Vencido hoy** — estructuras y verbos con fecha de revisión ≤ hoy, con su
-   estado. `chain` y `talk` no aparecen: no van por fecha.
+   estado. `chain` también aparece desde su remodelación (SRS por ID); solo
+   `talk` queda fuera: no va por fecha.
 3. **Atascos** — lo que el sistema no está arreglando solo (§5).
 4. **Cola de drill** — los mismos atascos, ordenados por prioridad y con su tipo
    de drill (`drill/logica-drill.md` §3). Es lo que consume `/drill`, que lo

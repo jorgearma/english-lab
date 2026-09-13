@@ -1,204 +1,157 @@
-# Lógica del ejercicio — Idea Chain
+# Lógica — Chain (conectores por registro)
 
-Documento maestro del **segundo ejercicio**. Explica qué entrena, cómo se lanza,
-cómo se puntúa y cómo se actualizan los archivos de esta carpeta.
+Coges 8 conectores del progreso; cada uno es **un conector en su nicho de
+registro** (`formal` · `neutro` · `coloquial`). Van en **4 frases de 2
+conectores**: el coach da la frase española entera y Jorge la traduce, con los
+dos conectores dentro (§7). **Por ahora todo es formato `B`** (traducir); el
+formato `A` —elegir el conector ante una situación en inglés, sin español—
+queda **pospuesto** (§2). Cada conector da su propia nota al SRS.
 
-**Este ejercicio es autónomo.** No lee ni escribe nada fuera de `chain/`. El
-sistema de la carpeta `estructuras/` (`estructuras/logica-estructuras.md`, `estructuras/banco-estructuras.md`, `estructuras/progreso-estructuras.md`,
-`estructuras/log-estructuras.md`) no se toca nunca desde aquí, y este no se toca desde allí.
+Solo escribe en `chain/`: `banco-chain.md` · `progreso-chain.md` ·
+`log-chain.md`. Única lectura fuera: la ingesta (§8), con `grep`. El cierre lo
+calcula `panel/cierre.sh chain`.
 
-Archivos de datos de este ejercicio:
-- `eslabones.md` — banco de conectores, agrupados por **función** y por nivel.
-- `progreso-chain.md` — estado de cada eslabón + curva de métricas por sesión.
-- `log-chain.md` — registro crudo de cadenas.
+> Los rótulos §1-§10 se citan desde `.claude/commands/chain.md` y `panel/`.
+> **No renumerar.**
 
 ---
 
-## 1. Qué entrena esto y por qué es distinto a `/ingles`
+## 1. Qué mide
 
-|  | Structure Loop (`/ingles`) | Idea Chain (`/chain`) |
+Que salga **el conector natural para el registro de la situación**, y que salga
+**sin pista**. El significado no se evalúa: ya lo tiene. Se evalúa **selección +
+registro + montaje**.
+
+Un conector es pragmática abierta: «resultado» tiene ocho realizaciones y casi
+todas son correctas. No hay un *mal* que marcar; hay un **natural** y un
+**válido-pero-antinatural**. `As a result I'm not going` en el bar se entiende,
+y suena a informe. Por eso **la muleta o el registro que no pega es ❌ aunque el
+inglés sea impecable**. Es el gemelo del rodeo de `/verbs` y la única regla
+contraintuitiva del ejercicio.
+
+## 2. Los dos tipos de ítem
+
+> **Estado actual (decisión de Jorge, 2026-09-11):** por ahora **todo corre en
+> `B`** — el coach da la frase española entera y Jorge la traduce. **`A` queda
+> pospuesto** para implementar en el futuro. Mientras tanto, el peldaño SRS sube
+> igual (§6) pero el **formato no cambia**: N1-N4 son frases `B` de contorno
+> creciente (§4). Cuando `A` entre, madurará por ascenso como aquí se describe.
+
+```
+B   ES   «Dado que el sistema lleva caído desde ayer, hemos parado los envíos.»
+         → Given that the system has been down since yesterday, we've stopped the deliveries.
+
+A   SIT  Formal apology email to a client. Their order is late because a truck
+         broke down. Explain why.
+         → As a result of a breakdown, your order has been delayed.
+           (coloquial bajaría a: The truck broke down, so your order's late.)
+```
+
+**`B` — carga, con pista.** Una frase en español **entera**, escrita **en su
+registro**, con el conector dentro. Para traducirla tiene que producirlo, y de
+paso arrastra el contorno (tiempos, gerundio/infinitivo, preposiciones). **Es
+una traducción, no un acertijo**: el español tiene que significar exactamente
+lo que significa la respuesta. Que nombre el conector («dado que», «lo que pasa
+es que») **no es pista** — la única prohibida es el conector **en inglés**. El
+disparador español sale de la columna `Disparador ES` del banco, que está en
+el registro real de Jorge, no en el de diccionario. **Tradúcete tu enunciado
+antes de lanzarlo**: si la traducción literal no es la respuesta esperada, está
+roto.
+
+**`A` — test, sin pista.** Una situación **en inglés**, cero español, con el
+**registro marcado por el contexto** (a quién, dónde, por qué canal). Jorge
+**elige** el conector. **Cierra en una sola salida sensata**: acotar la
+situación es legítimo; acotar el léxico, no. Aquí se mide de verdad.
+
+**Nada de huecos ni de funciones.** Ni `I ___ some money`, ni «+RAZÓN», ni
+«hoy tocan conectores de contraste». Con eso el conector sale solo y sería
+reconocimiento, no recuperación.
+
+## 3. El ciclo: B y A son el mismo ítem madurando
+
+No son dos tarjetas: es **la misma tarjeta**, y el peldaño decide el formato.
+
+```
+⚪ nuevo     → B (carga con pista)
+🟡 cargado   → tras el intervalo, cae en A (test sin pista)
+                 ├─ sale el natural solo          → ✅ sube, intervalo largo
+                 └─ muleta / registro que no pega → ❌ cae, vuelve a B
+✅ vivo      → sigue cayendo en A a intervalos largos
+```
+
+**El intervalo entre B y A es lo que hace honesto el test.** Cargar hoy en B y
+testear hoy en A es recencia; testear tras el intervalo es memoria. La
+proporción B:A **se autorregula**: al principio dominan los jóvenes (B), con el
+tiempo los maduros (A). No se gestiona a mano.
+
+## 4. Niveles
+
+El nivel lo fija el **peldaño SRS del ítem**, no el capricho:
+
+| | Peldaño | Exigencia (todo en `B` por ahora) |
 |---|---|---|
-| Unidad medida | la estructura | el **eslabón** (una idea nueva enganchada a la anterior) |
-| Input | frase ES a traducir | una idea inicial que hay que **hacer crecer** |
-| Enemigo | calcar del español | **pararse**: cerrar la frase, quedarse en `because / but / so` |
-| Qué mide la nota | precisión | **fluidez**: cuánto encadena y con qué variedad |
+| **N1** | ⚪ · 🔴 · 0 | frase corta, un solo registro claro |
+| **N2** | 1 | frase con contorno (tiempo compuesto, gerundio, preposición) |
+| **N3** | 2 | registro más exigente, frase más larga |
+| **N4** | 3-4 | registro cruzado o contorno denso (elegir/montar bien o suena mal) |
 
-**El gap concreto que ataca.** Jorge tiene fluidez social alta pero produce las
-ideas de una en una, con costuras. Un nativo mete tres o cuatro en la misma
-frase sin pensarlo. Chain entrena exactamente esa articulación, y solo esa.
+Mientras `A` esté pospuesto (§2), el nivel es **dificultad del contorno de la
+frase `B`**, como en `/verbs`. La lista es finita y corta: el volumen la fija,
+así que ✅ no exige un acierto en el nivel alto como en `/verbs` (§10).
 
-**Regla de oro del alumno, literal:**
+## 5. Corrección
 
-> No pauses. No pienses demasiado. Solo añade otra idea. Aunque no sea perfecto.
-
-**La consecuencia de diseño más importante de esa regla:** si se corrige la
-gramática *mientras* encadena, el alumno aprende a frenar para no equivocarse —
-justo lo contrario del objetivo. Por eso el inglés se corrige **después y sin
-penalizar** (§4). Es deliberado, no un olvido.
-
-**Qué NO es:** no es traducción, no es precisión gramatical, no es vocabulario.
-Una cadena con errores pero de 6 eslabones vale más que una cadena perfecta de 2.
-
----
-
-## 2. El patrón
+**Un ítem por bloque de código**, desarrollado entero, **también los aciertos**.
 
 ```
-idea → razón → contraste → resultado → reflexión → ejemplo
+1  ⚠️  given that  ·  RAZ · formal · C1              [B · traduce entera]
+
+      ES  Dado que el sistema lleva caído desde ayer, hemos parado los envíos.
+
+      ✗  given that the system is down since yesterday we stopped the deliveries
+      ✓  Given that the system has been down since yesterday, we've stopped the deliveries.
+      ~  GIV-en dhat dha SIS-tem haz-BIN DAUN sins YES-ter-dei, uiv STOPD dha di-LIV-ris
+
+      ✔ bien:  sacaste "given that", no lo esquivaste con "because"
+      ⚙ el fallo no es el conector, es el tiempo: since + present perfect
+        (has been). "is down since yesterday" mezcla el ahora con un
+        desde-cuándo, y eso pide el perfect.
 ```
 
-Ese es el patrón canónico, pero **no es obligatorio ni fijo**: es un ejemplo de
-recorrido. Lo que se exige es encadenar funciones distintas, en el orden que
-salga. Las funciones disponibles están en `eslabones.md`:
-
-`RAZ` razón · `CTR` contraste · `RES` resultado · `REF` reflexión/matiz ·
-`EJE` ejemplo · `ADI` adición · `CND` condición · `TMP` tiempo/secuencia ·
-`CIE` cierre
-
-**Qué cuenta como eslabón válido:**
-1. Va introducido por un conector (o bisagra) explícito, y
-2. Aporta **idea nueva** — no reformula la anterior.
-
-`and then I did the same thing again` no es un eslabón: es la misma idea con
-otras palabras. `so I just wear better clothes` sí lo es.
-
-**Objetivo por cadena: 5-6 eslabones, mínimo 4 funciones distintas, sin repetir
-conector dentro de la misma cadena.**
-
----
-
-## 3. Mecánica de la sesión
-
-**4 cadenas por sesión, 15-20 min.** Modo **mixto progresivo**:
-
-### Cadenas 1-2 — modo ESCALERA
-
-El coach da la idea inicial y pide un eslabón cada vez, **declarando la
-función** pero nunca el conector.
+Y **al final de la sesión**, tras las 4 frases:
 
 ```
-coach:  Idea de arranque → "I work as a bike courier."
-coach:  +RAZÓN
-alumno: reescribe LA FRASE ENTERA, ya con la razón
-coach:  +CONTRASTE
-alumno: reescribe LA FRASE ENTERA otra vez
-coach:  +RESULTADO
-...
+   ▰▰▰▱▱▱▱▱▱▱  33%  ·  MAL 🔴
 ```
 
-**El alumno reescribe la frase completa en cada paso, no solo el trozo nuevo.**
-Esa repetición acumulativa es lo que fija el patrón: al sexto paso ha dicho la
-primera mitad seis veces y le sale sola.
+- **`✗` siempre**, su frase literal, aunque esté bien: sin ella no ve de dónde
+  sale el arreglo.
+- **`✓` = su frase con el arreglo mínimo.** Lo que ya está bien **no se toca**
+  (`stopped`, `deliveries` se quedan). Reescribirle todo le hace leer «lo dije
+  todo mal». Si la nativa plena difiere mucho, va **aparte**, entre paréntesis
+  o en el `+`, nunca pisando el `✓`.
+- **`✔ bien` siempre**: sin él un ⚠️ y un ❌ se leen igual de mal. En cada ❌ hay
+  que decir **si su frase se salva como inglés** («como inglés está bien; falla
+  el registro, que es lo que medimos»).
+- `✘ mal` solo si falló. `+` da uso y matiz, nunca una regla que no salga de su
+  frase.
+- **`⚙` una sola cosa**, la de más rendimiento del contorno (el tiempo, la
+  preposición, el gerundio) con su porqué y la versión rota al lado. Si no
+  aporta, **se omite**: no se rellena.
+- **La marca `?`** al final de su frase = le costó → **⚠️ aunque sea correcto**.
+  La pone él; no se deduce.
 
-### Cadenas 3-4 — modo LIBRE
+❌ no salió el conector objetivo: **muleta**, **registro que no pega**, o en
+blanco · ⚠️ el conector correcto y natural, **mal montado** (contorno) o con
+`?` · ✅ correcto y natural · 🌟 nativo.
 
-El coach lanza solo un **tema** y el alumno suelta la cadena entera de un tirón,
-sin parar. Aquí es donde se mide de verdad.
+Barra **una vez, al final**: `🌟` · `✅` · `⚠️` · `❌` sobre `8`. Con algún ❌ el
+techo es `BIEN 🟢`; `PERFECTA 🏆` exige cero ❌ y cero ⚠️. **No entra en el
+progreso.**
 
-A partir de la cadena 3 se puede añadir una **restricción** (§6) para forzar
-salir de las muletas.
+### La línea `~`
 
-### Reglas de la sesión
-
-- El coach **declara la función**, jamás el conector. Decir "ahora un contraste"
-  es la consigna; decir "usa *that said*" es regalar el ejercicio.
-- Si el alumno se atasca en **léxico** (una palabra de contexto que no sabe), se
-  le regala: no es lo que se evalúa. El conector, nunca.
-- Tras corregir una cadena, **el coach para**. La siguiente no sale hasta que el
-  alumno escriba `siguiente` (o "sigue", "otra", "vamos").
-- Entre medias puede preguntar lo que quiera: dudas, alternativas, más ejemplos
-  de un conector. Eso es gratis, **no avanza la sesión y no cambia la nota** ya
-  puesta.
-- Temas anclados a su vida: **la pareja (habla solo inglés), el reparto,
-  política / actualidad / OSINT**.
-
-### Cronómetro
-
-Se mide con `date +%s`, **dos llamadas por cadena**:
-- **Modo libre:** marca al lanzar el tema, marca al recibir la cadena.
-- **Modo escalera:** marca al pedir el primer eslabón, marca al recibir el último.
-
-Se registran los **segundos totales** y los **segundos por eslabón**.
-
-**No penaliza.** Es un dato de tendencia, y además sucio: incluye lo que tarda
-en teclear. Solo sirve para compararse consigo mismo entre sesiones — nunca
-contra un umbral absoluto.
-
-Referencia orientativa (solo para el comentario final, no para la nota): en modo
-libre, 6 eslabones por debajo de ~90 s es ritmo de conversación real.
-
----
-
-## 4. Corrección en dos capas
-
-Esta separación es el corazón del ejercicio. **La capa 1 puntúa. La capa 2 no.**
-
-### Capa 1 — FLUIDEZ (puntúa)
-
-Se calcula sobre 100:
-
-| Componente | Puntos | Cómo se calcula |
-|---|---|---|
-| **Eslabones** | 40 | `8 × min(nº eslabones, 5)` |
-| **Variedad** | 30 | `30 × min(funciones distintas, 4) / 4` |
-| **Nivel** | 20 | `20 × (eslabones con conector B2+ / total eslabones)` |
-| **Continuidad** | 10 | 10 sin rendirse · 5 si dudó pero siguió · 0 si se rindió o pidió la respuesta |
-
-**Penalizaciones** (restan del total):
-- **−5** por cada conector repetido dentro de la misma cadena.
-- **−10** por cada eslabón **desconectado**: idea nueva pegada sin bisagra, o
-  punto y aparte que rompe la cadena en frases sueltas.
-
-Resultado final acotado a 0-100.
-
-**Topes, para que la nota no mienta:**
-- Con **menos de 5 eslabones**, el techo es `BIEN 🟢` (74%).
-- Si **se rindió**, el techo es `REGULAR 🟠` (59%).
-- `PERFECTA 🏆` exige **≥6 eslabones, ≥5 funciones distintas, 0 repetidos, 0
-  desconectados y ≥80% de conectores B2+**. Es rara a propósito.
-
-Escala y barra (idénticas a las del otro ejercicio, para que la señal se lea
-igual):
-
-| % | Nivel | Barra |
-|---|---|---|
-| 0-19 | MUY MAL 💀 | `▰▱▱▱▱▱▱▱▱▱` |
-| 20-39 | MAL 🔴 | `▰▰▰▱▱▱▱▱▱▱` |
-| 40-59 | REGULAR 🟠 | `▰▰▰▰▰▱▱▱▱▱` |
-| 60-74 | BIEN 🟢 | `▰▰▰▰▰▰▰▱▱▱` |
-| 75-89 | MUY BIEN 🔥 | `▰▰▰▰▰▰▰▰▱▱` |
-| 90-100 | PERFECTA 🏆 | `▰▰▰▰▰▰▰▰▰▰` |
-
-### Capa 2 — INGLÉS (corrige, NO puntúa)
-
-Debajo de la nota, la versión nativa. **Nada de esto baja la nota de la cadena.**
-Se dice explícito cada vez: *"esto no puntúa"*.
-
-Formato del bloque de corrección — todo **dentro de un bloque de código**, que
-es lo único que alinea las dos versiones en la misma columna:
-
-```
-✗  <el trozo del alumno, literal, con sus typos>
-✓  <el mismo trozo en nativo>
-~  <ese trozo, pronunciado con sonidos españoles>
-```
-
-- Prefijos de **un solo carácter** `✗` `✓` `~`, dos espacios detrás. Nada de
-  `Tú:` / `Nativo:`: desplazan la segunda línea y matan la comparación.
-- Las tres líneas **pegadas**, sin nada intercalado.
-- **Se corrigen las bisagras y el trozo que las rodea, no la cadena entera.** En
-  una cadena de 50 palabras, transcribir todo cada vez es ruido: se pierde
-  dónde estaba el fallo. Diferencia deliberada con `/ingles`, donde la frase es
-  corta y sí va entera.
-- **Una vez por sesión**, al cerrar, sí va la mejor cadena **completa** en
-  versión nativa, con su `~` entera, para leerla en voz alta.
-- Máximo dos líneas de explicación por corrección. Inglés natural, no gramática
-  de manual.
-
-### La línea `~`: pronunciación con sonidos españoles
-
-Muleta, no fonética. Sirve para **ritmo, sílaba tónica y enlazado** — que es
-donde se le nota el acento — no para clavar cada vocal.
+Muleta, no fonética: ritmo, sílaba tónica y enlazado.
 
 | Escribo | Suena | Ojo |
 |---|---|---|
@@ -214,135 +167,86 @@ donde se le nota el acento — no para clavar cada vocal.
 | `r` | *turned* | r inglesa, jamás vibrada |
 | vocal doble (`ii`, `uu`) | vocal larga | *move* → `MUUV` |
 
-Regla de oro: **no transcribas letra a letra, transcribe lo que se oye**.
-`watching a film` es `WOCHIN-a FILM`, no `uatching a film`.
+Transcribe lo que se oye, no letra a letra: `watching a film` es `WOCHIN-a
+FILM`. *(Tabla idéntica a `verbos/logica-verbos.md` §5, duplicada a propósito
+para que `chain/` sea autónomo; si se cambia una, cambiar la otra.)*
 
-*(Esta tabla es idéntica a la de `estructuras/logica-estructuras.md` §3 del otro ejercicio. Está
-duplicada a propósito para que `chain/` sea autónomo — si se cambia una,
-cambiar la otra.)*
+## 6. Estado y SRS
 
----
+⚪ nuevo · 🔴 falló el último intento · 🟡 tiene aciertos, no fijado · ✅ sale
+solo, también en A.
 
-## 5. Ejemplo trabajado de puntuación
+| Nota | Columna | Intervalo | Nivel |
+|---|---|---|---|
+| 🌟 | `Bien` + `Nativas` | +1 peldaño | sube |
+| ✅ | `Bien` | +1 peldaño | sube |
+| ⚠️ | `Regular` | repite | repite |
+| ❌ | `Mal` | 1 día, 🔴 | cae a N1 (vuelve a B) |
 
-Cadena del alumno (modo libre, 74 s):
+Invariante: `Bien + Regular + Mal = Vistas`. **Nada de esto se aplica a mano** —
+lo calcula `panel/cierre.sh chain`. La clave del ítem es el **`ID`** (`RAZ-05`),
+no el conector: es único y estable. La columna `Sustituto` guarda **lo que sacó
+en su lugar** (`as a result → "so"` · `given that → "because"`): es el
+diagnóstico del ejercicio, el equivalente de la perífrasis en `/verbs`.
 
-> *I like working as a bike courier because I can organize my own schedule, even
-> though sometimes the weather is terrible, so I just wear better clothes and
-> keep working. To be honest, freedom is more important to me than comfort. For
-> example, if I don't feel like working one day, I can stay home.*
+## 7. La ronda
 
-Desglose:
+**8 conectores por sesión, en 4 frases de 2 conectores cada una.** Cada frase
+`B` embebe **dos** conectores y Jorge la traduce entera; cada uno da su propia
+nota al SRS (§6). Esto va más rápido que 8 prompts sueltos y entrena la
+**producción encadenada**, que es el destino de transferencia a `/talk`.
 
-| # | Eslabón | Conector | Función | Nivel |
-|---|---|---|---|---|
-| 1 | I can organize my own schedule | `because` | RAZ | B1 |
-| 2 | sometimes the weather is terrible | `even though` | CTR | B2 |
-| 3 | I just wear better clothes | `so` | RES | B1 |
-| 4 | freedom is more important than comfort | `to be honest` | REF | B2 |
-| 5 | if I don't feel like working one day… | `for example` | EJE | B2 |
+Reglas de emparejamiento (las resuelve el coach al armar la ronda):
+- **Funciones distintas** en cada frase (RAZ+CTR, RES+REF…), nunca dos del mismo
+  tipo → encadenado real.
+- **Un solo registro por frase:** los dos conectores comparten el tono (natural;
+  una frase no cambia de registro a media).
+- Si un conector no tiene pareja disponible, se empareja con otro del mismo
+  formato aunque no toque por vencimiento, o esa frase lleva **1**.
 
-- Eslabones: 5 → `8 × 5` = **40**
-- Variedad: 5 funciones distintas, tope 4 → **30**
-- Nivel: 3 de 5 son B2+ → `20 × 3/5` = **12**
-- Continuidad: no se rindió → **10**
-- Penalizaciones: 0 repetidos, 0 desconectados → **0**
+Leyendo `progreso-chain.md` entero: primero **vencidos** (revisión ≤ hoy), 🔴
+antes que 🟡; rellenar con **máx. 2-3 nuevos ⚪**; y **un ✅ de control** cada 3-4
+sesiones, sin avisar. Orden **aleatorio**. **Un ítem, una vez por sesión.** Del
+banco, **solo las filas de la ronda** con `grep`.
 
-**Total: 92** → pero `PERFECTA 🏆` exige ≥6 eslabones y ≥80% B2+, y no los tiene.
-Baja al tramo siguiente: **89% · MUY BIEN 🔥**.
+Temas de su vida: la pareja (habla solo inglés), el reparto en bici, la
+seguridad / los VPS, política y actualidad.
 
-Lectura para el alumno: la cadena está bien montada; lo que la frena es que tres
-bisagras de cinco son de nivel B1. Ahí es donde toca subir.
+## 8. Cierre e ingesta
 
----
+**TOP 5 Weak Connectors:** los 5 peores, ordenados `❌ con sustituto` → `❌` →
+`⚠️ con ?` → `⚠️`, con su versión nativa. **La sesión no se corta a los 5
+fallos**, termina por volumen.
 
-## 6. Restricciones y muletas
+**Incorporación:** el progreso crece **de los más usados a los menos usados**
+(decide Jorge). Incorporar = mover la fila de «Pendientes» a «Incorporados» en
+el banco con `Registro`, `Disparador ES` y `SIT` afinados, y añadirla al
+progreso como ⚪. Un conector con dos nichos son **dos filas** con dos IDs.
 
-El riesgo real de este ejercicio es estancarse: encadenar seis ideas siempre con
-`because / but / so / and`. Dos mecanismos lo impiden.
+**Ingesta** cada 5 sesiones o con `sync`, en **solo lectura y con `grep`**:
+correcciones de `talk/log-talk.md` y `estructuras/log-estructuras.md` donde lo
+que cambia entre `✗` y `✓` es **un conector**. Si está en «Pendientes», es
+candidato a incorporar antes que los demás; si no está, se añade a
+«Pendientes». **Nunca se escribe fuera de `chain/`.**
 
-### Muletas bloqueadas (automático)
+## 9. Examen y refuerzo
 
-Un conector usado en **3 o más cadenas dentro de las últimas 2 sesiones** pasa a
-estado `🔁 muleta` en `progreso-chain.md` y queda **prohibido durante la
-siguiente sesión entera**. Al cumplirse la sesión de bloqueo vuelve a `✅`.
+La **primera sesión del día es examen** (mide, entra en métricas, sea la hora
+que sea); las siguientes, **refuerzos** (entrenan, no entran en métricas). Se
+detecta por la fecha de la última cabecera de `log-chain.md`.
 
-Se le anuncia al empezar: *"hoy no puedes usar `because` ni `so`"*. Esto es lo
-que fuerza buscar `since`, `given that`, `which means`, `that's why`.
+El refuerzo repasa **los mismos 15 ítems del examen de hoy** —fallos y
+aciertos— con **estímulos distintos** y **el mismo nivel N** (no se baja a N1;
+un A sigue siendo A).
 
-### Restricciones de cadena (manual, a partir de la 3)
+**El veredicto lo fija la primera exposición y solo puede empeorar.** *Fallo →
+acierto* en el mismo día es recencia; *acierto → fallo* no tiene explicación
+benigna. Cabecera del refuerzo: `## AAAA-MM-DD — sesión N · REFUERZO (2º pase
+del día)`. **La tabla de métricas solo recibe filas de examen.**
 
-Una sola por cadena, elegida según lo que se vea flojo:
-- **Sin muletas:** prohibidos `because`, `but`, `so`.
-- **Cierre obligatorio:** la cadena tiene que acabar en REF + EJE.
-- **Dos de nivel C1:** al menos dos conectores C1 en la cadena.
-- **Función prohibida:** no se puede usar CTR (o la que más repita), para que
-  busque otro camino.
-- **Arranque en frío:** el tema es de política / OSINT, terreno abstracto.
+## 10. Números fijos
 
----
-
-## 7. Estado y progreso
-
-`progreso-chain.md` tiene **dos tablas**, y ninguna es un SRS de precisión como
-el del otro ejercicio: aquí se mide **uso y variedad**.
-
-### Tabla 1 — eslabones
-
-Estados:
-
-| Estado | Significado |
-|---|---|
-| ⚪ sin usar | nunca ha salido en una cadena |
-| 🟡 tanteando | usado 1-2 veces, o forzado / torpe |
-| ✅ vivo | sale solo y bien colocado |
-| 🔁 muleta | sobreusado — bloqueado la próxima sesión (§6) |
-
-Se actualiza al cerrar: `Veces usado` +1, `Última vez` = hoy, y el estado según
-lo anterior. **Un conector que el coach tuvo que regalar no sube a ✅**: se
-queda 🟡, porque vino de la pista y no de la memoria.
-
-### Tabla 2 — métricas por sesión
-
-Una fila por sesión: media de eslabones, funciones distintas, % de conectores
-B2+, segundos medios por cadena y nota media. **Es la curva de progreso real**
-del ejercicio: lo que hay que ver subir es eslabones, %B2+ y funciones, y bajar
-los segundos.
-
----
-
-## 8. Cierre de sesión (obligatorio)
-
-Se escribe a disco **una sola vez, aquí**. Si el alumno dice "cierra" a mitad,
-se ejecuta con lo hecho hasta ese punto.
-
-1. **Evaluación breve**: fluidez (¿encadenó o cerró frases?), variedad (¿salió
-   de las muletas?), velocidad (comparada con sus propias sesiones anteriores),
-   y qué eslabón nuevo ha entrado de verdad.
-2. **La mejor cadena de la sesión, entera, en versión nativa**, con su línea `~`
-   completa, para leerla en voz alta.
-3. **Actualizar `progreso-chain.md`**: tabla 1 (eslabones tocados) y una fila
-   nueva en la tabla 2. Recalcular muletas bloqueadas para la próxima sesión.
-4. **Añadir la sesión a `log-chain.md`** con el formato que ya tiene.
-5. Usar la fecha real (`date +%F`).
-
----
-
-## 9. Reglas para el coach (resumen operativo)
-
-- Declarar la **función**, nunca el conector.
-- Léxico de contexto sí se regala; bisagras jamás.
-- En escalera, exigir la **frase entera reescrita** en cada paso.
-- Una cadena cada vez; tras corregir, **parar** hasta `siguiente`.
-- La nota mide **fluidez**, no gramática. Decirlo en voz alta cada vez.
-- La corrección de inglés va **después**, señalada como "no puntúa".
-- Corregir bisagras y su entorno, no la cadena entera. La cadena completa en
-  nativo, una vez al cerrar.
-- Cronometrar con `date +%s`: dos marcas por cadena.
-- Respetar las muletas bloqueadas y anunciarlas al empezar.
-- Nunca leer ni escribir fuera de `chain/`.
-- Nunca volcar `eslabones.md` entero en contexto: solo `grep` de lo que hace falta.
-
-**Números fijos:** 4 cadenas por sesión (2 escalera + 2 libres) · 5-6 eslabones
-por cadena · mínimo 4 funciones distintas · máx. 2 conectores nuevos por sesión ·
-muleta = 3 cadenas en las últimas 2 sesiones → bloqueada 1 sesión.
+8 conectores · 4 frases de 2 · máx. 2-3 nuevos · intervalos 1 → 2 → 4 → 8 → 10 ·
+**todo formato B** (A pospuesto, §2) · ✅ = 3 aciertos + peldaño ≥ 2
+(`UMBRAL_OK=2` en `cierre.sh`, **a calibrar tras las primeras semanas**; la
+escala no se toca). Barra una vez, al final.

@@ -23,13 +23,13 @@ decir en sesiones reales.
 
 ## 1. Qué entrena esto y por qué es distinto a los otros dos
 
-|  | Structure Loop (`/ingles`) | Idea Chain (`/chain`) | Free Talk (`/talk`) |
+|  | Structure Loop (`/ingles`) | Chain (`/chain`) | Free Talk (`/talk`) |
 |---|---|---|---|
-| La idea | se la dan (frase ES) | suya | **suya** |
-| La forma | se la dan (10 estructuras) | se la dan (la función) | **suya** |
-| Input | frase ES a traducir | idea que hacer crecer | **un tema y un interlocutor** |
-| Enemigo | calcar del español | pararse | **autocensurarse** |
-| Qué mide la nota | precisión | fluidez | **fidelidad al pensamiento** |
+| La idea | se la dan (frase ES) | se la dan (frase ES / situación) | **suya** |
+| La forma | se la dan (10 estructuras) | la fija el registro (el conector natural) | **suya** |
+| Input | frase ES a traducir | frase ES / situación en inglés | **un tema y un interlocutor** |
+| Enemigo | calcar del español | la muleta / el registro que no pega | **autocensurarse** |
+| Qué mide la nota | precisión | selección + registro | **fidelidad al pensamiento** |
 
 En los otros dos ejercicios Jorge nunca se enfrenta a la vez a *qué quiero
 decir* y *cómo lo digo*. Ese cruce es lo único que se parece a hablar con su
@@ -64,7 +64,7 @@ el coach responde.
    sobre ese tema. Directa, de conversación real, no de examen oral.
 3. **Turnos.** Jorge responde en 2-3 frases. El coach responde como
    interlocutor (§3) y corrige debajo (§4).
-4. **PARA AQUÍ no aplica.** A diferencia de `/ingles` y `/chain`, aquí **no se
+4. **PARA AQUÍ no aplica.** A diferencia de `/ingles`, aquí **no se
    espera a `siguiente`**: la respuesta del coach ya contiene la siguiente
    pregunta o provocación. Cortar el flujo cada turno mataría el ejercicio.
    Jorge corta cuando quiere preguntando algo directamente sobre el idioma —

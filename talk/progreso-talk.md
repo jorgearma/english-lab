@@ -2,7 +2,7 @@
 
 Estado de este ejercicio. Fuente de verdad para armar la sesión
 (`logica-talk.md` §5, §6 y §9). **No tiene nada que ver con `estructuras/progreso-estructuras.md` ni
-con `chain/progreso-chain.md`**: allí se mide precisión y fluidez, aquí se
+con `chain/progreso-chain.md`**: allí se mide precisión y registro, aquí se
 mide **fidelidad al pensamiento** — cuánto de lo que Jorge piensa consigue
 salir en inglés.
 

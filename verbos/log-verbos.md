@@ -1067,3 +1067,252 @@ cinco ⚠️) y las preposiciones (`about`, `to him`).
 
 **Nota de método:** `lend`, `owe`, `mind` y `complain` vencen mañana
 (2026-09-12). La ingesta sigue pendiente: `sync` en la próxima.
+
+## 2026-09-12 — sesión 9 · EXAMEN
+
+**Ronda:** 10 vencidos (`lend` y `owe` 🔴 + 8 🟡: `mind`, `complain`, `bring`,
+`remind`, `spend`, `blame`, `afford`, `work out`) + `avoid` (vencía mañana) +
+**4 nuevos ⚪**: `put off`, `figure out`, `tackle`, `expose`. Primeros nuevos
+desde el 26-08. Ingesta sigue pendiente (`sync`).
+
+**Resultado:** 6 ✅ · 5 ⚠️ · 4 ❌ · **0 rodeos** · 40% sobre 15 ítems
+(13% → 20% → 40% → 53% → 53% → 62% → 53% → **40%**). El % cae por los
+nuevos: 3 de los 4 ❌ son ⚪ vistos por primera vez. Entre los 11 de repaso:
+6 ✅ · 4 ⚠️ · 1 ❌ (`afford`).
+
+**Lo que ha cambiado:** el trío **dar / recibir / deber** ha salido entero.
+`lend` ✅ con doble objeto («I lent my workmate the power bank») y `owe` ✅
+directo y en presente («I owe my brother the dinner money»), sin la historia
+del préstamo. `complain` ✅ tras cinco ⚠️: `to` puesto y pasado limpio.
+
+**Lo que no:** los ❌ de hoy **no son rodeos de tres palabras**, son otra
+cosa: **verbos vecinos** —`avoiding` por `put off`, `realized` por `figure
+out`— que dan inglés correcto con un matiz distinto, y **`borrow` colonizando
+un cuarto verbo**: «I can't borrow a trip» por `can't afford`. Y un solo
+fallo mecánico repetido tres veces en ⚠️: **`-ing` obligatorio** («mind
+work», «avoid accept», tras «avoid make» ayer) y **`the sundays` / `the
+fridays`** por `on Sundays`.
+
+### Pregunta de Jorge: el molde objeto + to (ítem 6)
+
+Tras «do you need I bring something» pidió que se expandiera «Do you want me
+to bring anything?». Se le dio: (1) que el «que + subjuntivo» del español se
+convierte en **objeto + to + infinitivo** (`I want HIM to come`, nunca «I
+want he»), (2) la tabla sujeto → objeto, (3) qué verbos lo usan (`want`,
+`need`, `ask`, `tell`, `expect`, `remind`, `warn`), cuáles van sin `to`
+(`let`, `make`) y cuáles van con `that` (`hope`, `suggest`), y (4) el
+negativo `I told him NOT to come`. Lo aplicó solo en el 11: «remind me to
+charge the bike».
+
+### Tanda 1 — 53% REGULAR 🟡
+
+```
+1  ✅  lend          ES  «Le presté la batería externa a un compañero ayer.»
+                     ✗ i lent my workmate the external battery yesterday
+                     ✓ I lent my workmate the power bank yesterday.
+                     ~ ai LENT mai-UERK-meit dha-PAU-er-bank YES-ter-dei
+                     sujeto que DA → lend, tras el cruce de ayer · dio
+                     también "to my workmate" y preguntó cuál es mejor: la
+                     primera hablando, la segunda para subrayar a quién
+
+2  ✅  owe           SIT tu hermano pagó la cena anoche, no le has devuelto
+                         el dinero → tu situación con él ahora
+                     ✗ I owe  my brother the dinner money
+                     ✓ I owe my brother the money for last night's dinner.
+                     ~ ai OU mai-BRA-dher dha-MA-ni for-last-NAITS DI-ner
+                     el ESTADO en presente, sin la historia de ayer · owe
+                     sb sth sin preposición
+
+3  ❌  put off       ES  «Llevo una semana aplazando esa conversación con
+                         mi novia.»  · NUEVO
+                     ✗ i have been avoiding this  convertation with my
+                       girfriend for a week
+                     ✓ I've been putting off that conversation with my
+                       girlfriend for a week.
+                     ~ aiv-bin PU-ting-OF dhat-kon-ver-SEI-shon
+                     verbo vecino: avoid = esquivar, put off = aplazar. La
+                     frase se salva como inglés; el tiempo (present perfect
+                     continuous + for a week) es el exacto
+
+4  ⚠️  blame         SIT pedido 40 min tarde, culpa del restaurante, el
+                         cliente enfadado contigo → quién es responsable
+                     ✗ sorry but it wasn't my fault, so please don't blame
+                       to me it was the restaurant who late preparing the
+                       order
+                     ✓ Sorry, but it wasn't my fault, so please don't blame
+                       me — blame the restaurant for taking so long.
+                     ~ plis DOUNT-bleim-MI · BLEIM dha-RES-trant
+                     "blame TO me" → blame me (objeto directo pegado) ·
+                     "who late preparing" → for taking so long · el
+                     contraste del N3 está
+
+5  ⚠️  mind          ES  «No me importa trabajar los domingos.»
+                     ✗ I don't main work the sundays
+                     ✓ I don't mind working on Sundays.
+                     ~ ai-dount-MAIND UER-king on-SAN-deis
+                     "main" = mind de oído (por eso no ❌) · "mind work" →
+                     mind WORKING, 2º día seguido · "the sundays" → on
+                     Sundays
+```
+
+### Tanda 2 — 47% REGULAR 🟡
+
+```
+6  ⚠️  bring         SIT en casa de tu novia, vuelves mañana → pregúntale
+                         si necesita que lleves algo
+                     ✗ bebe, do you need i bring something for the dinner ??
+                     ✓ Babe, do you need me to bring anything for dinner
+                       tomorrow?
+                     ~ du-yu-NID-mi tu-BRING E-ni-zing for-DI-ner
+                     bring y no take: dirección bien · "need I bring" →
+                     need ME TO bring (el molde de arriba) · something →
+                     anything en pregunta · "the dinner" → dinner
+
+7  ✅  complain      ES  «Me quejé al restaurante porque el pedido salió
+                         sin la bebida.»
+                     ✗ I complained to the restaurent because the order
+                       gone withou the drink
+                     ✓ I complained to the restaurant because the order
+                       went out without the drink.
+                     ~ ai kom-PLEIND tu-dha-RES-trant
+                     complain TO sb a la primera tras cinco ⚠️ · "gone" →
+                     went (participio donde va el pasado), fuera del verbo
+
+8  ❌  figure out    SIT la app te da los peores pedidos los viernes, ayer
+                         entendiste por fin el patrón  · NUEVO
+                     ✗ i fanally realize why they sent me the worts order
+                       every friday
+                     ✓ I finally figured out why the app gives me the worst
+                       orders every Friday.
+                     ~ ai FAI-na-li FI-gerd-AUT
+                     verbo vecino: realize = darte cuenta (de golpe), figure
+                     out = descifrar (le das vueltas) · la frase se salva
+                     con "realized" en pasado
+
+9  ✅  tackle        ES  «El ayuntamiento no ataca el problema, solo pone
+                         más multas.»  · NUEVO
+                     ✗ the city cunsil doesn't tackle the problem , they
+                       just give more bills to people
+                     ✓ The city council doesn't tackle the problem, it just
+                       hands out more fines.
+                     ~ TA-kel dha-PRO-blem · hands-AUT mor-FAINS
+                     nuevo y a la primera, objeto directo pegado · "bills"
+                     → fines (bill = factura) · preguntó qué es hand out:
+                     repartir cosa por cosa
+
+10 ❌  afford        SIT tu novia propone Lisboa el mes que viene, andas
+                         justo → que te encantaría, por qué no y cuándo sí
+                     ✗ i'm sorry bb . but i can't borrow a trip the next
+                       month, maybe we could look for a trip for two months
+                       from now , is it that okey for you ??
+                     ✓ I'm sorry, babe, but I can't afford a trip next
+                       month — maybe in two months. Is that okay?
+                     ~ ai-kant-a-FORD a-TRIP nekst-MANZ
+                     "borrow a trip" no existe: borrow invade un 4º verbo ·
+                     la arquitectura del N4 (disculpa, contraste,
+                     alternativa con fecha, pregunta) está entera
+```
+
+### Tanda 3 — 40% REGULAR 🟡
+
+```
+11 ✅  remind        ES  «Recuérdame que cargue la bici esta noche, aunque
+                         llegue tarde.»
+                     ✗ remaind me to charge the bike at night even if we
+                       get home late
+                     ✓ Remind me to charge the bike tonight, even if we get
+                       home late.
+                     ~ ri-MAIND-mi tu-CHARCH dha-BAIK tu-NAIT
+                     remind sb TO do, el molde objeto + to aplicado solo ·
+                     "remaind" → remind (la A la pone el oído) · "at night"
+                     → tonight
+
+12 ✅  spend         SIT domingo, ibas a estudiar y acabaste 3 h en YouTube
+                         → cuéntaselo a tu novia
+                     ✗ i spent 3 hours on youtube bisade to study how i
+                       told you
+                     ✓ I spent three hours on YouTube instead of studying,
+                       like I'd told you I would.
+                     ~ ai-SPENT zri-AU-ers on-YU-tiub in-STED-ov STA-di-ing
+                     spend + tiempo + ON limpio · "bisade to study" →
+                     instead OF studying (-ing tras preposición) · "how I
+                     told you" → like I told you
+
+13 ⚠️  work out      ES  «Al final todo salió bien, aunque no me lo
+                         esperaba.»
+                     ✗ in the end it worked it , even i didn't expect it
+                     ✓ In the end it all worked out, even though I didn't
+                       expect it to.
+                     ~ it-ol-UERKT-AUT · I-ven-DHOU
+                     "worked IT" → worked OUT: dado por partícula perdida,
+                     no por "it worked" (= funcionó); se le dijo que si
+                     era eso, baja a ❌ · "even I" → even though
+
+14 ❌  expose        SIT un periodista publicó documentos internos de una
+                         empresa de reparto que muestran cómo el algoritmo
+                         castiga a quien rechaza pedidos → qué hicieron
+                         los documentos  · NUEVO
+                     ✗ the document turns up how the algorithm punishes
+                       the curies
+                     ✓ The documents exposed how the algorithm punishes
+                       couriers who reject orders.
+                     ~ dha-DO-kiu-ments ex-POUSD
+                     "turns up" (= aparecer) no se salva · "how the
+                     algorithm punishes" exacto · "curies" → couriers
+
+15 ⚠️  avoid         ES  «Evito coger pedidos del centro los viernes porque
+                         siempre acaban tarde.»
+                     ✗ I avoid accept orders in the city center the
+                       fridays because they always end late
+                     ✓ I avoid taking orders in the city centre on Fridays
+                       because they always finish late.
+                     ~ ai-a-VOID TEI-king OR-ders on-FRAI-deis
+                     "avoid accept" → avoid ACCEPTING, 2º día seguido (ayer
+                     "avoid make") · "the fridays" → on Fridays, 2ª vez hoy
+                     · "end late" → finish/run late
+```
+
+### TOP 5 Weak Verbs
+
+```
+1  ❌  afford      I can't afford a trip next month.
+                   «I can't borrow a trip» — borrow invade otro verbo. 3 ❌
+                   en 6, vuelve a 🔴 y N1
+2  ❌  figure out  I finally figured out why the app gives me the worst orders.
+                   «I finally realized» — verbo vecino, no rodeo
+3  ❌  put off     I've been putting off that conversation for a week.
+                   «I have been avoiding» — verbo vecino
+4  ❌  expose      The documents exposed how the algorithm punishes couriers.
+                   «turns up how» — verbo equivocado, no se salva
+5  ⚠️  avoid       I avoid taking orders in the city centre on Fridays.
+                   «avoid accept» — -ing que falta, 2º día seguido
+```
+
+**Patrón de evasión:** cero rodeos de tres palabras por primera vez. Los ❌
+son **verbos vecinos** (inglés correcto, matiz distinto) y **`borrow`
+colonizando**: ya son cuatro (`lend`, `owe` antes; `afford` hoy). Los ⚠️
+son un único fallo mecánico: **`-ing` tras `mind` / `avoid`** (3 veces en
+dos días) y **`the` + día de la semana** por `on` (2 veces hoy).
+
+**Nota de método:** vencen mañana (2026-09-13) `afford`, `mind`, `put off`,
+`figure out`, `expose` y `come up with`. `put off` / `figure out` / `expose`
+entran en 🔴 con una sola vista: son ⚪ que fallaron a la primera. La ingesta
+sigue pendiente: `sync` en la próxima.
+
+### Tras el cierre — preguntas sueltas
+
+- «Le dejé la máquina a un amigo» → **I lent a friend the device.** Dudaba con
+  el artículo: *a friend* (uno cualquiera) / *my friend* (uno concreto) /
+  *friends* sin artículo (en general). *The friend* suelto, casi nunca.
+- «Me la devolvió rota» → **He gave it back broken.** Su cerebro «busca el
+  *me*»: en español es obligatorio delante, en inglés va detrás y suele
+  sobrar (*he gave it back to me*).
+- **Pronunciación de *gave it back*:** le cuesta enlazar tres palabras. Se le
+  dio el par normal / nativo (*GEIV · IT · BAK* vs *GEI-vit BAK*) y la regla
+  consonante + vocal. Al probarlo por voz, el reconocedor no le entiende
+  enlazado. **Él mismo lo diagnostica: el sonido /v/.** No lo distingue de la
+  *b*; con *b* española *gave it* suena a *gay-bit*. Se le dio: *v* = posición
+  de *f* con voz, pares mínimos (*bat/vat, berry/very, boat/vote*) y sus
+  frases del día exagerando la *v*. Prueba: grabarse *very bad* / *berry bad*.
+  Prioridad acordada: **que le entiendan antes que enlazar** — separado hasta
+  que la *v* esté.

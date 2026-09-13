@@ -23,6 +23,7 @@ sesiones_hoy() { # nº de sesiones de HOY en un log (grep -c ya imprime 0; su ex
 }
 ING_HOY=$(sesiones_hoy estructuras/log-estructuras.md)
 VER_HOY=$(sesiones_hoy verbos/log-verbos.md)
+CHA_HOY=$(sesiones_hoy chain/log-chain.md)
 tipo_sesion() { [ "$1" -eq 0 ] && echo "EXAMEN (aún sin sesión hoy)" || echo "REFUERZO ($(($1+1))º pase — no puntúa, solo puede empeorar)"; }
 
 fila_metrica() { # $1=fichero  → fecha de la última fila de datos de su tabla de métricas
@@ -51,10 +52,11 @@ printf "  %-9s %-12s %-14s %s\n" "/drill"  "${DRI_D:--}" "$(etiqueta "$(dias_des
 echo "  /drill no compite en las prioridades ni cuenta para la racha: no puntúa"
 echo "  y se lanza cuando hay cinco minutos (logica-drill.md §1)."
 echo
-echo "LA PRÓXIMA SESIÓN DE HOY SERÍA (logica-estructuras §9 · logica-verbos §11)"
+echo "LA PRÓXIMA SESIÓN DE HOY SERÍA (logica-estructuras §9 · logica-verbos §11 · logica-chain §9)"
 printf "  %-9s %s\n" "/ingles" "$(tipo_sesion "$ING_HOY")"
 printf "  %-9s %s\n" "/verbs"  "$(tipo_sesion "$VER_HOY")"
-echo "  chain y talk no puntúan ítems: no distinguen examen de refuerzo."
+printf "  %-9s %s\n" "/chain"  "$(tipo_sesion "$CHA_HOY")"
+echo "  talk no puntúa ítems: no distingue examen de refuerzo."
 echo
 
 # ── vencidos ────────────────────────────────────────────────────────────────
@@ -74,7 +76,15 @@ awk -F'|' -v hoy="$HOY" '
   }
   END { printf "  %-13s %-3d %s\n", "verbos", c+0, (c ? s : "—") }
 ' verbos/progreso-verbos.md
-echo "  chain y talk no vencen: van por uso y por tema, no por fecha."
+
+awk -F'|' -v hoy="$HOY" '
+  $2 ~ /^ *[A-Z][A-Z][A-Z]-[0-9]/ && $13 ~ /^ *[0-9][0-9][0-9][0-9]-[0-9][0-9]-[0-9][0-9] *$/ {
+    n=$3; f=$13; e=$11; gsub(/^ +| +$/,"",n); gsub(/^ +| +$/,"",f); gsub(/^ +| +$/,"",e)
+    if (f <= hoy) { c++; s = s (c>1 ? " · " : "") e " " n }
+  }
+  END { printf "  %-13s %-3d %s\n", "chain", c+0, (c ? s : "—") }
+' chain/progreso-chain.md
+echo "  talk no vence: va por tema, no por fecha."
 echo
 
 # ── atascos ─────────────────────────────────────────────────────────────────
@@ -115,7 +125,7 @@ awk -F'|' '
 ' verbos/progreso-verbos.md
 N_ESL=$(awk -F'|' '$2 ~ /^ *[A-Z][A-Z][A-Z]-[0-9]/ {n++} END{print n+0}' chain/progreso-chain.md)
 N_VRB=$(awk -F'|' '$3 ~ /^ *(CONF|PER|PHR|OPI) *$/ {n++} END{print n+0}' verbos/progreso-verbos.md)
-[ "$CHA_N" = "0" ] && echo "  /chain sigue sin estrenar ($N_ESL eslabones en el banco, 0 usados)."
+[ "$CHA_N" = "0" ] && echo "  /chain sigue sin estrenar ($N_ESL conectores incorporados, 0 sesiones)."
 [ "$VER_N" = "0" ] && echo "  /verbs sigue sin estrenar ($N_VRB verbos en el banco, 0 vistos)."
 # integridad: Bien + Regular + Mal debe ser igual a Veces vista (logica-estructuras §5)
 awk -F'|' '
@@ -183,8 +193,8 @@ awk -F'|' '
   END { printf "  estructuras  %d/%d tocadas · %d interiorizadas ✅ · %d con 🌟 (%d en total)\n", v+0, t+0, ok+0, nat+0, est+0 }
 ' estructuras/progreso-estructuras.md
 awk -F'|' '
-  $2 ~ /^ *[A-Z][A-Z][A-Z]-[0-9]/ { t++; if ($6+0 > 0) v++ }
-  END { printf "  eslabones    %d/%d usados\n", v+0, t+0 }
+  $2 ~ /^ *[A-Z][A-Z][A-Z]-[0-9]/ { t++; if ($6+0 > 0) v++; if ($11 ~ /✅/) ok++; if ($15+0 > 0) { nat++; est += $15+0 } }
+  END { printf "  conectores   %d/%d vistos · %d interiorizados ✅ · %d con 🌟 (%d en total)\n", v+0, t+0, ok+0, nat+0, est+0 }
 ' chain/progreso-chain.md
 awk -F'|' '
   $3 ~ /^ *(CONF|PER|PHR|OPI) *$/ { t++; if ($4+0 > 0) v++; if ($9 ~ /✅/) ok++; if ($13+0 > 0) { nat++; est += $13+0 } }

@@ -2,11 +2,18 @@
 # cierre.sh — aplica la máquina de estados del SRS y reescribe el progreso.
 #
 # El modelo puntúa; este script calcula. Implementa EXACTAMENTE
-# `estructuras/logica-estructuras.md` §5 y `verbos/logica-verbos.md` §7,
-# sin añadir reglas propias.
+# `estructuras/logica-estructuras.md` §5, `verbos/logica-verbos.md` §7 y
+# `chain/logica-chain.md` §6, sin añadir reglas propias.
+#
+# Tres ramas comparten la misma máquina de estados y la misma escala:
+#   ingles → estructuras/progreso-estructuras.md  (clave: Estructura, umbral 3)
+#   verbs  → verbos/progreso-verbos.md            (clave: Verbo, umbral 4 = gate N4)
+#   chain  → chain/progreso-chain.md              (clave: ID, umbral 2, sin gate)
+# chain puntúa el CONECTOR por su ID (RAZ-05): la lista es finita y no se blinda
+# el ✅ con un acierto en el nivel alto; A entra por el ascenso de nivel.
 #
 # Uso:
-#   bash panel/cierre.sh <ingles|verbs> <examen|refuerzo> [--dry-run] <<'EOF'
+#   bash panel/cierre.sh <ingles|verbs|chain> <examen|refuerzo> [--dry-run] <<'EOF'
 #   OK    it turns out (that)
 #   FAIL  can't be bothered
 #   REG   At first…, but then…
@@ -32,7 +39,7 @@
 # a ciegas y podía borrar un acierto de otro día.
 #
 # LA SALIDA FÁCIL. Si en vez del ítem dijo otra cosa, se anota detrás de un `~`
-# y va a la columna de diagnóstico (`Esquiva` en ingles · `Sustituto` en verbs):
+# y va a la columna de diagnóstico (`Esquiva` en ingles · `Sustituto` en verbs y chain):
 #
 #   FAIL  can't be bothered  ~ didn't feel like
 #   OK    can't be bothered  ~ —          (ya no la esquiva: limpia la columna)
@@ -47,13 +54,21 @@ set -euo pipefail
 cd "$(dirname "$0")/.." || exit 1
 
 EJ=${1:-}; TIPO=${2:-}; DRY=${3:-}
-case "$EJ"   in ingles|verbs) ;; *) echo "uso: cierre.sh <ingles|verbs> <examen|refuerzo> [--dry-run]" >&2; exit 2;; esac
-case "$TIPO" in examen|refuerzo) ;; *) echo "uso: cierre.sh <ingles|verbs> <examen|refuerzo> [--dry-run]" >&2; exit 2;; esac
+case "$EJ"   in ingles|verbs|chain) ;; *) echo "uso: cierre.sh <ingles|verbs|chain> <examen|refuerzo> [--dry-run]" >&2; exit 2;; esac
+case "$TIPO" in examen|refuerzo) ;; *) echo "uso: cierre.sh <ingles|verbs|chain> <examen|refuerzo> [--dry-run]" >&2; exit 2;; esac
 
 if [ "$EJ" = "ingles" ]; then
   ARCHIVO=estructuras/progreso-estructuras.md; CLAVE="Estructura"; VISTAS="Veces vista"
   UMBRAL_OK=3          # ✅ exige haber llegado al PENÚLTIMO peldaño (índice 3);
                        # el último es el de mantenimiento, donde ya viven las ✅
+elif [ "$EJ" = "chain" ]; then
+  ARCHIVO=chain/progreso-chain.md;             CLAVE="ID";         VISTAS="Vistas"
+  UMBRAL_OK=2          # ✅ NO se blinda con el gate estricto de verbs: la lista de
+                       # conectores es finita y corta, se fija en un par de semanas.
+                       # A entra por el ascenso de nivel (§4), no como candado.
+                       # Umbral moderado — A CALIBRAR tras las primeras semanas.
+                       # La clave del ítem es el ID (RAZ-05), no el conector: es
+                       # único (un conector con dos nichos = dos IDs) y estable.
 else
   ARCHIVO=verbos/progreso-verbos.md;           CLAVE="Verbo";      VISTAS="Vistas"
   UMBRAL_OK=4          # ✅ exige además un acierto en N4 → sólo se llega al ÚLTIMO
@@ -145,7 +160,7 @@ FNR==NR {
     COLS_OK=1
     cK=IDX[clave]; cV=IDX[vistas]; cB=IDX["Bien"]; cR=IDX["Regular"]
     cM=IDX["Mal"]; cE=IDX["Estado"]; cU=IDX["Últ."]; cP=IDX["Próxima revisión"]
-    if (ej=="verbs") cN=IDX["Nivel"]
+    if (ej!="ingles") cN=IDX["Nivel"]   # verbs y chain tienen columna Nivel
     cS = ("Nativas" in IDX) ? IDX["Nativas"] : 0      # subconjunto de Bien
     diag = (ej=="ingles") ? "Esquiva" : "Sustituto"
     cX = (diag in IDX) ? IDX[diag] : 0
@@ -233,7 +248,7 @@ COLS_OK && /^\|/ && trim($cV) ~ /^[0-9]+$/ {
   ult = hoy; prox = masdias(hoy, ESC[idx+1])
   pon(cV,v); pon(cB,b); pon(cR,r); pon(cM,m); pon(cE,est); pon(cU,ult); pon(cP,prox)
   if (cS) pon(cS, st)
-  if (ej=="verbs") pon(cN, "N" (idx<=2 ? idx+1 : 4))
+  if (ej!="ingles") pon(cN, "N" (idx<=2 ? idx+1 : 4))
   printf "  %-30s %s\n      → %s\n", nom, antes, sprintf("v=%d b=%d%s r=%d m=%d %s prox=%s (%d días)", v,b,(cS&&st?sprintf("(%d🌟)",st):""),r,m,est,prox,ESC[idx+1]) > "/dev/stderr"
   print; next
 }

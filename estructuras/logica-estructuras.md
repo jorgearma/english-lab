@@ -553,7 +553,7 @@ tocar los intervalos**.
 
 Es la misma lógica que `verbos/logica-verbos.md` §11, y por diseño las dos van
 en paralelo: `/ingles` y `/verbs` son los dos ejercicios de **ítems discretos
-con SRS**. `/talk` y `/chain` quedan fuera — no puntúan ítems.
+con SRS** (con `/chain`, que también los puntúa desde su remodelación). `/talk` queda fuera — no puntúa ítems.
 
 ### Las dos clases de sesión
 
