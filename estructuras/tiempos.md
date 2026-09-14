@@ -36,6 +36,8 @@ tenía el ⚠️ antes de tener columna propia.
 | Auxiliar + verbo conjugado | 1 | 2026-08-21 | Detrás de `do/does/did/doesn't` va el verbo DESNUDO: `didn't make`, nunca `doesn't made`. | No hay disparador ES: el español conjuga el verbo principal y arrastra. Regla mecánica. |
 | Preposición + infinitivo | 1 | 2026-08-21 | Toda preposición pide `-ing`: `without thinking`, `before leaving`, `instead of saying`. | «sin **pensar**», «antes de **salir**» — el infinitivo español es `-ing` en inglés. |
 | Past perfect por present perfect (sin ancla) | 1 | 2026-09-10 | `had` + participio necesita **otro pasado en la frase** del que colgarse. Si no hay ninguno, es `have/has`. | La terminación de *llevar*: «lleVAN / lleVO» → `have` · «lleVABA / lleVABAN» → `had`. Y el escaneo: ¿hay otro pasado en la frase? No → `had` imposible. |
+| Negar `have` sin auxiliar (`hadn't time`) | 1 | 2026-09-13 | `have` como verbo normal se niega con `didn't`: `didn't have time`, nunca `hadn't time`. | «no **tenía** tiempo / no me **dio** tiempo» — negar «tener» es siempre `didn't have`. |
+| Presente por present perfect («nunca ha») | 1 | 2026-09-13 | «nunca ha + participio», sin momento cerrado → `has never` + participio: `he's never said no`. | «nunca me las **HA** negado» — el «ha» ya lo da el español, es literal. |
 
 ## Lo que dice el patrón hoy (2026-08-20)
 

@@ -800,3 +800,66 @@ Seis frases pedidas por él para probar lo anterior. **Es lo que arregló el ata
 **Notas de método (dos, y las dos del coach):**
 1. **El bloque `⏱` lleva solo el error de tiempo, en una línea.** Ni moldes, ni reescrituras, ni la variante que le suene mejor al coach. Es la misma regla del arreglo mínimo del `✓` (drill 4, 03-09) aplicada a un sitio nuevo.
 2. **Si hay varias formas válidas, se dicen todas.** Elegir una y callar las otras es lo que convirtió una corrección de una palabra en tres horas.
+
+## 2026-09-13 — sesión 12 · EXAMEN
+
+**Ronda armada:** 10 de repaso, sin nuevas (15 vencidas): 3 🔴, 6 🟡 y 1 ✅ de control (`end up + -ing`). 4 frases. Arrancó con el recordatorio de backshift (`tiempos.md`, 9 veces).
+
+### Frase 1 — `be supposed to` · `end up + -ing`
+- **ES (coach):** «Se suponía que yo hoy libraba, pero al final he acabado cubriendo el turno de tarde.»
+- **Respuesta del alumno:** «I was supposed to have  the day off today , but  i ended up covering the evening shift»
+- **Corrección:**
+  - `be supposed to` → ✅ — sujeto + `was` + `supposed to` + verbo, montada entera. **Primer acierto en 7 vistas**; sale de 🔴.
+  - `end up + -ing` → 🌟 — `ended up covering`, nativa y sin pensarla. Segundo 🌟 (control ✅ superado).
+- **⏱ Tiempos:** bien. `ended up` en pasado simple aunque el ES diga «he acabado» (episodio cerrado).
+- **Versión nativa completa:** *"I **was supposed to have** the day off today, but I **ended up covering** the evening shift."*
+- **Nota de frase:** 83% · MUY BIEN 🔥
+
+### Frase 2 — `If I had known…` · `I had no choice but to` · `let alone`
+- **ES (coach):** «Si hubiera sabido que su madre venía a cenar, no habría cogido el turno de tarde. No me quedó otra que pedir comida a domicilio: no me dio tiempo ni a ducharme, y mucho menos a cocinar.»
+- **Respuesta del alumno:** «if i had known her mom was going to come to dinner , i  would  have  taken the evening shift , i had no choise but order food i even  hadn't time to get shower ler alone cooking»
+- **Corrección:**
+  - `If I had known…` → ⚠️ — molde entero bien (`had known` + `would have`), pero se comió el `not`: dice que SÍ habría cogido el turno.
+  - `I had no choice but to` → ⚠️ — la sacó sola, **sin esquivarla** (columna `Esquiva` limpiada), pero se cayó el `to`: `but TO order`.
+  - `let alone` → ⚠️ — bien colocada detrás del negativo; lo que sigue tiene que copiar la forma de antes: `time to shower, let alone COOK`, no `cooking`.
+- **⏱ Tiempos:** `i even hadn't time` → `I didn't even have time`. `have` como verbo normal se niega con `didn't`. Disparador ES: «no me dio tiempo / no tenía tiempo».
+- **De pasada, sin puntuar:** `her mom was going to come` — backshift correcto. `get shower` → `take/have a shower` o `shower`. `order food` vale; `order takeaway` / `order in` más de casa.
+- **Versión nativa completa:** *"**If I had known** her mom was coming for dinner, I **wouldn't have taken** the evening shift. I **had no choice but to** order food — I didn't even have time to shower, **let alone cook**."*
+- **Nota de frase:** 33% · MAL 🔴 — tres estructuras colocadas donde tocan; las bajan tres piezas pequeñas (`not`, `to`, `-ing`). Montaje, no repertorio.
+
+### Frase 3 — `I had no idea (that)…` · `At first…, but then…` · `it's not that… it's just that…`
+- **ES (coach):** «No tenía ni idea de que esa cuenta fuera un bot. Al principio pensé que era un periodista de verdad, pero luego vi que publicaba lo mismo en cinco idiomas a la vez. No es que me crea todo lo que leo, es que este estaba muy bien hecho.»
+- **Respuesta del alumno:** «i had no idea that account was a bot , at first i tought it was a real jurnalist but after i saw it post the same thing in five differents  idioms at the same time , it's no that  i balive everything i read it's  just it was very well done»
+- **Corrección:**
+  - `I had no idea (that)…` → 🌟 — entera, con el backshift (`was a bot`) sin aviso. Nativa.
+  - `At first…, but then…` → ⚠️ — `at first` bien; la segunda mitad salió `but after` — `after` no va solo (`then` / `afterwards`).
+  - `it's not that… it's just that…` → ✅ — las dos mitades bien contrapuestas; `it's just it was` vale hablando.
+- **⏱ Tiempos:** todos bien. Tres verbos en marco pasado y ninguno al presente — el error de las 9 veces no apareció.
+- **De pasada, sin puntuar:** `idioms` es falso amigo (modismo) → `languages`. `five differents` → los adjetivos no llevan plural. `it was` → `this one` marca mejor el contraste.
+- **Versión nativa completa:** *"**I had no idea** that account was a bot. **At first** I thought it was a real journalist, **but then** I saw it was posting the same thing in five languages at once. **It's not that** I believe everything I read, **it's just that** this one was really well done."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+### Frase 4 — `I've been meaning to` · `to be fair`
+- **ES (coach):** «Llevo semanas queriendo hablar con mi jefe de las horas extra, pero, todo hay que decirlo, él tampoco me las ha negado nunca.»
+- **Respuesta del alumno:** «i've been meaning to speak with my boss about the extra hours but to be fair he never say me no about it»
+- **Corrección:**
+  - `I've been meaning to` → ✅ — primera vez que sale entera y sola (0 aciertos en 3 vistas hasta hoy).
+  - `to be fair` → ✅ — en su sitio, haciendo lo que pide el «todo hay que decirlo».
+- **⏱ Tiempos:** `he never say me no` → `he's never said no`. «nunca ha + participio» sin momento cerrado → `has never` + participio. Disparador ES: «nunca me las HA negado» — el `ha` ya lo da el español.
+- **De pasada, sin puntuar:** `say me no` → `tell me no` / `say no to me`. `extra hours` → `overtime`. Se cayó el «tampoco»: `either` al final.
+- **Versión nativa completa:** *"**I've been meaning to** talk to my boss about the overtime, but **to be fair**, he's never said no to it either."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+### Cierre — sesión 12
+
+**Total:** 18/30 · **60%** en 4 frases: 2🌟 · 4✅ · 4⚠️ · 0❌. Primera sesión desde la 8 sin ningún ❌.
+
+**Progreso escrito por `panel/cierre.sh`:** `be supposed to` 🔴→🟡 (primer acierto) · `If I had known…` 🔴→🟡 · `I had no choice but to` 🔴→🟡, `Esquiva` limpiada · `to be fair` 🟡→✅ · `I had no idea (that)…` 🟡→✅ · `end up + -ing` 2º 🌟. Invariante: 81 filas, 0 descuadradas.
+
+**Naturalidad:** las frases 1 y 3 sonaron a inglés de verdad — `I had no idea that account was a bot` y `ended up covering the evening shift` no se distinguen de un nativo. La 2 sonó a traducida por las piezas caídas, no por la estructura.
+
+**Precisión:** cero esquivas y cero estructuras ausentes. Los cuatro ⚠️ son piezas de una letra o una palabra (`not`, `to`, `-ing`, `then`), el mismo techo de montaje de las sesiones 10 y 11 — pero hoy nada se quedó sin montar.
+
+**Velocidad:** cuatro frases en una sesión normal, sin desvíos. Las respuestas salieron de una pieza, sin reintentos.
+
+**Progreso B2→C1:** el backshift, que iba por 9 fallos, hoy salió bien las tres veces que tocaba (`was a bot`, `it was a journalist`, `was going to come`) — el recordatorio de arranque funcionó. Los dos errores de tiempo de hoy son nuevos y de otra familia: negar `have` (`hadn't time`) y «nunca ha» → present perfect. El techo sigue siendo el cierre de las estructuras largas (`If I had known` con su `would have NOT`, `no choice but TO`), no el arranque.
