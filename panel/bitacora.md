@@ -22,6 +22,7 @@ real. **Solo se añade al final de cada tabla; no se edita lo anterior.**
 | 2026-09-13 | `/ingles` (15 estructuras vencidas, regla 1; 3 días parado; ayer `/verbs`) | `/ingles` | Segundo panel del día. El `/ingles` de la mañana se cerró sin llegar al cierre: nada escrito, SRS limpio (Jorge: no preocuparse). Sin cambios en los progresos desde el primer panel. Relanzado `/ingles`. |
 
 ---
+| 2026-09-14 | `/verbs` (11 verbos vencidos, 4 🔴, regla 1; regla 4 desempata: ayer `/ingles`) | `/verbs` | El `/ingles` relanzado el 13 sí se cerró (sesión 12, 60%, 0❌; `be supposed to`, `If I had known…`, `I had no choice but to` salen de 🔴; backshift bien las 3 veces). Estructuras 15 → 9 vencidas, **5 de ellas ✅** (ayer solo entró 1 de control). Chain: los 8 vistos vencen hoy; `/talk` 25 días, 13 GAPs. Recordadas las ⏳ (reescritura `/verbs` piezas 2 y 3, `/listen`, intervalos, tope escalera); se avisó de que la fila de la reescritura está bajo tabla 3 en vez de tabla 2. Jorge lanzó `/verbs` sin más comentario. |
 
 ## Tabla 2 — decisiones abiertas
 

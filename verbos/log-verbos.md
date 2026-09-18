@@ -1316,3 +1316,208 @@ sigue pendiente: `sync` en la próxima.
   frases del día exagerando la *v*. Prueba: grabarse *very bad* / *berry bad*.
   Prioridad acordada: **que le entiendan antes que enlazar** — separado hasta
   que la *v* esté.
+
+---
+
+## 2026-09-14 — sesión 10 · EXAMEN
+
+*(Se cerró pasada la medianoche; a petición de Jorge queda fechada el 14-09,
+que es cuando se hizo, y las revisiones se cuentan desde ahí. Un `/verbs` el
+15 es examen.)*
+
+**Ronda:** los 11 vencidos (🔴 `afford`, `put off`, `figure out`, `expose` +
+🟡 `lend`, `mind`, `avoid`, `owe`, `complain`, `come up with`, `tackle`) +
+**4 nuevos ⚪**: `waste`, `wonder`, `show up`, `highlight`. Sin ✅ de control
+(no hay ninguno en el banco). Ingesta sigue pendiente (`sync`).
+
+**Resultado:** 7 ✅ · 2 ⚠️ · 6 ❌ · 3 rodeos · **47%** sobre 15 ítems
+(13% → 20% → 40% → 53% → 53% → 62% → 53% → 40% → **47%**). Entre los 11 de
+repaso: 5 ✅ · 2 ⚠️ · 4 ❌. Los 4 nuevos: 2 ✅ (`waste`, `show up`) · 2 ❌
+(`wonder`, `highlight`), los dos con el rodeo de manual.
+
+**Lo que ha cambiado:** los tres 🔴 que entraron con rodeo el 12-09 han salido
+limpios a la primera: `afford` («I can't afford a new bike right now», sin
+`borrow`), `figure out` («I figured out how the app hands out the orders») y
+`expose` («The leak exposed the whole network of fake accounts»). `lend` en la
+dirección correcta («I can lend you my power bank»). `complain about` sin ⚠️
+tras cinco seguidos. `mind` ha aparecido por primera vez en cinco vistas,
+aunque sin -ing.
+
+**Lo que no:** los ❌ son **los mismos sustitutos que constan en la tabla**,
+casi letra por letra: `avoiding` por `put off`, `borrow` por `owe` (quinto
+verbo que coloniza), `say` por `come up with`. Y `avoid` se ha usado dos veces
+como comodín (por `tackle` y por `put off`) — aparece donde no toca y cuando
+toca sale con el tiempo roto. Fallo mecánico del día: **`since` + presente**
+(«I owe… since July», «I avoid… since I fell») donde va present perfect.
+
+**Duda de Jorge (ítem 4):** dijo que el SIT de `tackle` no estaba claro —
+«everyone keeps ignoring it» le llevó a «yo tampoco hice nada». Se le
+explicó que «what you *decided to do about it*» pide una acción elegida y que
+el «everyone ignores» era el contraste. Nota mantenida. El SIT podía cerrar
+más.
+
+### Tanda 1 — 67% BIEN 🟢
+
+```
+1  ✅  afford        ES  «No me puedo permitir una moto nueva ahora mismo.»
+                     ✗ i can't afford a new bike right now
+                     ✓ I can't afford a new bike right now.
+                     ~ ai KANT a-FORD a-NIU BAIK rait-NAU
+                     sin rodeo por primera vez en tres sesiones · preguntó
+                     por qué no 🌟: traducción literal de un N1, sin nada
+                     suyo encima
+
+2  ✅  lend          SIT  workmate's phone dead, you have a power bank.
+                          Say what you did.
+                     ✗ no worrys bro, i can lend you my power bank
+                     ✓ No worries, bro, I can lend you my power bank.
+                     ~ nou-UO-ris brou, ai-can-LEND-iu mai PAU-er-bank
+                     dirección correcta (hace dos días «I borrowed my
+                     workmate…») · contestó lo que le diría, no lo que
+                     hizo: "what you did" → I lent him · "worrys" → worries
+
+3  ✅  figure out    ES  «Por fin he entendido cómo la app asigna los pedidos.»
+                     ✗ fanally i figured out how the app hand out the orders
+                     ✓ I've finally figured out how the app hands out the orders.
+                     ~ aiv FAI-nali FI-guerd-AUT hau-di-AP HANDS-aut di-OR-ders
+                     figure out HOW entero (hace dos días «I finally
+                     realize why») · "hand out" → hands out, 3ª persona ·
+                     «he entendido» → I've figured out
+
+4  ❌  tackle        SIT  problem at work everyone keeps ignoring. Say what
+                          you decided to do about it last week.
+                     ✗ i did nothing, i just avoided the problemt as everyone
+                     ✓ I decided to tackle it last week, since nobody else would.
+                     ~ ai di-SAI-did tu-TA-kel-it last-UIK
+                     otro verbo del banco (avoid) y la acción contraria ·
+                     "as everyone" → like everyone else · tackle IT, sin
+                     preposición
+
+5  ⚠️  mind          ES  «No me importa trabajar hasta tarde los viernes.»
+                     ✗ I dont't maind work until late the fridays
+                     ✓ I don't mind working late on Fridays.
+                     ~ ai-dont-MAIND UER-king LEIT on-FRAI-deis
+                     primera vez que sale "mind" en 5 vistas · "mind work"
+                     → mind workING (3er día seguido sin -ing) · "until
+                     late" → late · "the fridays" → on Fridays (3ª vez)
+```
+
+### Tanda 2 — 40% MAL 🔴
+
+```
+6  ❌  put off       SIT  hard money talk with your girlfriend, two weeks on
+                          the list. Say what you keep doing with it.
+                     ✗ I have been avoiding the convertation with my girlfriend
+                     ✓ I keep putting it off.
+                     ~ ai-KIP PU-ting-it-OF
+                     el mismo rodeo del 12-09, palabra por palabra · keep +
+                     -ing = «no paro de» · put IT off, separable ·
+                     "convertation" → conversation
+
+7  ❌  owe           ES  «Le debo veinte euros a mi hermano desde julio.»
+                     ✗ I borrow my brother 20 euros since july
+                     ✓ I've owed my brother twenty euros since July.
+                     ~ aiv-OUD mai-BRA-der TUEN-ti IU-rous sins-yu-LAI
+                     el ES decía «debo» y salió borrow (5º verbo que
+                     coloniza) · "borrow sb sth" no existe, es FROM ·
+                     since July → present perfect
+
+8  ✅  expose        ES  «La filtración destapó toda la red de cuentas falsas.»
+                     ✗ the leak exposed the whole network of fake accounts
+                     ✓ The leak exposed the whole network of fake accounts.
+                     ~ da-LIK eks-POUSD da-JOUL NET-uerk ov-FEIK a-KAUNTS
+                     entera, a la primera (hace dos días «turns up how») ·
+                     whole + singular / all + plural
+
+9  ✅  waste  ⚪      SIT  an hour on an order, then the customer cancelled.
+                          Say what happened to that hour.
+                     ✗ i wasted an hour
+                     ✓ I wasted an hour on a cancelled order.
+                     ~ ai-UEIS-tid an-AU-er on-a-KAN-seld OR-der
+                     nuevo, a la primera · waste time ON sth · waste ≠ lose
+                     (te la quitan) · "an hour", h muda
+
+10 ❌  come up with  SIT  boss asks why you were late, no real excuse. Say
+                          what you weren't able to do on the spot.
+                     ✗ i couldn't say anything
+                     ✓ I couldn't come up with anything on the spot.
+                     ~ ai-KU-dent kam-AP-uid E-ni-zing on-da-SPOT
+                     el mismo sustituto de hace tres semanas («I could say
+                     nothing») con el negativo arreglado · come UP WITH,
+                     tres piezas que no se separan
+```
+
+### Tanda 3 — 47% MAL 🔴
+
+```
+11 ⚠️  avoid         ES  «Evito conducir de noche desde que me caí en marzo.»
+                     ✗ i avoid driving at nights since i felt in march
+                     ✓ I've been avoiding driving at night since I fell in March.
+                     ~ aiv-bin-a-VOI-ding DRAI-ving at-NAIT sins-ai-FEL in-MARCH
+                     avoid + -ING clavado · "since March" + presente → I've
+                     been avoiding (2ª vez hoy) · "felt" es de feel: fall /
+                     fell / fallen · "at nights" → at night
+
+12 ✅  show up  ⚪    SIT  girlfriend's dinner for eight, only three came.
+                          Say what the other five did.
+                     ✗ they didn't show up
+                     ✓ The other five just didn't show up.
+                     ~ di-A-der FAIV yast DI-dent SHOU-ap
+                     nuevo, a la primera · no separable, sin objeto ·
+                     didn't + base
+
+13 ❌  highlight  ⚪  ES  «El caso pone el foco en un patrón mucho más grande.»
+                     ✗ the case put the focus in a bigger patron
+                     ✓ The case highlights a much bigger pattern.
+                     ~ da-KEIS JAI-laits a-MACH BI-guer PA-tern
+                     calco pieza a pieza («put the focus in») · "patron" =
+                     mecenas; patrón = pattern · MUCH bigger
+
+14 ✅  complain      SIT  order arrived cold, customer wrote to the
+                          restaurant, angry. Say what he did.
+                     ✗ hi complained about the cold order
+                     ✓ He complained to the restaurant about the cold order.
+                     ~ ji kom-PLEIND tu-da-RES-trant a-BAUT da-KOULD OR-der
+                     complain ABOUT sth limpio tras 5 ⚠️ · TO la persona,
+                     ABOUT la cosa · "hi" → he
+
+15 ❌  wonder  ⚪     ES  «Me pregunto si ella se habrá dado cuenta de que me fui pronto.»
+                     ✗ i aks my self if she realized i leaved erly
+                     ✓ I wonder if she realised I left early.
+                     ~ ai-UON-der if-shi RI-a-laisd ai-LEFT ER-li
+                     «I ask myself if», el rodeo de manual · "if she
+                     realized (that) I…" bien montado · "leaved" → left ·
+                     «se habrá dado cuenta» → pasado simple
+```
+
+### TOP 5 Weak Verbs
+
+```
+1  ❌  put off       I keep putting it off.
+                     «I have been avoiding» — mismo rodeo que el 12-09,
+                     2 ❌ en 2 vistas
+2  ❌  owe           I've owed my brother twenty euros since July.
+                     «I borrow my brother 20 euros» — borrow coloniza el
+                     5º verbo; el ES decía «debo». 4 ❌ en 7, vuelve a 🔴
+3  ❌  come up with  I couldn't come up with anything on the spot.
+                     «i couldn't say anything» — mismo sustituto que el
+                     03-09. 3 ❌ en 4
+4  ❌  wonder        I wonder if she realised I left early.
+                     «I ask myself if» — rodeo de manual, ⚪ a 🔴
+5  ❌  highlight     The case highlights a much bigger pattern.
+                     «put the focus in» — calco del español, ⚪ a 🔴
+```
+
+**Patrón de evasión:** los rodeos de hoy **no son nuevos, son los archivados**:
+tres de los seis ❌ repiten el `Sustituto` que ya tenía la fila (`avoiding`,
+`borrow`, `say`). El verbo no está compitiendo con el rodeo: el rodeo está
+fijado y el verbo ni aparece. Y `avoid` funciona como comodín — sale por
+`tackle` y por `put off`. Lo bueno: los 🔴 del 12-09 (`afford`, `figure out`,
+`expose`) han salido limpios con solo dos días de intervalo, y `lend` y
+`complain` van dos sesiones seguidas bien. Mecánica: **`since` → have** (2
+veces), `-ing` tras `mind` (4º día), `the` + día de la semana (3ª vez).
+
+**Nota de método:** vencen mañana (2026-09-15) `put off`, `owe`, `come up
+with`, `tackle`, `wonder`, `highlight` y `mind`; el 16 `afford`, `figure out`,
+`expose`, `waste`, `show up` y `avoid`. Ingesta pendiente: `sync` en la
+próxima (van tres sesiones diciéndolo).
