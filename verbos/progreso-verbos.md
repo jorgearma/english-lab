@@ -50,7 +50,7 @@ rodeo más reciente.
 
 | Verbo | Cat | Vistas | Bien | Regular | Mal | Nivel | Estado | Últ. | Próxima revisión | Sustituto | Nativas |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| borrow | CONF | 6 | 2 | 3 | 1 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 0 |
+| borrow | CONF | 7 | 2 | 4 | 1 | N3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
 | lend | CONF | 8 | 4 | 0 | 4 | N3 | 🟡 | 2026-09-14 | 2026-09-18 | I borrowed my workmate the power bank | 0 |
 | raise | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | rise | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -76,8 +76,8 @@ rodeo más reciente.
 | know | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | steal | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | rob | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| afford | PER | 7 | 4 | 0 | 3 | N2 | 🟡 | 2026-09-14 | 2026-09-16 | I can't borrow a trip | 0 |
-| mind | PER | 5 | 0 | 3 | 2 | N1 | 🟡 | 2026-09-14 | 2026-09-15 | i can deal with no subtatile film | 0 |
+| afford | PER | 8 | 5 | 0 | 3 | N3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
+| mind | PER | 6 | 0 | 4 | 2 | N1 | 🟡 | 2026-09-19 | 2026-09-20 | — | 0 |
 | avoid | PER | 7 | 3 | 3 | 1 | N2 | 🟡 | 2026-09-14 | 2026-09-16 | — | 0 |
 | assume | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | involve | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -89,8 +89,8 @@ rodeo más reciente.
 | reckon | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | realize | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | notice | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| wonder | PER | 1 | 0 | 0 | 1 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | i ask my self if | 0 |
-| owe | PER | 7 | 2 | 1 | 4 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | I borrow my brother 20 euros since july | 0 |
+| wonder | PER | 2 | 1 | 0 | 1 | N2 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
+| owe | PER | 8 | 2 | 2 | 4 | N1 | 🟡 | 2026-09-19 | 2026-09-20 | — | 0 |
 | deserve | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | miss | PER | 4 | 3 | 1 | 0 | N4 | 🟡 | 2026-09-11 | 2026-09-19 | — | 0 |
 | rush | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -103,14 +103,14 @@ rodeo más reciente.
 | warn | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | refuse | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | work out | PHR | 6 | 3 | 1 | 2 | N4 | 🟡 | 2026-09-12 | 2026-09-20 | — | 0 |
-| come up with | PHR | 4 | 1 | 0 | 3 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | i couldn't say anything | 0 |
-| put off | PHR | 2 | 0 | 0 | 2 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | I have been avoiding the conversation | 0 |
+| come up with | PHR | 5 | 1 | 1 | 3 | N1 | 🟡 | 2026-09-19 | 2026-09-20 | — | 0 |
+| put off | PHR | 3 | 0 | 1 | 2 | N1 | 🟡 | 2026-09-19 | 2026-09-20 | — | 0 |
 | get away with | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| figure out | PHR | 2 | 1 | 0 | 1 | N2 | 🟡 | 2026-09-14 | 2026-09-16 | I finally realize why | 0 |
+| figure out | PHR | 3 | 1 | 1 | 1 | N2 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
 | deal with | PHR | 6 | 3 | 1 | 2 | N4 | 🟡 | 2026-09-11 | 2026-09-19 | — | 0 |
-| run out of | PHR | 7 | 2 | 5 | 0 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 0 |
+| run out of | PHR | 8 | 2 | 6 | 0 | N3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
 | get on with | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| pick up | PHR | 5 | 2 | 2 | 1 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 0 |
+| pick up | PHR | 6 | 2 | 3 | 1 | N3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
 | turn out | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | go through | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | come across | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -133,16 +133,16 @@ rodeo más reciente.
 | break down | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | take up | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | claim | OPI | 5 | 3 | 1 | 1 | N4 | 🟡 | 2026-09-11 | 2026-09-19 | — | 0 |
-| argue | OPI | 5 | 2 | 1 | 2 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 0 |
+| argue | OPI | 6 | 3 | 1 | 2 | N4 | 🟡 | 2026-09-19 | 2026-09-27 | — | 0 |
 | acknowledge | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | imply | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | undermine | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | address | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| tackle | OPI | 2 | 1 | 0 | 1 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | i just avoided the problem as everyone | 0 |
-| highlight | OPI | 1 | 0 | 0 | 1 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | the case put the focus in | 0 |
-| dismiss | OPI | 3 | 2 | 0 | 1 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 0 |
+| tackle | OPI | 3 | 2 | 0 | 1 | N2 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
+| highlight | OPI | 2 | 0 | 1 | 1 | N1 | 🟡 | 2026-09-19 | 2026-09-20 | — | 0 |
+| dismiss | OPI | 4 | 2 | 0 | 2 | N1 | 🔴 | 2026-09-19 | 2026-09-20 | claims the story was fake | 0 |
 | blame | OPI | 7 | 2 | 3 | 2 | N3 | 🟡 | 2026-09-12 | 2026-09-16 | — | 0 |
-| rely on | OPI | 6 | 2 | 2 | 2 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 1 |
+| rely on | OPI | 7 | 3 | 2 | 2 | N4 | 🟡 | 2026-09-19 | 2026-09-27 | — | 1 |
 | stem from | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | account for | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | back | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |

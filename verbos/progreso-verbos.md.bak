@@ -51,7 +51,7 @@ rodeo más reciente.
 | Verbo | Cat | Vistas | Bien | Regular | Mal | Nivel | Estado | Últ. | Próxima revisión | Sustituto | Nativas |
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | borrow | CONF | 6 | 2 | 3 | 1 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 0 |
-| lend | CONF | 7 | 3 | 0 | 4 | N2 | 🟡 | 2026-09-12 | 2026-09-14 | I borrowed my workmate the power bank | 0 |
+| lend | CONF | 8 | 4 | 0 | 4 | N3 | 🟡 | 2026-09-14 | 2026-09-18 | I borrowed my workmate the power bank | 0 |
 | raise | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | rise | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | tell | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -61,7 +61,7 @@ rodeo más reciente.
 | remind | CONF | 6 | 3 | 2 | 1 | N4 | 🟡 | 2026-09-12 | 2026-09-20 | — | 0 |
 | remember | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | spend | CONF | 6 | 3 | 3 | 0 | N4 | 🟡 | 2026-09-12 | 2026-09-20 | — | 0 |
-| waste | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
+| waste | CONF | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-14 | 2026-09-16 | — | 0 |
 | make | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | do | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | hear | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -76,9 +76,9 @@ rodeo más reciente.
 | know | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | steal | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | rob | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| afford | PER | 6 | 3 | 0 | 3 | N1 | 🔴 | 2026-09-12 | 2026-09-13 | I can't borrow a trip | 0 |
-| mind | PER | 4 | 0 | 2 | 2 | N1 | 🟡 | 2026-09-12 | 2026-09-13 | i can deal with no subtatile film | 0 |
-| avoid | PER | 6 | 3 | 2 | 1 | N2 | 🟡 | 2026-09-12 | 2026-09-14 | — | 0 |
+| afford | PER | 7 | 4 | 0 | 3 | N2 | 🟡 | 2026-09-14 | 2026-09-16 | I can't borrow a trip | 0 |
+| mind | PER | 5 | 0 | 3 | 2 | N1 | 🟡 | 2026-09-14 | 2026-09-15 | i can deal with no subtatile film | 0 |
+| avoid | PER | 7 | 3 | 3 | 1 | N2 | 🟡 | 2026-09-14 | 2026-09-16 | — | 0 |
 | assume | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | involve | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | require | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -89,8 +89,8 @@ rodeo más reciente.
 | reckon | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | realize | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | notice | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| wonder | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| owe | PER | 6 | 2 | 1 | 3 | N2 | 🟡 | 2026-09-12 | 2026-09-14 | I borrow my brother twenty euros, I have not paid back him yet | 0 |
+| wonder | PER | 1 | 0 | 0 | 1 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | i ask my self if | 0 |
+| owe | PER | 7 | 2 | 1 | 4 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | I borrow my brother 20 euros since july | 0 |
 | deserve | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | miss | PER | 4 | 3 | 1 | 0 | N4 | 🟡 | 2026-09-11 | 2026-09-19 | — | 0 |
 | rush | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -99,14 +99,14 @@ rodeo más reciente.
 | attend | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | achieve | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | improve | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| complain | PER | 7 | 1 | 5 | 1 | N2 | 🟡 | 2026-09-12 | 2026-09-14 | — | 0 |
+| complain | PER | 8 | 2 | 5 | 1 | N3 | 🟡 | 2026-09-14 | 2026-09-18 | — | 0 |
 | warn | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | refuse | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | work out | PHR | 6 | 3 | 1 | 2 | N4 | 🟡 | 2026-09-12 | 2026-09-20 | — | 0 |
-| come up with | PHR | 3 | 1 | 0 | 2 | N2 | 🟡 | 2026-09-11 | 2026-09-13 | i could say nothing | 0 |
-| put off | PHR | 1 | 0 | 0 | 1 | N1 | 🔴 | 2026-09-12 | 2026-09-13 | I have been avoiding this conversation | 0 |
+| come up with | PHR | 4 | 1 | 0 | 3 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | i couldn't say anything | 0 |
+| put off | PHR | 2 | 0 | 0 | 2 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | I have been avoiding the conversation | 0 |
 | get away with | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| figure out | PHR | 1 | 0 | 0 | 1 | N1 | 🔴 | 2026-09-12 | 2026-09-13 | I finally realize why | 0 |
+| figure out | PHR | 2 | 1 | 0 | 1 | N2 | 🟡 | 2026-09-14 | 2026-09-16 | I finally realize why | 0 |
 | deal with | PHR | 6 | 3 | 1 | 2 | N4 | 🟡 | 2026-09-11 | 2026-09-19 | — | 0 |
 | run out of | PHR | 7 | 2 | 5 | 0 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 0 |
 | get on with | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -126,7 +126,7 @@ rodeo más reciente.
 | make up | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | point out | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | set up | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| show up | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
+| show up | PHR | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-14 | 2026-09-16 | — | 0 |
 | stand out | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | work on | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | get by | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -138,8 +138,8 @@ rodeo más reciente.
 | imply | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | undermine | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | address | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| tackle | OPI | 1 | 1 | 0 | 0 | N2 | 🟡 | 2026-09-12 | 2026-09-14 | — | 0 |
-| highlight | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
+| tackle | OPI | 2 | 1 | 0 | 1 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | i just avoided the problem as everyone | 0 |
+| highlight | OPI | 1 | 0 | 0 | 1 | N1 | 🔴 | 2026-09-14 | 2026-09-15 | the case put the focus in | 0 |
 | dismiss | OPI | 3 | 2 | 0 | 1 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 0 |
 | blame | OPI | 7 | 2 | 3 | 2 | N3 | 🟡 | 2026-09-12 | 2026-09-16 | — | 0 |
 | rely on | OPI | 6 | 2 | 2 | 2 | N3 | 🟡 | 2026-09-11 | 2026-09-15 | — | 1 |
@@ -147,7 +147,7 @@ rodeo más reciente.
 | account for | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | back | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | enforce | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| expose | OPI | 1 | 0 | 0 | 1 | N1 | 🔴 | 2026-09-12 | 2026-09-13 | turns up how | 0 |
+| expose | OPI | 2 | 1 | 0 | 1 | N2 | 🟡 | 2026-09-14 | 2026-09-16 | turns up how | 0 |
 | mislead | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | overstate | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 
@@ -165,3 +165,4 @@ rodeo más reciente.
 | 2026-09-03 | 13 | 8 | 2 | 3 | 3 | 62% | 0 | mind · come up with · owe · borrow · run out of |
 | 2026-09-11 | 15 | 8 | 5 | 2 | 1 | 53% | 0 | owe · lend · mind · avoid · rely on |
 | 2026-09-12 | 15 | 6 | 5 | 4 | 0 | 40% | 4 | afford · figure out · put off · expose · avoid |
+| 2026-09-14 | 15 | 7 | 2 | 6 | 3 | 47% | 4 | put off · owe · come up with · wonder · highlight |

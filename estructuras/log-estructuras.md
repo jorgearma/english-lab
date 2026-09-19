@@ -863,3 +863,67 @@ Seis frases pedidas por él para probar lo anterior. **Es lo que arregló el ata
 **Velocidad:** cuatro frases en una sesión normal, sin desvíos. Las respuestas salieron de una pieza, sin reintentos.
 
 **Progreso B2→C1:** el backshift, que iba por 9 fallos, hoy salió bien las tres veces que tocaba (`was a bot`, `it was a journalist`, `was going to come`) — el recordatorio de arranque funcionó. Los dos errores de tiempo de hoy son nuevos y de otra familia: negar `have` (`hadn't time`) y «nunca ha» → present perfect. El techo sigue siendo el cierre de las estructuras largas (`If I had known` con su `would have NOT`, `no choice but TO`), no el arranque.
+
+## 2026-09-19 — sesión 13 · EXAMEN
+
+**Ronda armada:** 10 de repaso, sin nuevas (14 vencidas): 9 🟡 y 1 ✅ de control (`One thing led to another`, vencida desde el 02-09). 4 frases. Arrancó con el recordatorio de backshift (`tiempos.md`, 9 veces).
+
+### Frase 1 — `I've been meaning to` · `it turns out (that)` · `no wonder`
+- **ES (coach):** «Llevo días queriendo preguntarle por qué estaba tan rara conmigo, y resulta que su hermana le había contado lo de mi cambio de turno antes que yo. Con razón no me hablaba.»
+- **Respuesta del alumno:** «I've been meaning  aks her why she was so wiard with me for days , and it turns out her sister told her about me switch shift before i did it , no wonder she didn't speak me»
+- **Corrección:**
+  - `I've been meaning to` → ⚠️ — colocada y en su tiempo, pero se cayó el `to`: `meaning TO ask`. Misma pieza que el `but TO` de la sesión 12.
+  - `it turns out (that)` → ✅ — `it turns out her sister…`, sin `that`, como se habla.
+  - `no wonder` → ✅ — en su sitio, con la función exacta del «con razón». Lo que sigue lo estropea el verbo, no la estructura.
+- **⏱ Tiempos:** `her sister told her … before I did` → `had told her`. Lo anterior al momento narrado va en `had` + participio. Disparador ES: «le HABÍA contado ANTES que yo».
+- **De pasada, sin puntuar:** `wiard` → *weird*. `about me switch shift` → *about my shift change*. `before I did it` → *before I did*. `she didn't speak me` → *she wasn't talking to me* («no me hablaba» duraba; *speak* siempre con *to*).
+- **Versión nativa completa:** *"**I've been meaning to** ask her for days why she was being so weird with me, and **it turns out** her sister had told her about my shift change before I did. **No wonder** she wasn't talking to me."*
+- **Nota de frase:** 56% · REGULAR 🟠
+
+### Frase 2 — `be supposed to` · `I had no choice but to` · `let alone`
+- **ES (coach):** «Se suponía que el de la moto me cubría la zona del centro, pero no apareció, así que no me quedó otra que hacerme sus pedidos también. No pude ni sentarme, y mucho menos comer algo caliente.»
+- **Respuesta del alumno:** «the bike guys was supposed to cover the center zone , but he didn't show up so i had no choise but to made also  him orders, i couldn't even sit let alone eat something hot»
+- **Corrección:**
+  - `be supposed to` → ✅ — `was supposed to cover`, montada entera. Segunda vez seguida bien.
+  - `I had no choice but to` → ⚠️ — esta vez el `to` está (fallo de la sesión 12 corregido), pero detrás de `to` el verbo va desnudo: `but to MAKE`, no `to made`.
+  - `let alone` → ✅ — detrás del negativo y con la forma calcada: `sit… let alone eat`. Justo lo que faltó en la sesión 12 (`cooking`).
+- **⏱ Tiempos:** `but to made` → `but to make / do`. Detrás de `to` el verbo va en infinitivo desnudo, siempre. Sin disparador ES («que hacerme» ya es infinitivo): regla mecánica.
+- **De pasada, sin puntuar:** `guys` → *guy*. `the center zone` → *the city centre*. `made also him orders` → *do his orders as well* (`also` no va en medio, `him` → *his*, pedidos se *hacen* con *do*). `sit` → *sit down*.
+- **Versión nativa completa:** *"The bike guy **was supposed to** cover the city centre, but he didn't show up, so I **had no choice but to** do his orders as well. I couldn't even sit down, **let alone** eat something hot."*
+- **Nota de frase:** 56% · REGULAR 🟠
+
+### Frase 3 — `At first…, but then…` · `it's not that… it's just that…`
+- **ES (coach):** «Al principio me creí lo del vídeo filtrado del ministro, pero luego me fijé en que los metadatos eran de hace dos años. No es que defienda al tío, es que el que lo subió no lo hizo por casualidad.»
+- **Respuesta del alumno:** «at first i bought  about the leak ministro video , but  then i  checked  the meta-data was two years old , it's no that i deffent that guy it's just who upload the video he didn't for casuality»
+- **Corrección:**
+  - `At first…, but then…` → ✅ — las dos mitades y esta vez con `then` (en la sesión 12 salió `but after`). Corregido de memoria.
+  - `it's not that… it's just that…` → ⚠️ — molde contrapuesto bien, pero `it's no that` es la segunda vez seguida (no es typo, es `NOT`), y la segunda mitad se deshace: `whoever uploaded it…`.
+- **⏱ Tiempos:** `who upload the video` → `whoever uploaded it`. El hilo va en pasado, todos los verbos. Disparador ES: «el que lo SUBIÓ» — una -ó final es un pasado en inglés, siempre.
+- **De pasada, sin puntuar:** `bought about` → *bought the story about* / *bought it*. `ministro` → *minister*. `checked` → *noticed* («me fijé»). `deffent` → *defend*, aquí *I'm defending*. `who upload the video he didn't` → sujeto doble (`who… he`) → *whoever uploaded it didn't…*. `for casuality` → *by accident* / *by chance* (*casualty* = víctima).
+- **Versión nativa completa:** *"**At first** I bought the story about the minister's leaked video, **but then** I noticed the metadata was two years old. **It's not that** I'm defending the guy, **it's just that** whoever uploaded it didn't do it by accident."*
+- **Nota de frase:** 50% · REGULAR 🟠
+
+### Frase 4 — `If I had known…` · `One thing led to another`
+- **ES (coach):** «Si hubiera sabido que iba a acabar así, no le habría dicho nada de su madre. Empezó como una broma, pero una cosa llevó a la otra y terminamos sin hablarnos toda la noche.»
+- **Respuesta del alumno:** «if i had known it was  going to finish like that , i would have said nothing about his mom, it begun like a joke but one thing let to another and we  ended up without speaking each other the whole night»
+- **Corrección:**
+  - `If I had known…` → ✅ — `had known` + `would have` + backshift (`was going to`), y esta vez la negación está: `would have said nothing`. En la sesión 12 decía lo contrario.
+  - `One thing led to another` → ⚠️ — en su sitio, pero el verbo es `led` (lead → led); `let` es otro verbo. Control ✅ no superado: baja a 🟡.
+- **⏱ Tiempos:** `it begun` → `it began / it started`. `begun` es participio; el pasado simple es `began`. Disparador ES: «EmpeZÓ» — pretérito solo, sin `ha` delante → forma de pasado.
+- **De pasada, sin puntuar:** `his mom` → *her mom*. `finish like that` → *end like that*. `like a joke` → *as a joke*. `without speaking each other` → *not speaking to each other*. `ended up` salió solo sin ser objetivo — eso es lo que significa ✅ interiorizada.
+- **Versión nativa completa:** *"**If I had known** it was going to end like that, I **wouldn't have said** anything about her mom. It started as a joke, but **one thing led to another** and we ended up not speaking to each other all night."*
+- **Nota de frase:** 50% · REGULAR 🟠
+
+### Cierre — sesión 13
+
+**Total:** 16/30 · **53%** en 4 frases: 0🌟 · 6✅ · 4⚠️ · 0❌. Segunda sesión seguida sin ningún ❌ y sin ninguna esquiva.
+
+**Progreso escrito por `panel/cierre.sh`:** `it turns out (that)` 🟡→✅ · `let alone` 🟡→✅ · `no wonder` 🟡→✅ · `One thing led to another` ✅→🟡 (control fallado por `let`/`led`) · resto 🟡 con un peldaño arriba (`be supposed to`, `At first…`, `If I had known…`) o abajo (`I've been meaning to`, `I had no choice but to`, `it's not that…`). Invariante: 81 filas, 0 descuadradas.
+
+**Naturalidad:** las dos frases largas de reparto y pareja tienen el ritmo de un nativo — `he didn't show up so I had no choice but to…`, `I couldn't even sit, let alone eat something hot`, `if I had known it was going to…`. Lo que suena a traducido son palabras sueltas (`casuality`, `ministro`, `for casuality`, `without speaking each other`), no la arquitectura.
+
+**Precisión:** cero ❌, cero esquivas, diez estructuras colocadas donde tocan. Los cuatro ⚠️ son de nuevo piezas de una letra o una palabra (`to`, `made`, `no`, `let`). Dato: tres errores de la sesión 12 salieron hoy corregidos de memoria — el `to` de `no choice but to`, el `then` de `at first`, la negación de `if I had known` y el paralelismo de `let alone`. El fallo se movió, no se repitió.
+
+**Velocidad:** cuatro frases de una pieza, sin reintentos ni preguntas entre medias.
+
+**Progreso B2→C1:** hoy no hubo ningún fallo de backshift (`was going to`, `was so weird`, `the metadata was`) por segunda sesión seguida. Los cuatro errores de tiempo son de forma verbal, no de tiempo: `to made`, `begun`, `upload` por `uploaded`, `told` por `had told`. El patrón es el mismo que en las estructuras: la elección del tiempo ya sale, lo que falla es la terminación. Tres 🟡 pasan a ✅ en un día; las dos que llevan más vistas (`be supposed to`, `I had no choice but to`) siguen con más `Mal` que `Bien` y son las que hay que seguir vigilando.

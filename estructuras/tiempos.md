@@ -28,9 +28,9 @@ tenía el ⚠️ antes de tener columna propia.
 | Present perfect por past perfect (relato) | 2 | 2026-08-21 | Relato en pasado: lo anterior a ese pasado es `had` + participio, nunca `has`. | «**llevaba** / **hacía** + tiempo» dentro de un relato → `had been`. |
 | Pasado simple por present perfect | 1 | 2026-08-20 | Sin momento cerrado y con efecto hasta hoy → `have/has` + participio. | «**ha** / **no ha** + participio» sin fecha ni momento concreto → `have/has`. |
 | Concordancia de número | 2 | 2026-08-20 | Sujeto plural, verbo plural: `the routes **were**`. | Sujeto en plural en español. Error tonto, pero sale cada tres frases y delata. |
-| Pasado simple por past perfect (anterioridad) | 1 | 2026-08-20 | Si el hecho ya era verdad ANTES del momento que narras, va `had` + participio, no pasado simple. | «**YA** estaba ahí **DESDE** el principio» — «ya» + «desde» juntos, siempre past perfect. |
+| Pasado simple por past perfect (anterioridad) | 2 | 2026-09-19 | Si el hecho ya era verdad ANTES del momento que narras, va `had` + participio, no pasado simple. | «**YA** estaba ahí **DESDE** el principio» — «ya» + «desde» juntos, siempre past perfect. |
 | Pasado por presente habitual | 2 | 2026-08-21 | Lo que pasa siempre va en presente, aunque suene a anécdota. No es un día concreto. | «Luego **LLEGO** y me **DA** pereza» — presente en español + un «siempre» cerca = presente en inglés. |
-| Presente por pasado en el hilo del relato | 1 | 2026-08-21 | Si el relato va en pasado, TODOS los verbos del hilo van en pasado simple, no solo el primero. | «me **contó**», «me **dijo**» — un pretérito en español es un pasado en inglés, siempre. |
+| Presente por pasado en el hilo del relato | 2 | 2026-09-19 | Si el relato va en pasado, TODOS los verbos del hilo van en pasado simple, no solo el primero. | «me **contó**», «me **dijo**» — un pretérito en español es un pasado en inglés, siempre. |
 | Past perfect por pasado simple (simultaneidad) | 1 | 2026-08-21 | `had` + participio es solo para lo ANTERIOR al relato. Lo que pasa a la vez va en pasado simple. | «**era** por el trabajo» — imperfecto simultáneo, no «había sido». |
 | Present perfect por pasado simple (episodio cerrado) | 1 | 2026-08-21 | Episodio terminado y acotado → pasado simple. El present perfect solo si llega hasta AHORA. | «**Estuve** media hora…» — pretérito cerrado, ya no sigue pasando. |
 | Auxiliar + verbo conjugado | 1 | 2026-08-21 | Detrás de `do/does/did/doesn't` va el verbo DESNUDO: `didn't make`, nunca `doesn't made`. | No hay disparador ES: el español conjuga el verbo principal y arrastra. Regla mecánica. |
@@ -38,6 +38,8 @@ tenía el ⚠️ antes de tener columna propia.
 | Past perfect por present perfect (sin ancla) | 1 | 2026-09-10 | `had` + participio necesita **otro pasado en la frase** del que colgarse. Si no hay ninguno, es `have/has`. | La terminación de *llevar*: «lleVAN / lleVO» → `have` · «lleVABA / lleVABAN» → `had`. Y el escaneo: ¿hay otro pasado en la frase? No → `had` imposible. |
 | Negar `have` sin auxiliar (`hadn't time`) | 1 | 2026-09-13 | `have` como verbo normal se niega con `didn't`: `didn't have time`, nunca `hadn't time`. | «no **tenía** tiempo / no me **dio** tiempo» — negar «tener» es siempre `didn't have`. |
 | Presente por present perfect («nunca ha») | 1 | 2026-09-13 | «nunca ha + participio», sin momento cerrado → `has never` + participio: `he's never said no`. | «nunca me las **HA** negado» — el «ha» ya lo da el español, es literal. |
+| `to` + verbo conjugado | 1 | 2026-09-19 | Detrás de `to` el verbo va en infinitivo desnudo: `but to make`, nunca `to made`. | No hay disparador ES: «que hacerme» ya es infinitivo. Regla mecánica: si ves `to`, el verbo que sigue no se toca. |
+| Participio por pasado simple (`begun`) | 1 | 2026-09-19 | El pasado simple es la segunda forma (`began`), el participio la tercera (`begun`) y solo va detrás de `have`. | «EmpeZÓ» — pretérito solo, sin «ha» delante → forma de pasado, nunca la de participio. |
 
 ## Lo que dice el patrón hoy (2026-08-20)
 

@@ -44,14 +44,14 @@ awk -F'|' 'function t(s){gsub(/^ +| +$/,"",s); return s}
 |---|---|---|---|---|---|---|---|---|---|
 | would have + past participle | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | can't be bothered | 7 | 3 | 1 | 3 | ✅ | 2026-09-03 | 2026-09-11 | — | 1 |
-| it turns out (that) | 7 | 3 | 3 | 1 | 🟡 | 2026-09-10 | 2026-09-14 | — | 0 |
-| let alone | 4 | 2 | 1 | 1 | 🟡 | 2026-09-13 | 2026-09-17 | — | 0 |
-| be supposed to | 7 | 1 | 3 | 3 | 🟡 | 2026-09-13 | 2026-09-15 | — | 0 |
+| it turns out (that) | 8 | 4 | 3 | 1 | ✅ | 2026-09-19 | 2026-09-27 | — | 0 |
+| let alone | 5 | 3 | 1 | 1 | ✅ | 2026-09-19 | 2026-09-27 | — | 0 |
+| be supposed to | 8 | 2 | 3 | 3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
 | end up + -ing | 4 | 4 | 0 | 0 | ✅ | 2026-09-13 | 2026-09-23 | — | 2 |
 | as far as I'm concerned / as far as I know | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| I've been meaning to | 4 | 1 | 2 | 1 | 🟡 | 2026-09-13 | 2026-09-15 | — | 0 |
+| I've been meaning to | 5 | 1 | 3 | 1 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
 | must have / can't have | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| it's not that… it's just that… | 4 | 2 | 2 | 0 | 🟡 | 2026-09-13 | 2026-09-17 | — | 0 |
+| it's not that… it's just that… | 5 | 2 | 3 | 0 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
 | get round to + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | make sb do / get sb to do | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | that said / having said that | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
@@ -89,7 +89,7 @@ awk -F'|' 'function t(s){gsub(/^ +| +$/,"",s); return s}
 | be used to / get used to | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | otherwise | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | tend to | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| no wonder | 4 | 2 | 1 | 1 | 🟡 | 2026-09-10 | 2026-09-14 | — | 2 |
+| no wonder | 5 | 3 | 1 | 1 | ✅ | 2026-09-19 | 2026-09-27 | — | 2 |
 | as long as | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | I could do with | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | it's about time + past | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
@@ -115,11 +115,11 @@ repasan desde su fila original, arriba.
 | Estructura | Veces vista | Bien | Regular | Mal | Estado | Últ. | Próxima revisión | Esquiva | Nativas |
 |---|---|---|---|---|---|---|---|---|---|
 | I didn't mean to… | 4 | 3 | 0 | 1 | ✅ | 2026-09-03 | 2026-09-11 | — | 0 |
-| One thing led to another | 3 | 3 | 0 | 0 | ✅ | 2026-08-25 | 2026-09-02 | — | 2 |
-| If I had known… | 4 | 2 | 1 | 1 | 🟡 | 2026-09-13 | 2026-09-14 | — | 0 |
-| I had no choice but to | 6 | 2 | 2 | 2 | 🟡 | 2026-09-13 | 2026-09-14 | — | 0 |
+| One thing led to another | 4 | 3 | 1 | 0 | 🟡 | 2026-09-19 | 2026-09-27 | — | 2 |
+| If I had known… | 5 | 3 | 1 | 1 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
+| I had no choice but to | 7 | 2 | 3 | 2 | 🟡 | 2026-09-19 | 2026-09-20 | — | 0 |
 | I had no idea (that)… | 5 | 3 | 2 | 0 | ✅ | 2026-09-13 | 2026-09-21 | — | 1 |
-| At first…, but then… | 5 | 1 | 4 | 0 | 🟡 | 2026-09-13 | 2026-09-15 | — | 0 |
+| At first…, but then… | 6 | 2 | 4 | 0 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
 | It makes sense (to)… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | Which meant that… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | It doesn't feel right | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
