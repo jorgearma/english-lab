@@ -166,3 +166,4 @@ rodeo más reciente.
 | 2026-09-11 | 15 | 8 | 5 | 2 | 1 | 53% | 0 | owe · lend · mind · avoid · rely on |
 | 2026-09-12 | 15 | 6 | 5 | 4 | 0 | 40% | 4 | afford · figure out · put off · expose · avoid |
 | 2026-09-14 | 15 | 7 | 2 | 6 | 3 | 47% | 4 | put off · owe · come up with · wonder · highlight |
+| 2026-09-19 | 15 | 5 | 9 | 1 | 1 | 33% | 0 | dismiss · borrow · come up with · owe · mind |

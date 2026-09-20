@@ -927,3 +927,70 @@ Seis frases pedidas por él para probar lo anterior. **Es lo que arregló el ata
 **Velocidad:** cuatro frases de una pieza, sin reintentos ni preguntas entre medias.
 
 **Progreso B2→C1:** hoy no hubo ningún fallo de backshift (`was going to`, `was so weird`, `the metadata was`) por segunda sesión seguida. Los cuatro errores de tiempo son de forma verbal, no de tiempo: `to made`, `begun`, `upload` por `uploaded`, `told` por `had told`. El patrón es el mismo que en las estructuras: la elección del tiempo ya sale, lo que falla es la terminación. Tres 🟡 pasan a ✅ en un día; las dos que llevan más vistas (`be supposed to`, `I had no choice but to`) siguen con más `Mal` que `Bien` y son las que hay que seguir vigilando.
+
+## 2026-09-20 — sesión 14 · EXAMEN
+
+**Ronda armada:** 8 estructuras (no llegaba a 10: solo 5 vencidas y tope de 3 nuevas): 1 🟡 (`I had no choice but to`), 4 ✅ de control vencidas desde el 11 (`can't be bothered`, `I didn't mean to…`, `It wasn't until… that…`, `I was trying to…, but…`) y 3 nuevas ⚪ (`be about to`, `should have / shouldn't have`, `the thing is / the point is`). 4 frases de 2. Arrancó con el recordatorio de backshift (`tiempos.md`, 9 veces).
+
+### Frase 1 — `be about to` · `I had no choice but to`
+- **ES (coach):** «Estaba a punto de acabar el turno cuando entró un pedido doble a la otra punta de la ciudad, y no me quedó otra que cogerlo porque el jefe estaba mirando.»
+- **Respuesta del alumno:** «i was about to finish the shift when i got a duble order for away , i had no choise but to take becasue the boss was waching me»
+- **Corrección:**
+  - `be about to` → ✅ — primera vez que la ve y salió entera y en su tiempo: `was about to finish`.
+  - `I had no choice but to` → ✅ — por fin el molde completo, `to` + verbo desnudo (sesión 12 sin `to`, 13 con `made`).
+- **⏱ Tiempos:** sin errores. `was about to`, `got`, `had`, `was watching`: todo el hilo en pasado.
+- **De pasada, sin puntuar:** `take` → *take **it*** (el objeto no puede desaparecer). `for away` → *from the other side of town*. `the shift` → *my shift*. Typos: `duble`, `choise`, `becasue`, `waching`.
+- **Versión nativa completa:** *"I **was about to** finish my shift when a double order came in from the other side of town, and I **had no choice but to** take it because the boss was watching."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+*Entre frases preguntó por las consonantes finales (`beT`, `abouT`, `shifT`): se le explicó la oclusión sin explosión y el enlazado con vocal siguiente. No afecta a la nota.*
+
+### Frase 2 — `I didn't mean to…` · `should have / shouldn't have`
+- **ES (coach):** «No era mi intención dejarla en visto toda la tarde, pero tendría que haberle escrito antes de salir del curro en vez de esperar a llegar a casa.»
+- **Respuesta del alumno:** «i had no meaning to  let her on read the all evening , i should have wrote her before my shift end   and no wait to get home»
+- **Corrección:**
+  - `I didn't mean to…` → ❌ — «i had no meaning to» no existe: cruce de `I've been meaning to` y `had no choice but to`. Control ✅ fallado → 🔴.
+  - `should have / shouldn't have` → ⚠️ — colocada y con el reproche justo, pero detrás de `have` va participio: `should have WRITTEN / texted`.
+- **⏱ Tiempos:** `should have wrote` → `should have written` (pasado simple por participio; disparador: «tendría que HABER + participio»). `before my shift end` → `before my shift ended` / `before leaving work` (presente por pasado en el hilo; el marco ya iba en pasado).
+- **De pasada, sin puntuar:** `let her on read` → *leave her on read*. `the all evening` → *all evening*. `wrote her` → *texted her*. `and no wait to get home` → *instead of waiting till I got home*.
+- **Versión nativa completa:** *"I **didn't mean to** leave her on read all evening, but I **should have** texted her before leaving work instead of waiting till I got home."*
+- **Nota de frase:** 17% · MUY MAL 💀
+
+### Frase 3 — `I was trying to…, but…` · `It wasn't until… that…`
+- **ES (coach):** «Estaba intentando averiguar de dónde salía la cuenta que había soltado el bulo del ministro, pero no fue hasta que crucé las fotos de perfil cuando vi que detrás de tres cuentas distintas había la misma persona.»
+- **Respuesta del alumno:** «i've been trying to figure out from where show up the account that posted the lies about the minestery,  but it wasn't until i cross the perfil photos when i saw there was 3 differents accounts that belongs to the same person»
+- **Corrección:**
+  - `I was trying to…, but…` → ⚠️ — molde y contraste en su sitio, pero `I've been trying` rompe el marco: el relato ya acabó, era `I was trying`. Control ✅ no superado → 🟡.
+  - `It wasn't until… that…` → ⚠️ — arranque perfecto, pero la segunda pieza es `that`, no `when`. Control ✅ no superado → 🟡.
+- **⏱ Tiempos:** `i've been trying` → `I was trying` (present perfect por pasado, episodio cerrado; disparador «ESTABA intentando»). `i cross` → `I compared` (presente por pasado en el hilo; disparador «cruCÉ»). `that belongs` → `that belonged / was behind` (backshift nº 10; disparador «HABÍA la misma persona»).
+- **De pasada, sin puntuar:** `from where show up the account` → *where the account came from*. `minestery` → *minister* (*ministry* = ministerio). `the lies` → *the hoax*. `perfil photos` → *profile pictures*. `there was 3 differents accounts` → *there were three different accounts* (concordancia + adjetivos sin plural).
+- **Versión nativa completa:** *"I **was trying to** figure out where the account that had posted the hoax about the minister came from, **but it wasn't until** I compared the profile pictures **that** I saw the same person was behind three different accounts."*
+- **Nota de frase:** 33% · MAL 🔴
+
+### Frase 4 — `can't be bothered` · `the thing is / the point is`
+- **ES (coach):** «Ella quiere que salgamos a cenar en cuanto acabe el turno, y a mí me da una pereza que no veas. Lo que pasa es que llevo diez horas subido a la moto y no me apetece ni ducharme.»
+- **Respuesta del alumno:** «she wants to go out after work ,but i can't be bothered it's no that i don't  want to  go out it's just that i've been on my bike for ten hours and i don't felt like  even to take a shower»
+- **Corrección:**
+  - `can't be bothered` → ✅ — en su sitio y sin esquivarla (la frase bloqueaba `didn't feel like` con «pereza que no veas»). Control ✅ superado.
+  - `the thing is / the point is` → ❌ — **esquivada** con `it's not that… it's just that…`, que ya conoce; para que le cupiera se inventó un «I don't want to go out» que no estaba en la frase. Esquiva anotada.
+- **⏱ Tiempos:** `i don't felt like` → `I don't feel like` (auxiliar + verbo conjugado; regla mecánica, sin disparador ES).
+- **Lo que sí:** `I've been on my bike for ten hours` — «llevo diez horas» leído como present perfect a la primera.
+- **De pasada, sin puntuar:** `it's no that` → *it's **not** that* (tercera sesión seguida, ya no es typo). `after work` → *as soon as I finish my shift* (se perdió «en cuanto»). `don't felt like even to take a shower` → *don't even feel like showering*.
+- **Versión nativa completa:** *"She wants to go out for dinner as soon as I finish my shift, and I really **can't be bothered**. **The thing is**, I've been on the bike for ten hours and I don't even feel like showering."*
+- **Nota de frase:** 33% · MAL 🔴
+
+*Después preguntó si lo que dijo con `it's not that…` tenía sentido: sí, es inglés natural, pero es otra herramienta (corrige una suposición; `the thing is` abre la explicación sin defenderse de nada). No afecta a la nota.*
+
+### Cierre — sesión 14
+
+**Total:** 9/24 · **38%** en 4 frases: 0🌟 · 3✅ · 3⚠️ · 2❌. Peor sesión desde la 10, y la primera esquiva desde la 11.
+
+**Progreso escrito por `panel/cierre.sh`:** `can't be bothered` ✅ (un peldaño, 10 días) · `be about to` ⚪→🟡 · `I had no choice but to` 🟡 un peldaño arriba · `should have / shouldn't have` ⚪→🟡 (regular) · `I didn't mean to…` ✅→🔴 (control fallado) · `It wasn't until… that…` ✅→🟡 · `I was trying to…, but…` ✅→🟡 · `the thing is / the point is` ⚪→🔴 con esquiva «it's not that… it's just that…». Invariante: 81 filas, 0 descuadradas. `tiempos.md`: backshift 10, presente por pasado en el hilo 4 (→ recordatorio la próxima sesión), present perfect por pasado 2, auxiliar + conjugado 2, fila nueva «pasado simple por participio» 1.
+
+**Naturalidad:** las frases 1 y 4 suenan a inglés hablado (`I was about to finish my shift when…`, `but I can't be bothered`, `I've been on my bike for ten hours`). Las frases 2 y 3 son español con palabras inglesas: `had no meaning to`, `from where show up the account`, `the all evening`.
+
+**Precisión:** de los cuatro controles ✅ solo aguantó uno (`can't be bothered`). `I didn't mean to…` se cayó del todo; las dos de relato (`It wasn't until… that`, `I was trying to…`) salieron a medias y por piezas distintas (`when` por `that`, `I've been` por `I was`). Las nuevas: `be about to` entra limpia; `should have` con participio mal; `the thing is` esquivada.
+
+**Velocidad:** cuatro frases de una pieza, sin reintentos. La pregunta de pronunciación y la de `it's not that` fueron después de la nota, no antes.
+
+**Progreso B2→C1:** lo que va bien es lo que ya estaba: `I had no choice but to` por fin completa tras tres sesiones de una pieza cada vez, `can't be bothered` sin esquivar. Lo que se oxidó es el bloque de relato que llevaba 17 días sin verse — el intervalo de 8 días no lo aguantó. Y los tiempos vuelven: 6 errores en 4 frases después de dos sesiones casi limpias; tres de ellos en la misma frase 3 (present perfect, presente, backshift), justo la frase de OSINT, que es donde el contenido sube y el inglés baja (§1). El «no mira el verbo español antes de traducir» de agosto sigue vigente cuando la idea es compleja.

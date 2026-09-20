@@ -1521,3 +1521,241 @@ veces), `-ing` tras `mind` (4º día), `the` + día de la semana (3ª vez).
 with`, `tackle`, `wonder`, `highlight` y `mind`; el 16 `afford`, `figure out`,
 `expose`, `waste`, `show up` y `avoid`. Ingesta pendiente: `sync` en la
 próxima (van tres sesiones diciéndolo).
+
+---
+
+## 2026-09-19 — sesión 11 · EXAMEN
+
+**Ronda:** 26 vencidos → solo repaso, 0 nuevos. Los 6 🔴 (`wonder`, `owe`,
+`come up with`, `put off`, `tackle`, `highlight`) + 9 🟡 por antigüedad y
+sustituto (`borrow`, `mind`, `run out of`, `pick up`, `argue`, `dismiss`,
+`rely on`, `afford`, `figure out`). Fuera por falta de hueco: `lend`, `bring`,
+`waste`, `avoid`, `miss`, `complain`, `deal with`, `show up`, `claim`, `blame`,
+`expose`. Sin ✅ de control (no hay ninguno). Ingesta sigue pendiente (`sync`).
+
+**Resultado:** 5 ✅ · 9 ⚠️ · 1 ❌ · 1 rodeo · **33%** sobre 15 ítems
+(13% → 20% → 40% → 53% → 53% → 62% → 53% → 40% → 47% → **33%**). El % baja
+pero el dato es otro: **14 de 15 verbos salieron**. Un solo ❌ frente a los 6
+del 14-09.
+
+**Lo que ha cambiado:** los nueve sustitutos archivados **no han aparecido
+ninguno**: ni `borrow` por `owe`, ni `avoiding` por `put off`, ni `deal with`
+por `mind`, ni `I ask myself` por `wonder`, ni `say anything` por `come up
+with`, ni `avoided` por `tackle`, ni `put the focus` por `highlight`, ni
+`realize` por `figure out`, ni `borrow a trip` por `afford`. Los seis 🔴 del
+14-09 salen todos del pozo (a 🟡). `Sustituto` limpiado en las nueve filas.
+
+**Lo que no:** el verbo sale y se cae el montaje — por eso 9 ⚠️. Tres familias:
+(1) **la partícula**: `putting of`, `ran out battery`, `came up anything`,
+`pick up you`; (2) **la terminación**: `oweing`, `figure out` en presente,
+`highlight` sin -s, `mind work` sin -ing (5º día); (3) **el molde de
+borrow/lend**: «I borrowed my workmate a bike» — el mismo cruce que consta en
+la fila de `lend`. Mecánica: **verbo desnudo tras modal** (2 veces: «could you
+sent», «couldn't came»); `had` + participio para lo anterior a un pasado (2
+veces, frases 3 y 10).
+
+**Dudas de Jorge (no cambian nota):** ítem 8, pidió más ejemplos de borrow/lend
+y sacó él solo la regla («la forma en que lo dije es como si hubiera prestado
+a mi compañero»). Ítem 10, qué significa `dismiss`. Ítem 12, objetó al «what
+I've earned» («ya lo ganaste, es algo cerrado»): se le explicó que el compuesto
+mira si el **periodo** está abierto (this month, today), no la acción — y la
+excepción de la hora exacta («I ate at two today»). Lo apuntó como nuevo.
+
+### Tanda 1 — 40% REGULAR 🟠
+
+```
+1  ⚠️  owe           ES  «Todavía le debo dinero a mi hermano.»
+                     ✗ i still oweing money my brother
+                     ✓ I still owe my brother money.
+                     ~ ai STIL OU mai BRA-dher MA-ni
+                     sin el "borrow" del 14-09 · "oweing" → owe, verbo de
+                     estado sin -ing · "money my brother" → owe SB STH,
+                     persona primero
+
+2  ⚠️  run out of    SIT  phone died mid-shift, had to ask a shopkeeper for
+                          the address. Say what happened and why.
+                     ✗ sorry man but my phone ran out battery , could you sent
+                       the costumer's address please ??
+                     ✓ Sorry man, my phone ran out of battery — could you look
+                       up the customer's address for me?
+                     ~ SO-ri MAN, mai FOUN ran-AUT-ov BA-tri
+                     lo contó hablándole al tendero, vale · "ran out battery"
+                     → ran out OF · "could you sent" → send · "costumer" →
+                     customer
+
+3  ✅  argue         ES  «Ella argumentó que los datos estaban mal leídos,
+                          aunque nadie la escuchó.»
+                     ✗ she argued the data was no well reading though no one
+                       lisened her
+                     ✓ She argued the data had been misread, though no one
+                       listened to her.
+                     ~ shi AR-guiud dha DEI-ta had-bin mis-RED
+                     argue en el sentido de sostener, sin "that" · "was no
+                     well reading" → had been misread · "listened her" →
+                     listened TO her
+
+4  ⚠️  put off       SIT  moving-in talk moved to next week three times.
+                          Say what you keep doing.
+                     ✗ i'm putting of the conversacion about moving together
+                     ✓ I keep putting off the conversation about moving in
+                       together.
+                     ~ ai KIIP PU-tin-OF dha kon-ver-SEI-shon
+                     sin el "avoiding" del 14-09 (dos sesiones seguidas con
+                     ese rodeo) · "putting of" → OFF, of es otra palabra ·
+                     "I'm putting" → I keep putting: tres veces = repetición
+                     · "moving together" → moving IN together
+
+5  ⚠️  mind          ES  «A mí no me importa trabajar el domingo.»
+                     ✗ i don't maind work the sunday
+                     ✓ I don't mind working on Sunday.
+                     ~ ai dount MAIND UER-kin on SAN-dei
+                     sin el "deal with" del 14-09 · "mind work" → mind
+                     workING (5º día seguido sin -ing) · "the sunday" → on
+                     Sunday · mind ≠ I don't care (a la pareja le suena a
+                     desprecio)
+```
+
+### Tanda 2 — 33% MAL 🔴
+
+```
+6  ⚠️  figure out    SIT  two weeks watching how the app assigns orders,
+                          finally understood it. Say it.
+                     ✗ i finally figure out how the  assings works
+                     ✓ I finally figured out how the app assigns the orders.
+                     ~ ai FAI-na-li FI-guerd-AUT hau dhi AP a-SAINZ dhi OR-derz
+                     sin el "realize" del 14-09 · "figure out" → figurED out,
+                     ya pasó · "how the assings works" → how the app assigns:
+                     falta el sujeto, assign es verbo
+
+7  ⚠️  highlight     ES  «Ese caso pone de relieve un problema más grande.»
+                     ✗ that case highlight a bigger problemt
+                     ✓ That case highlights a bigger problem.
+                     ~ dhat KEIS HAI-laits a BI-guer PRO-blem
+                     sin el "put the focus in" del 14-09 · "highlight" →
+                     highlightS, 3ª persona · "problemt" → problem
+
+8  ⚠️  borrow        SIT  bike broke, used a workmate's spare for the shift,
+                          give it back tonight. Say what you did.
+                     ✗ i borrowed my workmate a bike for th whole shift and  i
+                       gave him back at night after i finished my shift
+                     ✓ I borrowed a workmate's bike for the whole shift and
+                       gave it back to him when I finished.
+                     ~ ai BO-roud a UERK-meits BAIK for-dha JOUL SHIFT
+                     dirección correcta (borrow, no lend) pero con el molde
+                     de lend: "borrowed my workmate a bike" → borrowed a
+                     bike FROM my workmate · "gave him back" → gave IT back
+                     to him · es el mismo cruce archivado en `lend`
+
+9  ✅  wonder        ES  «Me pregunto si ella ya lo sabía.»
+                     ✗ i wonder if she knew it
+                     ✓ I wonder if she already knew.
+                     ~ ai UAN-der if-shi ol-RE-di NIU
+                     wonder if + cláusula entero, sin el "I ask myself if"
+                     del 14-09 · "knew it" → knew · faltó "already" · dudó
+                     entre knew / knows: «sabía» = knew
+
+10 ❌  dismiss       SIT  government said the leak was fake within an hour,
+                          nobody had checked the documents. Say what the
+                          government did with the story.
+                     ✗ government claims  the history was fake ,although
+                       nobody has read the papers
+                     ✓ The government dismissed the story as fake, although
+                       nobody had checked the documents.
+                     ~ dha GA-vern-ment dis-MIST dha STO-ri az-FEIK
+                     rodeo con otro verbo del banco: claim (afirmar) por
+                     dismiss (descartar sin mirar) · "history" → story ·
+                     "has read" → had checked · la subordinada "although"
+                     sí está
+```
+
+### Tanda 3 — 53% REGULAR 🟠
+
+```
+11 ⚠️  come up with  SIT  girlfriend asked why you were two hours late, no
+                          excuse ready. Say what you couldn't do.
+                     ✗ i couldn't came up  anything
+                     ✓ I couldn't come up with anything.
+                     ~ ai KU-dent kam-AP-uidh E-ni-thin
+                     sin el "couldn't say anything" del 14-09 y del 03-09 ·
+                     "couldn't came" → couldn't COME (2ª vez hoy tras modal)
+                     · "come up anything" → come up WITH: sin with es otro
+                     verbo (surgir)
+
+12 ✅  afford        ES  «Este mes no me puedo permitir un viaje, con lo que
+                          he ganado.»
+                     ✗ this moth i can't affort the travel wint what i earned
+                     ✓ This month I can't afford a trip, with what I've earned.
+                     ~ dhis MANTH ai kant a-FORD a TRIP, uidh UOT aiv ERND
+                     can't afford + cosa, sin el "borrow a trip" del 14-09 ·
+                     "affort" → afforD · "the travel" → a trip · "what I
+                     earned" → what I've earned (periodo abierto) — objetó,
+                     explicado
+
+13 ✅  rely on       SIT  40-page OSINT report, every claim from the same
+                          anonymous Telegram channel. Say what the report
+                          does and why that's a problem.
+                     ✗ the whole report relais on anonymmous telegram  channel
+                     ✓ The whole report relies on one anonymous Telegram
+                       channel, so if that channel is wrong, everything is.
+                     ~ dha JOUL ri-PORT ri-LAIZ on UAN a-NO-ni-mos CHA-nel
+                     rely ON + fuente, presente · "relais" → relies · falta
+                     "one" · no dijo por qué es un problema (recortado)
+
+14 ✅  tackle        ES  «Nadie quiere atacar el problema de frente.»
+                     ✗ no one wanna tackle the problemt direckly
+                     ✓ No one wants to tackle the problem head-on.
+                     ~ NOU-uan UONTS tu TA-kel dha PRO-blem jed-ON
+                     tackle + problema directo, sin el "avoided" del 14-09 ·
+                     "no one wanna" → no one wants to (wanna no existe en 3ª
+                     persona) · "directly" → head-on · "problemt" 2ª vez
+
+15 ⚠️  pick up       ES  «Te recojo a las ocho, pero si llueve avísame.»
+                     ✗ i'll pick up you at eight o'clock but if it start to
+                       rain let me know
+                     ✓ I'll pick you up at eight, but if it rains, let me know.
+                     ~ ail pik-yu-AP at-EIT, bat if-it-REINZ, let-mi-NOU
+                     recoger, en futuro · "pick up you" → pick YOU up:
+                     pronombre en medio, mismo molde que put IT off ·
+                     "if it start" → if it rains · "o'clock" sobra
+```
+
+### TOP 5 Weak Verbs
+
+```
+1  ❌  dismiss       The government dismissed the story as fake.
+                     ~ dha GA-vern-ment dis-MIST dha STO-ri az-FEIK
+                     «claims the story was fake» — rodeo nuevo, con otro verbo
+                     del banco. 🟡 → 🔴
+2  ⚠️  borrow        I borrowed a bike from my workmate.
+                     ~ ai BO-roud a BAIK from-mai UERK-meit
+                     «borrowed my workmate a bike» — molde de lend con verbo
+                     de borrow. 4 ⚠️ en 7
+3  ⚠️  come up with  I couldn't come up with anything.
+                     ~ ai KU-dent kam-AP-uidh E-ni-thin
+                     «couldn't came up anything» — sin with y con came tras
+                     modal. Primer día sin rodeo en 5 vistas
+4  ⚠️  owe           I still owe my brother money.
+                     ~ ai STIL OU mai BRA-dher MA-ni
+                     «oweing money my brother» — primer día sin borrow en 8
+                     vistas; -ing en verbo de estado y orden invertido
+5  ⚠️  mind          I don't mind working on Sunday.
+                     ~ ai dount MAIND UER-kin on SAN-dei
+                     «maind work» — 5º día seguido sin -ing. 6 vistas, 0 ✅
+```
+
+**Patrón de evasión:** hoy **no hay evasión**: cero sustitutos archivados
+repetidos, y el único ❌ es un rodeo nuevo entre dos verbos del mismo banco
+(`claim` por `dismiss`). El problema ha cambiado de sitio: del **rodeo** al
+**montaje** — 9 ⚠️ que son partícula (`of`, `with`, `up you`), terminación
+(`-ing`, `-s`, `-ed`) o el molde persona/cosa de borrow/lend. El % de acierto
+cae al 33% justo porque los verbos que antes eran ❌ limpio hoy son ⚠️: es
+una bajada que significa subida. Mecánica del día: verbo desnudo tras modal
+(2), `had` + participio (2), `mind` + -ing (5º día).
+
+**Nota de método:** `mind` lleva 6 vistas con 0 `Bien` y 4 `Regular` — es el
+perfil exacto de *estancado* de `logica-panel.md` §5: sabe el verbo, nunca
+monta el -ing. Candidato a `/drill` formato patrón. Vencen mañana (2026-09-20)
+`owe`, `mind`, `come up with`, `put off`, `highlight`, `dismiss`, más los que
+ya estaban fuera de hoy (`lend`, `bring`, `waste`, `avoid`, `miss`,
+`complain`, `deal with`, `show up`, `claim`, `blame`, `expose`, `remind`,
+`spend`, `work out`). Ingesta pendiente: `sync` (cuatro sesiones diciéndolo).
