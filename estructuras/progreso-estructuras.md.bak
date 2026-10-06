@@ -43,7 +43,7 @@ awk -F'|' 'function t(s){gsub(/^ +| +$/,"",s); return s}
 | Estructura | Veces vista | Bien | Regular | Mal | Estado | Últ. | Próxima revisión | Esquiva | Nativas |
 |---|---|---|---|---|---|---|---|---|---|
 | would have + past participle | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| can't be bothered | 7 | 3 | 1 | 3 | ✅ | 2026-09-03 | 2026-09-11 | — | 1 |
+| can't be bothered | 8 | 4 | 1 | 3 | ✅ | 2026-09-20 | 2026-09-30 | — | 1 |
 | it turns out (that) | 8 | 4 | 3 | 1 | ✅ | 2026-09-19 | 2026-09-27 | — | 0 |
 | let alone | 5 | 3 | 1 | 1 | ✅ | 2026-09-19 | 2026-09-27 | — | 0 |
 | be supposed to | 8 | 2 | 3 | 3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
@@ -58,11 +58,11 @@ awk -F'|' 'function t(s){gsub(/^ +| +$/,"",s); return s}
 | I wish + past / past perfect | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | be worth + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | keep + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| the thing is / the point is | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
+| the thing is / the point is | 1 | 0 | 0 | 1 | 🔴 | 2026-09-20 | 2026-09-21 | it's not that… it's just that… | 0 |
 | might as well | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | have / get something done | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | no matter how / what / who | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| be about to | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
+| be about to | 1 | 1 | 0 | 0 | 🟡 | 2026-09-20 | 2026-09-22 | — | 0 |
 | can't help + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | have nothing to do with | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | would rather | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
@@ -76,7 +76,7 @@ awk -F'|' 'function t(s){gsub(/^ +| +$/,"",s); return s}
 | be bound to | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | there's no point in + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | by the time | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| should have / shouldn't have | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
+| should have / shouldn't have | 1 | 0 | 1 | 0 | 🟡 | 2026-09-20 | 2026-09-21 | — | 0 |
 | the more…, the more… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | feel like + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | manage to / fail to | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
@@ -114,10 +114,10 @@ repasan desde su fila original, arriba.
 
 | Estructura | Veces vista | Bien | Regular | Mal | Estado | Últ. | Próxima revisión | Esquiva | Nativas |
 |---|---|---|---|---|---|---|---|---|---|
-| I didn't mean to… | 4 | 3 | 0 | 1 | ✅ | 2026-09-03 | 2026-09-11 | — | 0 |
+| I didn't mean to… | 5 | 3 | 0 | 2 | 🔴 | 2026-09-20 | 2026-09-21 | — | 0 |
 | One thing led to another | 4 | 3 | 1 | 0 | 🟡 | 2026-09-19 | 2026-09-27 | — | 2 |
 | If I had known… | 5 | 3 | 1 | 1 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
-| I had no choice but to | 7 | 2 | 3 | 2 | 🟡 | 2026-09-19 | 2026-09-20 | — | 0 |
+| I had no choice but to | 8 | 3 | 3 | 2 | 🟡 | 2026-09-20 | 2026-09-22 | — | 0 |
 | I had no idea (that)… | 5 | 3 | 2 | 0 | ✅ | 2026-09-13 | 2026-09-21 | — | 1 |
 | At first…, but then… | 6 | 2 | 4 | 0 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
 | It makes sense (to)… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
@@ -130,8 +130,8 @@ repasan desde su fila original, arriba.
 | I didn't expect to… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | I wasn't planning on | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | as much as | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| It wasn't until… that… | 7 | 3 | 1 | 3 | ✅ | 2026-09-03 | 2026-09-11 | — | 0 |
+| It wasn't until… that… | 8 | 3 | 2 | 3 | 🟡 | 2026-09-20 | 2026-09-28 | — | 0 |
 | All in all,… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | What surprised me the most was | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| I was trying to…, but… | 3 | 3 | 0 | 0 | ✅ | 2026-09-03 | 2026-09-11 | — | 0 |
+| I was trying to…, but… | 4 | 3 | 1 | 0 | 🟡 | 2026-09-20 | 2026-09-28 | — | 0 |
 | I think / I don't think… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |

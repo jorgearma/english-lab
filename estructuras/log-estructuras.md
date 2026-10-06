@@ -994,3 +994,67 @@ Seis frases pedidas por él para probar lo anterior. **Es lo que arregló el ata
 **Velocidad:** cuatro frases de una pieza, sin reintentos. La pregunta de pronunciación y la de `it's not that` fueron después de la nota, no antes.
 
 **Progreso B2→C1:** lo que va bien es lo que ya estaba: `I had no choice but to` por fin completa tras tres sesiones de una pieza cada vez, `can't be bothered` sin esquivar. Lo que se oxidó es el bloque de relato que llevaba 17 días sin verse — el intervalo de 8 días no lo aguantó. Y los tiempos vuelven: 6 errores en 4 frases después de dos sesiones casi limpias; tres de ellos en la misma frase 3 (present perfect, presente, backshift), justo la frase de OSINT, que es donde el contenido sube y el inglés baja (§1). El «no mira el verbo español antes de traducir» de agosto sigue vigente cuando la idea es compleja.
+
+## 2026-10-02 — sesión 15 · EXAMEN
+
+**Ronda armada:** 10 estructuras, solo repaso (20 vencidas → no entran nuevas, §6). 2 🔴 (`the thing is / the point is`, `I didn't mean to…`) + 8 🟡 más atrasadas (`I've been meaning to`, `should have / shouldn't have`, `If I had known…`, `be about to`, `I had no choice but to`, `be supposed to`, `it's not that… it's just that…`, `At first…, but then…`). Fuera quedan 3 🟡 y 7 ✅ vencidas. 4 frases (3-3-2-2). Arrancó con los recordatorios de backshift (10) y presente por pasado en el hilo (4). La esquiva de `the thing is` (`it's not that…`) se bloqueó metiendo las dos en frases distintas y sin «no es que» en la frase 1.
+
+### Frase 1 — `I didn't mean to…` · `the thing is / the point is` · `I've been meaning to`
+- **ES (coach):** «Anoche no era mi intención hacerla sentir ignorada, de verdad. Lo que pasa es que llevo semanas queriendo sacarle el tema del viaje y nunca encuentro el momento.»
+- **Respuesta del alumno:** «i didn't mean to ignore her the last night the thing is  i've been meaning to speak about the travel thing and i never found the moment»
+- **Corrección:**
+  - `I didn't mean to…` → ✅ — molde entero; matiz: era *make her feel ignored*, no *ignore her*. Sale del 🔴.
+  - `the thing is / the point is` → ✅ — usada sin esquivar. Esquiva limpiada.
+  - `I've been meaning to` → ✅ — correcta; faltó *for weeks*, y *speak about* → *bring up*.
+- **⏱ Tiempos:** `i never found` → `I never find` (pasado por presente habitual, nº 3; disparador «nunca ENCUENTRO»).
+- **De pasada, sin puntuar:** `the last night` → *last night*. `the travel thing` → *the trip*.
+- **Versión nativa completa:** *"I **didn't mean to** make her feel ignored last night, honestly. **The thing is**, **I've been meaning to** bring up the trip for weeks and I just never find the right moment."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+### Frase 2 — `be supposed to` · `be about to` · `I had no choice but to`
+- **ES (coach):** «Se suponía que hoy acababa a las tres, pero justo cuando estaba a punto de fichar, el jefe me endosó veinte entregas más y no me quedó otra que comérmelas.»
+- **Respuesta del alumno:** «it was supposed to finish at 3 but when i was about to clock of  the boss gave me 20 extra task and i had no choise but to do it»
+- **Corrección:**
+  - `be supposed to` → ⚠️ — molde bien, sujeto mal: `it` no se refiere a nada → *I was supposed to*. Faltó *today*.
+  - `be about to` → ✅ — correcta; «justo cuando» → *just as*.
+  - `I had no choice but to` → ✅ — correcta; objeto plural → *do them / take them on*.
+- **⏱ Tiempos:** sin errores, todo el hilo en pasado.
+- **De pasada, sin puntuar:** `20 extra task` → *twenty more deliveries*. `gave me` → *dumped … on me*. `clock of` → *clock off*.
+- **Versión nativa completa:** *"**I was supposed to** finish at three today, but just as **I was about to** clock off, my boss dumped twenty more deliveries on me and **I had no choice but to** take them on."*
+- **Nota de frase:** 56% · REGULAR 🟠
+
+### Frase 3 — `At first…, but then…` · `it's not that… it's just that…`
+- **ES (coach):** «Al principio me tragué la noticia, pero luego vi que la foto era de 2019. No es que el periódico mintiera a propósito, es que nadie se molestó en comprobarla.»
+- **Respuesta del alumno:** «at firts i bought the news , but then i saw the photo was from 2019. it's no that the peaper was  leing on propost it's just that nobody cheked it»
+- **Corrección:**
+  - `At first…, but then…` → ✅ — limpia; `bought` por «me lo creí», bien elegido.
+  - `it's not that… it's just that…` → ✅ — las dos mitades en su sitio. `it's no that` contado como typo. **Nota del coach al cerrar:** la sesión 14 ya lo marcó como «tercera sesión seguida, ya no es typo»; esta es la cuarta. Debió ser ⚠️. No se recalcula (CLAUDE.md); a partir de ahora `it's no that` es ⚠️.
+- **⏱ Tiempos:** sin errores. **Backshift acertado:** `I saw the photo was from 2019`.
+- **De pasada, sin puntuar:** `the news` → *the story*. `nobody checked it` → *nobody bothered to check it*. Typos: `firts`, `peaper`, `leing`, `propost`, `cheked`.
+- **Versión nativa completa:** *"**At first** I bought the story, **but then** I saw the photo was from 2019. **It's not that** the paper lied on purpose, **it's just that** nobody bothered to check it."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+### Frase 4 — `If I had known…` · `should have / shouldn't have`
+- **ES (coach):** «Si hubiera sabido que su madre venía el domingo, habría limpiado el piso el sábado. Tendría que haberle preguntado antes de quedar con los colegas.»
+- **Respuesta del alumno:** «if i had known that your mom was  geting here i would have cleaned the floor the saturday  i should have asked before metting wint the colegues»
+- **Corrección:**
+  - `If I had known…` → ✅ — correcta, con `would have cleaned` bien detrás.
+  - `should have / shouldn't have` → ✅ — participio bien esta vez (`asked`); faltó el objeto: *asked you / her*.
+- **⏱ Tiempos:** sin errores. Backshift acertado otra vez: `your mom was getting here`.
+- **De pasada, sin puntuar:** `the floor` → *the flat*. `the saturday` → *on Saturday* (primo de `the last night`). `colegues` → *the guys / my mates*. `meeting with` → *making plans with*. Faltó *on Sunday*.
+- **Versión nativa completa:** *"**If I'd known** your mom was coming on Sunday, I'd have cleaned the flat on Saturday. **I should've asked** you before making plans with the guys."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+### Cierre — sesión 15
+
+**Total:** 19/30 · **63%** en 4 frases: 0🌟 · 9✅ · 1⚠️ · 0❌. Primera sesión sin ningún ❌.
+
+**Progreso escrito por `panel/cierre.sh`:** `I didn't mean to…` 🔴→🟡 · `the thing is / the point is` 🔴→🟡, esquiva limpiada · `it's not that… it's just that…` 🟡→✅ · `At first…, but then…` 🟡→✅ · `be supposed to` 🟡 (regular, 4 días) · resto 🟡 un peldaño arriba. Invariante: 81 filas, 0 descuadradas. `tiempos.md`: pasado por presente habitual → 3 (→ recordatorio la próxima sesión).
+
+**Naturalidad:** las estructuras suenan a inglés hablado; lo que delata el español es el léxico de alrededor: `the travel thing`, `the floor`, `colegues`, `the news`, y los artículos (`the last night`, `the saturday`).
+
+**Precisión:** 9 de 10 bien. El único ⚠️ fue de sujeto (`it was supposed to`), no del molde. `I didn't mean to…` y `the thing is` se recuperan del 🔴 de la sesión 14.
+
+**Velocidad:** cuatro frases de una pieza, sin preguntas entre medias.
+
+**Progreso B2→C1:** los tiempos, casi limpios: un solo error en 4 frases (frente a 6 en la 14) y dos backshifts acertados seguidos después de 10 fallos. El techo ahora es léxico y de precisión: se pierden matices del español (`make her feel ignored`, `bothered to check`, `for weeks`, `on Sunday`) y siguen los artículos con expresiones de tiempo.

@@ -1759,3 +1759,69 @@ monta el -ing. Candidato a `/drill` formato patrón. Vencen mañana (2026-09-20)
 ya estaban fuera de hoy (`lend`, `bring`, `waste`, `avoid`, `miss`,
 `complain`, `deal with`, `show up`, `claim`, `blame`, `expose`, `remind`,
 `spend`, `work out`). Ingesta pendiente: `sync` (cuatro sesiones diciéndolo).
+
+## 2026-10-02 — sesión 12 · EXAMEN
+
+**Ronda:** 29 vencidos → solo repaso, 0 nuevos. El único 🔴 (`dismiss`) + 14 🟡
+por antigüedad: los 11 que se quedaron fuera el 19-09 (`lend`, `bring`,
+`waste`, `avoid`, `miss`, `complain`, `deal with`, `show up`, `claim`,
+`blame`, `expose`) + `owe`, `come up with`, `put off` (vencidos el 20-09, N1).
+Sin ✅ de control (no había ninguno). Ingesta sigue pendiente (`sync`).
+
+**Resultado:** 9 ✅/🌟 (1 🌟) · 4 ⚠️ · 2 ❌ · 2 rodeos · **60%** sobre 15 ítems
+(… 53% → 40% → 47% → 33% → **60%**). Tandas: 40% REGULAR 🟠 · 47% REGULAR 🟠
+· 67% BIEN 🟢. Primeros ✅ del banco: `claim` y `deal with`.
+
+```
+ 1 ⚠️  bring        ES   «bring me a coffe» — presente en historia pasada → brought
+ 2 ❌  dismiss      SIT  «claimed the proof was a lie» — rodeo, 2º día claim por dismiss
+ 3 ⚠️  put off      SIT  «i've been puting off» — sin IT; «call to the bank»
+ 4 ✅  avoid        ES   avoid + -ing limpio · «going in bike» → riding; «fridays at night» → on Friday nights
+ 5 ✅  claim        SIT  N4, present perfect continuous · «don't show» → haven't shown
+ 6 ✅  lend         ES   «lent my workmate the charger» — molde lend SB sth, sin borrow · «had not» → hasn't
+ 7 ❌  expose       SIT  «haighlight on her blog the app was selling» — highlight por expose
+ 8 ✅  owe          ES   «owe 50 euros to my brother» · nativo: owe my brother fifty euros
+ 9 ✅  come up with SIT  entero, con with · «a idea» → an idea
+10 ⚠️  miss         ES   «i shouldn't have missed» — 3er condicional pide wouldn't · «got out… before» → left… earlier
+11 🌟  waste        SIT  «I wasted two hours trying to fix the laptop»
+12 ✅  complain     ES   complain TO, N3 · «the support» → support
+13 ⚠️  blame        ES   «blamed the curies about the delay» → FOR · «problemt» 3ª vez
+14 ✅  show up      SIT  «only two raider showed up» → riders; «the payment» → their pay
+15 ✅  deal with    ES   N4 · «costumers that claim for everything» → customers who complain about
+```
+
+### TOP 5 Weak Verbs
+
+```
+1  ❌  dismiss       The minister dismissed the proof as nonsense.
+                     ~ dha MI-nis-ter dis-MIST dha PRUUF az-NON-sens
+                     «claimed the proof was a lie» — 2º día seguido con claim
+                     en su sitio. Sigue 🔴
+2  ❌  expose        She exposed the app for selling its users' location data.
+                     ~ shi ek-SPOUZD-dhi AP for-SE-lin
+                     «highlighted… the app was selling» — otro cruce OPI. 🟡 → 🔴
+3  ⚠️  put off       I've been putting it off for weeks.
+                     ~ aiv-bin PU-tin-it-OF for-UIKS
+                     sin el IT en medio. 4 vistas, 0 Bien
+4  ⚠️  blame         My boss blamed the couriers for the delay.
+                     ~ mai BOS BLEIMD-dha KU-ri-ers for-dha di-LEI
+                     «about the delay» — la trampa del FOR/ON. 4 ⚠️ en 8
+5  ⚠️  miss          If I'd left earlier, I wouldn't have missed the train.
+                     ~ if-AID LEFT ER-li-er, ai UU-dent-av MIST-dha TREIN
+                     verbo bien, «shouldn't have» en vez de wouldn't
+```
+
+**Patrón de evasión:** los dos ❌ son el mismo patrón: **dentro de OPI, el verbo
+genérico se come al exacto**. `claim` (lo que alguien dice) tapa a `dismiss`
+(lo que se hace con lo que dice otro), y `highlight` (señalar) tapa a `expose`
+(destapar lo escondido). Además, «claim for everything» por «complain» (ítem
+15) es el calco de *reclamar*: `claim` hace de comodín. No reaparece ningún
+sustituto viejo: `lend` sale sin el «I borrowed my workmate» archivado y `owe`
+sin borrow. El montaje sigue siendo el sitio de los ⚠️: partícula/preposición
+(`put IT off`, `blame FOR`), tiempo (`bring` → brought, `shouldn't` → wouldn't).
+Ortografía recurrente: «costumer» ×2, «problemt» (3ª vez), «pruff/prood».
+
+**Vencen mañana (2026-10-03):** `dismiss`, `expose`, `put off`. Siguen
+vencidos sin entrar hoy: `borrow`, `remind`, `spend`, `afford`, `mind`,
+`wonder`, `work out`, `figure out`, `run out of`, `pick up`, `argue`,
+`tackle`, `highlight`, `rely on`.
