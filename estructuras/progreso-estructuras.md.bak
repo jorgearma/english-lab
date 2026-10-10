@@ -46,23 +46,23 @@ awk -F'|' 'function t(s){gsub(/^ +| +$/,"",s); return s}
 | can't be bothered | 8 | 4 | 1 | 3 | ✅ | 2026-09-20 | 2026-09-30 | — | 1 |
 | it turns out (that) | 8 | 4 | 3 | 1 | ✅ | 2026-09-19 | 2026-09-27 | — | 0 |
 | let alone | 5 | 3 | 1 | 1 | ✅ | 2026-09-19 | 2026-09-27 | — | 0 |
-| be supposed to | 8 | 2 | 3 | 3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
+| be supposed to | 9 | 2 | 4 | 3 | 🟡 | 2026-10-02 | 2026-10-06 | — | 0 |
 | end up + -ing | 4 | 4 | 0 | 0 | ✅ | 2026-09-13 | 2026-09-23 | — | 2 |
 | as far as I'm concerned / as far as I know | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| I've been meaning to | 5 | 1 | 3 | 1 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
+| I've been meaning to | 6 | 2 | 3 | 1 | 🟡 | 2026-10-02 | 2026-10-06 | — | 0 |
 | must have / can't have | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| it's not that… it's just that… | 5 | 2 | 3 | 0 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
+| it's not that… it's just that… | 6 | 3 | 3 | 0 | ✅ | 2026-10-02 | 2026-10-10 | — | 0 |
 | get round to + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | make sb do / get sb to do | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | that said / having said that | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | I wish + past / past perfect | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | be worth + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | keep + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| the thing is / the point is | 1 | 0 | 0 | 1 | 🔴 | 2026-09-20 | 2026-09-21 | it's not that… it's just that… | 0 |
+| the thing is / the point is | 2 | 1 | 0 | 1 | 🟡 | 2026-10-02 | 2026-10-04 | — | 0 |
 | might as well | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | have / get something done | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | no matter how / what / who | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| be about to | 1 | 1 | 0 | 0 | 🟡 | 2026-09-20 | 2026-09-22 | — | 0 |
+| be about to | 2 | 2 | 0 | 0 | 🟡 | 2026-10-02 | 2026-10-06 | — | 0 |
 | can't help + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | have nothing to do with | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | would rather | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
@@ -76,7 +76,7 @@ awk -F'|' 'function t(s){gsub(/^ +| +$/,"",s); return s}
 | be bound to | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | there's no point in + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | by the time | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
-| should have / shouldn't have | 1 | 0 | 1 | 0 | 🟡 | 2026-09-20 | 2026-09-21 | — | 0 |
+| should have / shouldn't have | 2 | 1 | 1 | 0 | 🟡 | 2026-10-02 | 2026-10-04 | — | 0 |
 | the more…, the more… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | feel like + -ing | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | manage to / fail to | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
@@ -114,12 +114,12 @@ repasan desde su fila original, arriba.
 
 | Estructura | Veces vista | Bien | Regular | Mal | Estado | Últ. | Próxima revisión | Esquiva | Nativas |
 |---|---|---|---|---|---|---|---|---|---|
-| I didn't mean to… | 5 | 3 | 0 | 2 | 🔴 | 2026-09-20 | 2026-09-21 | — | 0 |
+| I didn't mean to… | 6 | 4 | 0 | 2 | 🟡 | 2026-10-02 | 2026-10-04 | — | 0 |
 | One thing led to another | 4 | 3 | 1 | 0 | 🟡 | 2026-09-19 | 2026-09-27 | — | 2 |
-| If I had known… | 5 | 3 | 1 | 1 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
-| I had no choice but to | 8 | 3 | 3 | 2 | 🟡 | 2026-09-20 | 2026-09-22 | — | 0 |
+| If I had known… | 6 | 4 | 1 | 1 | 🟡 | 2026-10-02 | 2026-10-06 | — | 0 |
+| I had no choice but to | 9 | 4 | 3 | 2 | 🟡 | 2026-10-02 | 2026-10-06 | — | 0 |
 | I had no idea (that)… | 5 | 3 | 2 | 0 | ✅ | 2026-09-13 | 2026-09-21 | — | 1 |
-| At first…, but then… | 6 | 2 | 4 | 0 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
+| At first…, but then… | 7 | 3 | 4 | 0 | ✅ | 2026-10-02 | 2026-10-10 | — | 0 |
 | It makes sense (to)… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | Which meant that… | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |
 | It doesn't feel right | 0 | 0 | 0 | 0 | ⚪ | — | — | — | 0 |

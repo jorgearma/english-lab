@@ -1058,3 +1058,67 @@ Seis frases pedidas por él para probar lo anterior. **Es lo que arregló el ata
 **Velocidad:** cuatro frases de una pieza, sin preguntas entre medias.
 
 **Progreso B2→C1:** los tiempos, casi limpios: un solo error en 4 frases (frente a 6 en la 14) y dos backshifts acertados seguidos después de 10 fallos. El techo ahora es léxico y de precisión: se pierden matices del español (`make her feel ignored`, `bothered to check`, `for weeks`, `on Sunday`) y siguen los artículos con expresiones de tiempo.
+
+## 2026-10-09 — sesión 16 · EXAMEN
+
+**Ronda armada:** 10 estructuras, solo repaso (18 vencidas → no entran nuevas, §6). Las 10 🟡 más atrasadas: `One thing led to another`, `It wasn't until… that…`, `I was trying to…, but…`, `the thing is / the point is`, `should have / shouldn't have`, `I didn't mean to…`, `be supposed to`, `I've been meaning to`, `If I had known…`, `I had no choice but to`. Fuera quedan `be about to` (🟡, 2/2) y 7 ✅ vencidas. 4 frases (3-3-2-2). Arrancó con los recordatorios de backshift (10), presente por pasado en el hilo (4) y pasado por presente habitual (3).
+
+### Frase 1 — `I was trying to…, but…` · `I didn't mean to…` · `the thing is / the point is`
+- **ES (coach):** «Estaba intentando explicarle por qué llegué tan tarde, pero me cortó a la mitad. Y no era mi intención levantarle la voz, eh. Lo que pasa es que llevaba todo el día aguantando a clientes borde.»
+- **Respuesta del alumno:** «i was trying to explain the reason i arrived so late but he interrumped me  in the midle it wasn't my intencion speak up the thing is i've been all day dealing with  angry costumers»
+- **Corrección:**
+  - `I was trying to…, but…` → ✅ — bien montada; `the reason i arrived` → *why I got home*.
+  - `I didn't mean to…` → ❌ — esquivada con `it wasn't my intention` (y sin `to`); `speak up` → *raise my voice*. Esquiva anotada. Ojo coach: la frase ES («no era mi intención») invitaba al calco; la próxima debe bloquearlo.
+  - `the thing is / the point is` → ✅ — bien colocada.
+- **⏱ Tiempos:** `i've been … all day` → `I'd been … all day` (present perfect por past perfect en relato, nº 3; disparador «LLEVABA»).
+- **De pasada, sin puntuar:** «borde» → *rude*, no *angry*. «a la mitad» → *halfway through*. «me cortó» → *cut me off*. Typos: `interrumped`, `midle`, `intencion`, `costumers`.
+- **Versión nativa completa:** *"I **was trying to** explain why I got home so late, **but** he cut me off halfway through. And I **didn't mean to** raise my voice, okay? **The thing is**, I'd been dealing with rude customers all day."*
+- **Nota de frase:** 44% · REGULAR 🟠
+
+### Frase 2 — `be supposed to` · `It wasn't until… that…` · `I had no choice but to`
+- **ES (coach):** «Se supone que el GPS te avisa de las calles cortadas, pero no fue hasta que me metí de lleno en la obra cuando me di cuenta, y no me quedó otra que dar media vuelta con la furgo marcha atrás.»
+- **Respuesta del alumno:** «the gps is supposted to tell you about the  cut streets, but i wasn't until que me metí de lleno en la obra  then i realized it , i had no choise but  turn out with the van»
+- **Corrección:**
+  - `be supposed to` → ✅ — correcta y en presente habitual.
+  - `It wasn't until… that…` → ⚠️ — primera mitad bien, cierre con `then` en vez de `that`; `i wasn't` → *it wasn't*.
+  - `I had no choice but to` → ⚠️ — falta el `to` del molde; `turn out` → *reverse out / turn around*.
+- **⏱ Tiempos:** sin errores. Presente habitual acertado (`is supposed to tell you`).
+- **De pasada, sin puntuar:** tramo léxico en español regalado (*I was right in the middle of the roadworks*), no evaluado. `cut streets` → *road closures*. «avisar» → *warn*. `realized it` → sobra `it`. Typo: `choise`.
+- **Versión nativa completa:** *"The GPS **is supposed to** warn you about road closures, but **it wasn't until** I was right in the middle of the roadworks **that** I realised, and **I had no choice but to** reverse all the way out in the van."*
+- **Nota de frase:** 44% · REGULAR 🟠
+
+### Frase 3 — `I've been meaning to` · `One thing led to another`
+- **ES (coach):** «Llevo meses queriendo ponerme en serio con el OSINT de las elecciones y nunca saco el rato. Anoche abrí un perfil sospechoso por pura curiosidad, una cosa llevó a la otra y a las tres de la mañana seguía mapeando bots.»
+- **Respuesta del alumno:** «i've been meaning to get serius about the eleccions OSINT and i never have time , last night i opened a  suspecios perfil for pure curiosity and one thing led to another and 3 in the morning i still maping bots»
+- **Corrección:**
+  - `I've been meaning to` → ✅ — molde perfecto; vuelve a perder el «llevo meses» → *for months* (como *for weeks* en la sesión 15).
+  - `One thing led to another` → ✅ — limpia y natural (dudé 🌟; §3: en la duda, ✅).
+- **⏱ Tiempos:** `i still maping bots` → `I was still mapping bots` (presente por pasado en el hilo, nº 5; disparador «SEGUÍA»). Presente habitual acertado: `I never have time`.
+- **De pasada, sin puntuar:** `suspecios perfil` → *dodgy / suspicious profile* (orden adj + nombre). `for pure curiosity` → *out of sheer curiosity*. `3 in the morning` → *at three*. Typos: `serius`, `eleccions`, `maping`.
+- **Versión nativa completa:** *"**I've been meaning to** get serious about election OSINT for months, and I just never find the time. Last night I opened a dodgy profile out of sheer curiosity, **one thing led to another**, and at three in the morning I was still mapping bots."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+### Frase 4 — `If I had known…` · `should have / shouldn't have`
+- **ES (coach):** «Si hubiera sabido que lo de su hermana le seguía doliendo tanto, no habría hecho la bromita delante de todos. Tendría que haberme callado y ya.»
+- **Respuesta del alumno:** «if i had known that what happened with him sister still hurt a lot , i wouldn't have done the joke in front of averyone , i just should have shup up»
+- **Corrección:**
+  - `If I had known…` → ✅ — correcta, con `wouldn't have` bien detrás.
+  - `should have / shouldn't have` → ✅ — participio bien (`shut`); orden natural *I should've just…*.
+- **⏱ Tiempos:** sin errores. **Backshift acertado:** `had known` → `still hurt`.
+- **De pasada, sin puntuar:** `done the joke` → *made / cracked that joke*. `a lot` → *so much*. `him sister` → *his sister*. «callarme y ya» → *kept my mouth shut*. Typos: `averyone`, `shup`.
+- **Versión nativa completa:** *"**If I'd known** the thing with his sister was still hurting him so much, I wouldn't have made that joke in front of everyone. **I should've just** kept my mouth shut."*
+- **Nota de frase:** 67% · BIEN 🟢
+
+### Cierre — sesión 16
+
+**Total:** 16/30 · **53%** en 4 frases: 0🌟 · 7✅ · 2⚠️ · 1❌.
+
+**Progreso escrito por `panel/cierre.sh`:** `I didn't mean to…` 🟡→🔴, esquiva «it wasn't my intention» · `be supposed to`, `I've been meaning to`, `One thing led to another`, `If I had known…`, `I was trying to…, but…` 🟡→✅ · `the thing is`, `should have`, `I had no choice but to`, `It wasn't until… that…` siguen 🟡. Invariante: 81 filas, 0 descuadradas. `tiempos.md`: present perfect por past perfect (relato) → 3 · presente por pasado en el hilo → 5.
+
+**Naturalidad:** los moldes suenan nativos cuando salen; lo que delata el español es el léxico (`cut streets`, `done the joke`, `for pure curiosity`, `angry` por «borde») y el orden adjetivo-nombre.
+
+**Precisión:** 7 de 10 bien. Los dos ⚠️ son de la segunda mitad del molde (`that`, `to`): arranca la estructura y la remata a medias.
+
+**Velocidad:** cuatro frases de una pieza; en la frase 2 dejó un tramo en español en vez de inventar.
+
+**Progreso B2→C1:** el backshift (10 fallos) y el presente habitual salieron bien tras recordarlos. El fallo de tiempos se mueve ahora a los verbos de «llevaba / seguía» dentro del relato. Siguen perdiéndose los cuantificadores de tiempo (`for months`) y los matices.
