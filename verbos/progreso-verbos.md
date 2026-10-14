@@ -50,7 +50,7 @@ rodeo más reciente.
 
 | Verbo | Cat | Vistas | Bien | Regular | Mal | Nivel | Estado | Últ. | Próxima revisión | Sustituto | Nativas |
 |---|---|---|---|---|---|---|---|---|---|---|---|
-| borrow | CONF | 7 | 2 | 4 | 1 | N3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
+| borrow | CONF | 8 | 2 | 5 | 1 | N3 | 🟡 | 2026-10-15 | 2026-10-19 | — | 0 |
 | lend | CONF | 9 | 5 | 0 | 4 | N4 | 🟡 | 2026-10-02 | 2026-10-10 | I borrowed my workmate the power bank | 0 |
 | raise | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | rise | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -58,9 +58,9 @@ rodeo más reciente.
 | say | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | bring | CONF | 4 | 2 | 2 | 0 | N3 | 🟡 | 2026-10-02 | 2026-10-06 | — | 0 |
 | take | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| remind | CONF | 6 | 3 | 2 | 1 | N4 | 🟡 | 2026-09-12 | 2026-09-20 | — | 0 |
+| remind | CONF | 7 | 3 | 3 | 1 | N4 | 🟡 | 2026-10-15 | 2026-10-23 | — | 0 |
 | remember | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| spend | CONF | 6 | 3 | 3 | 0 | N4 | 🟡 | 2026-09-12 | 2026-09-20 | — | 0 |
+| spend | CONF | 7 | 3 | 4 | 0 | N4 | 🟡 | 2026-10-15 | 2026-10-23 | — | 0 |
 | waste | CONF | 2 | 2 | 0 | 0 | N3 | 🟡 | 2026-10-02 | 2026-10-06 | — | 1 |
 | make | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | do | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -76,8 +76,8 @@ rodeo más reciente.
 | know | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | steal | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | rob | CONF | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| afford | PER | 8 | 5 | 0 | 3 | N3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
-| mind | PER | 6 | 0 | 4 | 2 | N1 | 🟡 | 2026-09-19 | 2026-09-20 | — | 0 |
+| afford | PER | 9 | 5 | 1 | 3 | N3 | 🟡 | 2026-10-15 | 2026-10-19 | — | 0 |
+| mind | PER | 7 | 0 | 5 | 2 | N1 | 🟡 | 2026-10-15 | 2026-10-16 | — | 0 |
 | avoid | PER | 8 | 4 | 3 | 1 | N3 | 🟡 | 2026-10-02 | 2026-10-06 | — | 0 |
 | assume | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | involve | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -89,7 +89,7 @@ rodeo más reciente.
 | reckon | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | realize | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | notice | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| wonder | PER | 2 | 1 | 0 | 1 | N2 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
+| wonder | PER | 3 | 2 | 0 | 1 | N3 | 🟡 | 2026-10-15 | 2026-10-19 | — | 0 |
 | owe | PER | 9 | 3 | 2 | 4 | N2 | 🟡 | 2026-10-02 | 2026-10-04 | — | 0 |
 | deserve | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | miss | PER | 5 | 3 | 2 | 0 | N4 | 🟡 | 2026-10-02 | 2026-10-10 | — | 0 |
@@ -102,15 +102,15 @@ rodeo más reciente.
 | complain | PER | 9 | 3 | 5 | 1 | N4 | 🟡 | 2026-10-02 | 2026-10-10 | — | 0 |
 | warn | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | refuse | PER | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| work out | PHR | 6 | 3 | 1 | 2 | N4 | 🟡 | 2026-09-12 | 2026-09-20 | — | 0 |
+| work out | PHR | 7 | 3 | 2 | 2 | N4 | 🟡 | 2026-10-15 | 2026-10-23 | — | 0 |
 | come up with | PHR | 6 | 2 | 1 | 3 | N2 | 🟡 | 2026-10-02 | 2026-10-04 | — | 0 |
 | put off | PHR | 4 | 0 | 2 | 2 | N1 | 🟡 | 2026-10-02 | 2026-10-03 | — | 0 |
 | get away with | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| figure out | PHR | 3 | 1 | 1 | 1 | N2 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
+| figure out | PHR | 4 | 2 | 1 | 1 | N3 | 🟡 | 2026-10-15 | 2026-10-19 | — | 0 |
 | deal with | PHR | 7 | 4 | 1 | 2 | N4 | ✅ | 2026-10-02 | 2026-10-12 | — | 0 |
-| run out of | PHR | 8 | 2 | 6 | 0 | N3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
+| run out of | PHR | 9 | 2 | 7 | 0 | N3 | 🟡 | 2026-10-15 | 2026-10-19 | — | 0 |
 | get on with | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| pick up | PHR | 6 | 2 | 3 | 1 | N3 | 🟡 | 2026-09-19 | 2026-09-23 | — | 0 |
+| pick up | PHR | 7 | 2 | 4 | 1 | N3 | 🟡 | 2026-10-15 | 2026-10-19 | — | 0 |
 | turn out | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | go through | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | come across | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
@@ -133,21 +133,21 @@ rodeo más reciente.
 | break down | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | take up | PHR | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | claim | OPI | 6 | 4 | 1 | 1 | N4 | ✅ | 2026-10-02 | 2026-10-12 | — | 0 |
-| argue | OPI | 6 | 3 | 1 | 2 | N4 | 🟡 | 2026-09-19 | 2026-09-27 | — | 0 |
+| argue | OPI | 7 | 3 | 1 | 3 | N1 | 🔴 | 2026-10-15 | 2026-10-16 | we could say | 0 |
 | acknowledge | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | imply | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | undermine | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | address | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| tackle | OPI | 3 | 2 | 0 | 1 | N2 | 🟡 | 2026-09-19 | 2026-09-21 | — | 0 |
-| highlight | OPI | 2 | 0 | 1 | 1 | N1 | 🟡 | 2026-09-19 | 2026-09-20 | — | 0 |
-| dismiss | OPI | 5 | 2 | 0 | 3 | N1 | 🔴 | 2026-10-02 | 2026-10-03 | claimed the proof was a lie | 0 |
+| tackle | OPI | 4 | 3 | 0 | 1 | N3 | 🟡 | 2026-10-15 | 2026-10-19 | — | 0 |
+| highlight | OPI | 3 | 0 | 2 | 1 | N1 | 🟡 | 2026-10-15 | 2026-10-16 | — | 0 |
+| dismiss | OPI | 6 | 2 | 1 | 3 | N1 | 🟡 | 2026-10-15 | 2026-10-16 | claimed the proof was a lie | 0 |
 | blame | OPI | 8 | 2 | 4 | 2 | N3 | 🟡 | 2026-10-02 | 2026-10-06 | — | 0 |
 | rely on | OPI | 7 | 3 | 2 | 2 | N4 | 🟡 | 2026-09-19 | 2026-09-27 | — | 1 |
 | stem from | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | account for | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | back | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | enforce | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
-| expose | OPI | 3 | 1 | 0 | 2 | N1 | 🔴 | 2026-10-02 | 2026-10-03 | highlighted on her blog the app was selling | 0 |
+| expose | OPI | 4 | 2 | 0 | 2 | N2 | 🟡 | 2026-10-15 | 2026-10-17 | highlighted on her blog the app was selling | 0 |
 | mislead | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 | overstate | OPI | 0 | 0 | 0 | 0 | N1 | ⚪ | — | — | — | 0 |
 
@@ -168,3 +168,4 @@ rodeo más reciente.
 | 2026-09-14 | 15 | 7 | 2 | 6 | 3 | 47% | 4 | put off · owe · come up with · wonder · highlight |
 | 2026-09-19 | 15 | 5 | 9 | 1 | 1 | 33% | 0 | dismiss · borrow · come up with · owe · mind |
 | 2026-10-02 | 15 | 9 | 4 | 2 | 2 | 60% | 0 | dismiss · expose · put off · blame · miss |
+| 2026-10-15 | 15 | 4 | 10 | 1 | 1 | 27% | 0 | argue · borrow · mind · afford · pick up |

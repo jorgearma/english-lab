@@ -1825,3 +1825,82 @@ Ortografía recurrente: «costumer» ×2, «problemt» (3ª vez), «pruff/prood�
 vencidos sin entrar hoy: `borrow`, `remind`, `spend`, `afford`, `mind`,
 `wonder`, `work out`, `figure out`, `run out of`, `pick up`, `argue`,
 `tackle`, `highlight`, `rely on`.
+
+## 2026-10-15 — sesión 13 · EXAMEN
+
+Arrancó el 2026-10-14 por la noche y cerró pasadas las 00:00; `cierre.sh`
+fecha con el día del cierre.
+
+**Ronda:** 29 vencidos → solo repaso, 0 nuevos. Los 2 🔴 (`dismiss`,
+`expose`) + 13 🟡 por antigüedad (vencidos 20-09 → 27-09). Sin ✅ de control.
+Ingesta sigue pendiente (`sync`).
+
+**Resultado:** 4 ✅ · 10 ⚠️ · 1 ❌ · 1 rodeo · **27%** sobre 15 ítems
+(… 47% → 33% → 60% → **27%**). Tandas: 47% REGULAR 🟠 · 47% REGULAR 🟠 ·
+27% MAL 🔴. `dismiss` y `expose` salen de 🔴.
+
+**Estímulo roto (coach):** el 8 (`wonder`), primer SIT: «…you don't know what
+she's thinking about. Say it» — llevaba la respuesta dentro. Jorge contestó
+«i don't know what she is thinking», inglés correcto. **Anulado, no puntuado.**
+Se relanzó con otro SIT y se puntúa ese.
+
+```
+ 1 ⚠️  dismiss      ES   ES «Mi jefe descartó mi idea sin ni siquiera escucharla» · «demiss» sin -ed · «without lisen it» → without listening to it
+ 2 ⚠️  borrow       SIT  «borrowed my workmate a charger» → borrowed a charger FROM — cruce con lend · «run out battery» → ran out of
+ 3 ⚠️  mind         ES   ES «No me importa trabajar los domingos» · «mind work» → working · «at sundays» → on
+ 4 ✅  figure out   SIT  N2 · pregunta indirecta bien ordenada · «fanallly i figured» → I finally figured
+ 5 ✅  tackle       ES   ES «El ayuntamiento quiere atacar el problema de los alquileres este año» · «city hall want» → council wants
+ 6 ✅  expose       SIT  «she exposed him» — sin highlight
+ 7 ⚠️  remind       ES   ES «Si no me hubieras recordado que llamara a mi madre…» · 3er condicional bien · «remind me about calling» → to call · «reamined»
+ 8 ✅  wonder       SIT  (2º SIT, el 1º anulado) «i wonder what she is thinking»
+ 9 ⚠️  run out of   ES   ES «Nos quedamos sin gasolina a mitad de camino, aunque habíamos llenado el depósito…» · «we run» → ran (2ª vez hoy) · «gasoil» → petrol
+10 ⚠️  work out     SIT  «she told everything will work out» → told ME · would
+11 ⚠️  highlight    ES   ES «El informe destaca un problema muy serio» · «highlight» sin -s
+12 ⚠️  spend        SIT  spend + -ing bien · «I spent» → I've spent (sigue ahí) · «morning» → evening
+13 ⚠️  afford       ES   ES «Ahora no me puedo permitir dejar el reparto, aunque lo odio» · «afford leave» → afford TO
+14 ⚠️  pick up      SIT  «pick up her» → pick her up · «there are any buss» → aren't any buses · «in my bike» → on
+15 ❌  argue        ES   ES «Se podría argumentar que la vigilancia masiva no ha hecho el país más seguro» · «we could say» — rodeo · «done a safest» → made… any safer
+```
+
+### TOP 5 Weak Verbs
+
+```
+1  ❌  argue         You could argue that mass surveillance hasn't made the
+                     country any safer.
+                     ~ iu kud AR-guiu dhat MAS ser-VEI-lens JA-zent MEID-dha KAN-tri
+                     «we could say» — el genérico se come al exacto. 🟡 → 🔴
+2  ⚠️  borrow        I borrowed a charger from a workmate.
+                     ~ ai BO-roud-a CHAR-yer from-a UERK-meit
+                     «borrowed my workmate a charger» — doble objeto de lend
+                     dentro de borrow: el cruce archivado, ahora al revés
+3  ⚠️  mind          I don't mind working on Sundays.
+                     ~ ai DOUNT MAIND UER-kin-on SAN-deis
+                     sin -ing. 7 vistas, 0 Bien
+4  ⚠️  afford        I can't afford to quit my job right now.
+                     ~ ai KANT a-FORD-tu KUIT mai YOB rait-NAU
+                     sin TO
+5  ⚠️  pick up       I'll pick her up at the airport.
+                     ~ ail PI-ker-AP at-dhi ER-port
+                     pronombre detrás de la partícula
+```
+
+**Patrón de evasión:** solo un rodeo, y es el de siempre en OPI: **el verbo
+genérico se come al exacto** (`say` por `argue`, como `claim` por `dismiss` y
+`highlight` por `expose` el 02-10). Los dos verbos de esa sesión salieron hoy
+sin sustituto. Los sustitutos archivados no reaparecen: `afford` sin «don't
+have money», `wonder` sin «ask myself», `mind` sin «not a problem».
+
+**El sitio de los ⚠️ es el montaje, no el verbo:** 10 de 15 salieron con el
+verbo exacto y mal complementado. Tres familias: (1) **qué va detrás del
+verbo** — -ing tras `mind` y tras preposición, `to` tras `afford` y `remind`,
+`from` con `borrow`, `me` con `tell`; (2) **pronombre con phrasal**:
+`pick up her`; (3) **forma del verbo**: pasado (`run` ×2, `demiss`), -s de
+3ª persona (`highlight`, `want`), present perfect (`spent` → `'ve spent`).
+
+Jorge pidió dos notas sueltas fuera del método: `notas/preposicion-ing.md` y
+`notas/verbos-ing.md`.
+
+**Vencen mañana (2026-10-16):** `argue`, `mind`, `highlight`, `dismiss`.
+Siguen vencidos sin entrar hoy: `lend`, `bring`, `waste`, `avoid`, `owe`,
+`miss`, `complain`, `come up with`, `put off`, `deal with`, `show up`,
+`claim`, `blame`, `rely on`.
